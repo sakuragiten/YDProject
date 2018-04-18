@@ -1,0 +1,6 @@
+framework module Pods_YDProject_Example {
+  umbrella header "Pods-YDProject_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
