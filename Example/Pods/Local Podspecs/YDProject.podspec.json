@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of YDProject.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/387970107@qq.com/YDProject",
+  "homepage": "https://github.com/SakuragiTen/YDProject.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "387970107@qq.com": "gongs@dachentech.com.cn"
   },
   "source": {
-    "git": "https://github.com/387970107@qq.com/YDProject.git",
+    "git": "https://github.com/SakuragiTen/YDProject.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YDProject/Classes/**/*"
+  "source_files": "YDProject/Classes/**/*",
+  "prefix_header_contents": "#import \"YDMacro.h\""
 }
