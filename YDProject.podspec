@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/SakuragiTen/YDProject.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '387970107@qq.com' => 'gongs@dachentech.com.cn' }
+  s.author           = { 'Viktor' => 'gongs@dachentech.com.cn' }
   s.source           = { :git => 'https://github.com/SakuragiTen/YDProject.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -43,6 +43,6 @@ TODO: Add long description of the pod here.
     s.prefix_header_contents = <<-EOS
 
     #import "YDMacro.h"
-
+    #import "YDHeader.h"
     EOS
 end

@@ -8,5 +8,6 @@
 #ifndef YDPoject_h
 #define YDPoject_h
 
+#import "YDMap.h"
 
 #endif /* YDPoject_h */

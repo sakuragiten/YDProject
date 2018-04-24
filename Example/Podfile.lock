@@ -1,5 +1,5 @@
 PODS:
-  - YDProject (0.1.0)
+  - YDProject (0.1.1)
 
 DEPENDENCIES:
   - YDProject (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  YDProject: 40dad9e4530ba294643e06ea11baea4cec79a23b
+  YDProject: d034c6179ba2a9841881d734fcd6e33b119f242a
 
 PODFILE CHECKSUM: 2b05cf3eb682539d942afcb4c42e9d579459909a
 

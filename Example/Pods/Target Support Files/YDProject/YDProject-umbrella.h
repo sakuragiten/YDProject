@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "YDMap.h"
+#import "YDHeader.h"
+#import "YDPoject.h"
+#import "YDMacro.h"
 
 FOUNDATION_EXPORT double YDProjectVersionNumber;
 FOUNDATION_EXPORT const unsigned char YDProjectVersionString[];
