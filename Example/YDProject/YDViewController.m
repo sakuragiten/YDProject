@@ -8,6 +8,8 @@
 
 #import "YDViewController.h"
 #import <YDProject/YDPoject.h>
+#import "YDTest.h"
+#import <objc/runtime.h>
 @interface YDViewController ()
 
 @end
@@ -28,21 +30,49 @@
     [btn addTarget:self action:@selector(testAction) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:btn];
+    
+    
+    
+    SEL selector = @selector(sayHelloWord);
+    Method m = class_getInstanceMethod([self class], selector);
+    IMP imp = class_getMethodImplementation([self class], selector);
+    class_addMethod([YDTest class], selector, imp, method_getTypeEncoding(m));
 }
 
 - (void)testAction
 {
-    YDMap *map = [YDMap new];
-    [map setObject:@"Viktor Kong" forkey:@"test"];
-    map[@"key"] = @"Edison";
-    map[@"key"] = @"Einstein";
-    NSLog(@"%@", map[0]);
-    NSLog(@"%ld", map.allKeys.count);
-    NSLog(@"%@", map.allKeys.lastObject);
-    NSLog(@"%@", map.allValues.lastObject);
-    NSLog(@"%@", map.allValues.lastObject);
-
-    map[@"key"] = nil;
+//    YDMap *map = [YDMap new];
+//    [map setObject:@"Viktor Kong" forkey:@"test"];
+//    map[@"key"] = @"Edison";
+//    map[@"key"] = @"Einstein";
+//    NSLog(@"%@", map[0]);
+//    NSLog(@"%ld", map.allKeys.count);
+//    NSLog(@"%@", map.allKeys.lastObject);
+//    NSLog(@"%@", map.allValues.lastObject);
+//    NSLog(@"%@", map.allValues.lastObject);
+//
+//    map[@"key"] = nil;
+    
+    [self testAddMethod];
+    
 }
+
+- (void)testAddMethod
+{
+    YDTest *test = [YDTest new];
+    
+    SEL selector = NSSelectorFromString(@"sayHelloWord");
+    [test performSelector:selector];
+}
+
+
+
+- (void)sayHelloWord
+{
+    NSLog(@"Hello World");
+}
+
+
+
 
 @end

@@ -14,6 +14,8 @@
 		6C7392F3C02B814062453DD3A4A92465 /* YDMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8774E2703865D88E866A9F2FC6972B /* YDMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CAB4965E5791B9D6645F05ED06CA48C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B002AF23328AD26B5B1244975964FC26 /* Pods-YDProject_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7B66013ACFB78EE7A14554EAD6E908 /* Pods-YDProject_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0066FF320CF9AEE00BFBF2C /* YDUnicode.h in Headers */ = {isa = PBXBuildFile; fileRef = B0066FF120CF9AEE00BFBF2C /* YDUnicode.h */; };
+		B0066FF420CF9AEE00BFBF2C /* YDUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = B0066FF220CF9AEE00BFBF2C /* YDUnicode.m */; };
 		CBA95E93F39C3F15443C7BDF81352C58 /* YDMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4F67488347B1BB2F3B9C7A88F2ADC0 /* YDMap.m */; };
 		CFFB3A5254AAD0B286BF62C986E536E1 /* YDMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C862A01E3F57EAEEBB6F6DA4F1DE49 /* YDMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D68BAE0E7999523BA3A119100DF5B386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -37,31 +39,33 @@
 		01E5A3CB9B97A09644E697A2D2677707 /* YDPoject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YDPoject.h; sourceTree = "<group>"; };
 		07E7BB981D5B6E262B04F838110B52F0 /* Pods-YDProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0CCD7FD9411D3CD805922FB571EE98D5 /* Pods-YDProject_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDProject_Example-dummy.m"; sourceTree = "<group>"; };
-		12C7EF8057BD7AC3553A327AD5EBC64F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		12C7EF8057BD7AC3553A327AD5EBC64F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		13B9FC2EB8A8623DA9B80F41B2DEED80 /* YDProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDProject-dummy.m"; sourceTree = "<group>"; };
 		1D5EF8815505BD6DE9B21C12C589E05B /* YDProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDProject-prefix.pch"; sourceTree = "<group>"; };
 		24C862A01E3F57EAEEBB6F6DA4F1DE49 /* YDMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YDMap.h; sourceTree = "<group>"; };
 		4FD729BE79A1336B9833FAB744C38944 /* Pods-YDProject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDProject_Tests-dummy.m"; sourceTree = "<group>"; };
 		4FE13BEDBCCC860969CAA4E1D89D709C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54BB433E01CC66DDCAC12D0613A5528F /* Pods_YDProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YDProject_Tests.framework; path = "Pods-YDProject_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BB433E01CC66DDCAC12D0613A5528F /* Pods_YDProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C075F448F90FD587222370D7C5315F /* Pods-YDProject_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YDProject_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7154355988F48CFC9DCC05C0AEF67012 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		76301659FA7DD96793129DBDDF41FAC1 /* YDProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YDProject.framework; path = YDProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7154355988F48CFC9DCC05C0AEF67012 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		76301659FA7DD96793129DBDDF41FAC1 /* YDProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4F67488347B1BB2F3B9C7A88F2ADC0 /* YDMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YDMap.m; sourceTree = "<group>"; };
 		7B17EF1C06A5F69C58B456979761508D /* Pods-YDProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		81B72C706FDCA37D52C12058A2417FDE /* YDHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YDHeader.h; sourceTree = "<group>"; };
-		828109D65CBF414A64B911C17A074C50 /* Pods_YDProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YDProject_Example.framework; path = "Pods-YDProject_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8857E3C833662DF8B157DA06BCE8A5AA /* YDProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YDProject.modulemap; sourceTree = "<group>"; };
+		828109D65CBF414A64B911C17A074C50 /* Pods_YDProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDProject_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8857E3C833662DF8B157DA06BCE8A5AA /* YDProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YDProject.modulemap; sourceTree = "<group>"; };
 		8EB0E1BE849CF14D013B6619AF20DD7F /* Pods-YDProject_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YDProject_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95D3F6BF65117A400D2FA109FA863329 /* Pods-YDProject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YDProject_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95D3F6BF65117A400D2FA109FA863329 /* Pods-YDProject_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YDProject_Example.modulemap"; sourceTree = "<group>"; };
 		9AA784CCF8E34E06FE4B6ABD21408495 /* Pods-YDProject_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YDProject_Example-resources.sh"; sourceTree = "<group>"; };
-		9F5DD572D88128EEF037B6C2C156B5F5 /* YDProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YDProject.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F5DD572D88128EEF037B6C2C156B5F5 /* YDProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YDProject.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A03474ACE4EFA82EAC232502DE2F1D12 /* Pods-YDProject_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDProject_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ABC6E2421287BA9EE76CFF5B4CB90331 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFC91B15C687AEDD2AE806599D8EE36D /* Pods-YDProject_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDProject_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B4105955516F14B5139CFCABA390D761 /* Pods-YDProject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YDProject_Tests.modulemap"; sourceTree = "<group>"; };
+		B0066FF120CF9AEE00BFBF2C /* YDUnicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDUnicode.h; sourceTree = "<group>"; };
+		B0066FF220CF9AEE00BFBF2C /* YDUnicode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDUnicode.m; sourceTree = "<group>"; };
+		B4105955516F14B5139CFCABA390D761 /* Pods-YDProject_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YDProject_Tests.modulemap"; sourceTree = "<group>"; };
 		B43C3ABEDD34D7DB86CF696FAE6C94B9 /* Pods-YDProject_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDProject_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B59107C400D7C637B52DF816B33F57DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE40441A0EC5DD4EC549A26CF4C8A2F4 /* YDProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDProject.xcconfig; sourceTree = "<group>"; };
@@ -176,6 +180,7 @@
 		8927C7C5EC8FAF2BA8C636987FF06284 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				B0066FEF20CF9AD800BFBF2C /* Vendor */,
 				92AE1F4739FF62EDBA4FAB13F33E9912 /* Map */,
 			);
 			name = Core;
@@ -188,7 +193,6 @@
 				24C862A01E3F57EAEEBB6F6DA4F1DE49 /* YDMap.h */,
 				7A4F67488347B1BB2F3B9C7A88F2ADC0 /* YDMap.m */,
 			);
-			name = Map;
 			path = Map;
 			sourceTree = "<group>";
 		};
@@ -210,6 +214,23 @@
 				76301659FA7DD96793129DBDDF41FAC1 /* YDProject.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B0066FEF20CF9AD800BFBF2C /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				B0066FF020CF9AD800BFBF2C /* Unicode */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		B0066FF020CF9AD800BFBF2C /* Unicode */ = {
+			isa = PBXGroup;
+			children = (
+				B0066FF120CF9AEE00BFBF2C /* YDUnicode.h */,
+				B0066FF220CF9AEE00BFBF2C /* YDUnicode.m */,
+			);
+			path = Unicode;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -284,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E6C126350FBB389F026CFE7784B820 /* YDHeader.h in Headers */,
+				B0066FF320CF9AEE00BFBF2C /* YDUnicode.h in Headers */,
 				6C7392F3C02B814062453DD3A4A92465 /* YDMacro.h in Headers */,
 				CFFB3A5254AAD0B286BF62C986E536E1 /* YDMap.h in Headers */,
 				D6AE131AB4564ED7B34CEE5680D137DB /* YDPoject.h in Headers */,
@@ -388,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBA95E93F39C3F15443C7BDF81352C58 /* YDMap.m in Sources */,
+				B0066FF420CF9AEE00BFBF2C /* YDUnicode.m in Sources */,
 				EC0660B16AF9CE885F32EB7507AED4E6 /* YDProject-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
