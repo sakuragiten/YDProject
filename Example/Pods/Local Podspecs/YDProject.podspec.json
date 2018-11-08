@@ -19,5 +19,10 @@
     "ios": "8.0"
   },
   "source_files": "YDProject/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1"
+    ]
+  },
   "prefix_header_contents": "#import \"YDMacro.h\"\n#import \"YDHeader.h\""
 }

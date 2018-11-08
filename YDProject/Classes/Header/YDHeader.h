@@ -9,5 +9,6 @@
 #define YDHeader_h
 
 #import "YDMap.h"
+#import "YDNetwork.h"
 
 #endif /* YDHeader_h */

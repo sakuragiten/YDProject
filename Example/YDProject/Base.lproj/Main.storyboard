@@ -1,31 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="g4o-zS-Z0c">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="wQg-tq-qST">
+        <!--Test-->
+        <scene sceneID="i3A-ZC-fDg">
             <objects>
-                <viewController id="whP-gf-Uak" customClass="YDViewController" sceneMemberID="viewController">
+                <viewController id="PDt-WJ-4dY" customClass="TestMainViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
-                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                        <viewControllerLayoutGuide type="top" id="e5A-XJ-zqn"/>
+                        <viewControllerLayoutGuide type="bottom" id="FaG-0S-OTa"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                    <view key="view" contentMode="scaleToFill" id="BFB-sO-bWb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7zY-Qg-vLf">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="PDt-WJ-4dY" id="Mlk-Vt-TOH"/>
+                                    <outlet property="delegate" destination="PDt-WJ-4dY" id="9yw-u0-rFr"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7zY-Qg-vLf" secondAttribute="trailing" id="NKi-aY-J0L"/>
+                            <constraint firstItem="7zY-Qg-vLf" firstAttribute="leading" secondItem="BFB-sO-bWb" secondAttribute="leading" id="jVW-Mz-6mF"/>
+                            <constraint firstItem="FaG-0S-OTa" firstAttribute="top" secondItem="7zY-Qg-vLf" secondAttribute="bottom" id="o8f-hZ-3Al"/>
+                            <constraint firstItem="7zY-Qg-vLf" firstAttribute="top" secondItem="e5A-XJ-zqn" secondAttribute="bottom" id="p1X-6e-7be"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Test" id="iM9-2p-hfi"/>
+                    <connections>
+                        <outlet property="tableView" destination="7zY-Qg-vLf" id="FHj-0c-mf0"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="54t-49-qax" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="1392.8" y="395.35232383808096"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YNN-zR-4Qj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g4o-zS-Z0c" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Hir-E6-yYi">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="PDt-WJ-4dY" kind="relationship" relationship="rootViewController" id="3nP-ty-DTx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DXy-Uk-IQT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="453.60000000000002" y="395.35232383808096"/>
         </scene>
     </scenes>
 </document>

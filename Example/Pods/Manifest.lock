@@ -1,16 +1,37 @@
 PODS:
-  - YDProject (0.1.1)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - YDProject (0.1.1):
+    - AFNetworking (~> 3.1)
 
 DEPENDENCIES:
   - YDProject (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+
 EXTERNAL SOURCES:
   YDProject:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  YDProject: d034c6179ba2a9841881d734fcd6e33b119f242a
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  YDProject: 93064da2a51fc3d257549c7773e2d1fcd91355e8
 
 PODFILE CHECKSUM: 2b05cf3eb682539d942afcb4c42e9d579459909a
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.2
