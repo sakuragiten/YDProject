@@ -43,8 +43,14 @@
 - (void)testAction
 {
 //    [FloatingButton show];
+//
+//    [FloatingButton showWithImageName:@"yao.jpg"];
+//
+
+    UIViewController *vc = [UIViewController new];
+    vc.view.backgroundColor = [UIColor whiteColor];
     
-    [FloatingButton showWithImageName:@"yao.jpg"];
+    [FloatingButton showWithImageName:@"yao.jpg" vc:vc];
 }
 
 

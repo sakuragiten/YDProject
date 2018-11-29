@@ -24,6 +24,8 @@ private let radius: CGFloat = 160.0
     let circleView = SemiCircleView(frame: CGRect(x: screenW, y: screenH, width: radius, height: radius))
     
     
+    private var vc: UIViewController?
+    
     public override init(frame: CGRect) {
         
         let frame = CGRect(x: screenW - floatBtnWidth - edgeW, y: 200, width: floatBtnWidth, height: floatBtnWidth)
@@ -61,12 +63,18 @@ extension FloatingButton {
     
     @objc public class func show(imageName: String) {
         
-        print(floatBtn.circleView.superview as Any)
         show()
         guard let image = UIImage(named: imageName) else {return}
         floatBtn.layer.contents = image.cgImage
         
         
+    }
+    
+    @objc public class func show(imageName: String, vc: UIViewController) {
+        
+        floatBtn.vc = vc
+        show(imageName: imageName)
+  
     }
     
 }
@@ -84,9 +92,9 @@ extension FloatingButton {
     
     //拖动中
     public override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        let currentPosition = touches.randomElement()?.location(in: self.superview)
-    
         
+        let currentPosition = touches.randomElement()?.location(in: self.superview)
+        if currentPosition == lastPosition {return}
 
         var x = currentPosition!.x + (floatBtnWidth * 0.5 - lastPositionInself!.x)
         var y = currentPosition!.y + (floatBtnWidth * 0.5 - lastPositionInself!.y)
@@ -137,7 +145,7 @@ extension FloatingButton {
         let currentPosition = touches.randomElement()?.location(in: self.superview)
         if currentPosition == lastPosition {
             //点击事件
-            print("Click Action")
+            self.clickAction()
         } else {
             //拖动结束
             print("Moving end")
@@ -153,6 +161,7 @@ extension FloatingButton {
                 }, completion:{ _ in
                     self.removeFromSuperview()
                     self.circleView.removeFromSuperview()
+                    self.vc = nil
                 })
             } else {
                 x = x < screenW * 0.5 ? floatBtnWidth * 0.5 + edgeW : screenW - floatBtnWidth * 0.5 - edgeW
@@ -161,14 +170,7 @@ extension FloatingButton {
                     self.circleView.frame = CGRect(x: screenW, y: screenH, width: floatBtnWidth, height: floatBtnWidth)
                 }
             }
-           
-
-            
-            
-            
         }
-        
-        
         
         
     }
@@ -176,7 +178,51 @@ extension FloatingButton {
     
     
     
+    private func clickAction() {
+        
+        let nav = getCurrentNav()
+        nav?.delegate = self;
+        
+        guard vc != nil, nav != nil else {return}
+        nav?.pushViewController(self.vc!, animated: true)
+    }
+    
+    private func getCurrentNav() -> UINavigationController? {
+        var parent: UIViewController?
+        if let window = UIApplication.shared.delegate?.window,let rootVC = window?.rootViewController {
+            parent = rootVC
+            while (parent?.presentedViewController != nil) {
+                parent = parent?.presentedViewController!
+            }
+            if let tabbar = parent as? UITabBarController ,let nav = tabbar.selectedViewController as? UINavigationController {
+                return nav
+            }else if let nav = parent as? UINavigationController {
+                return nav
+            }
+        }
+        return nil
+    }
+    
+    
 }
+
+extension FloatingButton: UINavigationControllerDelegate {
+    
+    public func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationController.Operation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        
+        if operation == .push {
+            
+            let transition = FloatingAnimationTransition()
+            transition.currentFrame = self.frame
+            return transition
+        }
+        
+        return nil
+    }
+}
+
+
+
 
 
 
