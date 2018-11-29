@@ -33,7 +33,7 @@
     btn.titleLabel.font = [UIFont systemFontOfSize:16];
     [btn setTitle:@"test" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    btn.frame = CGRectMake(100, 100, 100, 40);
+    btn.frame = CGRectMake(100, 100, 40, 40);
     btn.backgroundColor = [UIColor orangeColor];
     [btn addTarget:self action:@selector(testAction) forControlEvents:UIControlEventTouchUpInside];
     

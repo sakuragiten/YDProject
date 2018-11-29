@@ -16,3 +16,18 @@ import UIKit
         return UIColor(r: CGFloat(arc4random_uniform(256)), g: CGFloat(arc4random_uniform(256)), b: CGFloat(arc4random_uniform(256)))
     }
 }
+
+
+@objc extension UIButton {
+    open override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+        
+        //获取当前button的实际大小
+        var bounds = self.bounds
+        
+        //如果响应范围小于 44* 44 则放大响应区域 否则不变
+        let widthDelta = CGFloat.maximum(44 - bounds.width, 0)
+        let heightDelta = CGFloat.maximum(44 - bounds.height, 0)
+        bounds = bounds.insetBy(dx: -widthDelta, dy: -heightDelta)
+        return bounds.contains(point)
+    }
+}
