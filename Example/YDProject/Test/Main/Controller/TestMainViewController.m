@@ -66,7 +66,7 @@
 {
     if (!_dataArray) {
         
-        _dataArray = @[@"TestNetWork"];
+        _dataArray = @[@"TestNetWork", @"TestFloating"];
     }
     
     return _dataArray;

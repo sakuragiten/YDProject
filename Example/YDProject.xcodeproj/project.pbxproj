@@ -24,6 +24,7 @@
 		77802B9CEF6AC847473FACAB /* Pods_YDProject_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F2AF585B30D5AB42231747 /* Pods_YDProject_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B0066FF720CF9DEF00BFBF2C /* YDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B0066FF620CF9DEF00BFBF2C /* YDTest.m */; };
+		B00ACBAA21AFB6AB00E7AF09 /* TestFloatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = B00ACBA921AFB6AB00E7AF09 /* TestFloatingController.m */; };
 		B01C2DE6218A982900D4D723 /* LearnSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C2DE5218A982900D4D723 /* LearnSwift.swift */; };
 		B03EF5232193D150005CB0BD /* json_parse.js in Resources */ = {isa = PBXBuildFile; fileRef = B03EF5222193D150005CB0BD /* json_parse.js */; };
 		B03EF52B2193D474005CB0BD /* TestMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B03EF52A2193D474005CB0BD /* TestMainViewController.m */; };
@@ -70,6 +71,8 @@
 		9D16DF19AFFFA0E559444FAE /* Pods-YDProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YDProject_Tests/Pods-YDProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B0066FF520CF9DEF00BFBF2C /* YDTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTest.h; sourceTree = "<group>"; };
 		B0066FF620CF9DEF00BFBF2C /* YDTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTest.m; sourceTree = "<group>"; };
+		B00ACBA821AFB6AB00E7AF09 /* TestFloatingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFloatingController.h; sourceTree = "<group>"; };
+		B00ACBA921AFB6AB00E7AF09 /* TestFloatingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFloatingController.m; sourceTree = "<group>"; };
 		B01C2DE4218A982900D4D723 /* YDProject_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDProject_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		B01C2DE5218A982900D4D723 /* LearnSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwift.swift; sourceTree = "<group>"; };
 		B03EF5222193D150005CB0BD /* json_parse.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = json_parse.js; sourceTree = "<group>"; };
@@ -276,6 +279,8 @@
 			children = (
 				B03EF52E2193D757005CB0BD /* TestNetWorkController.h */,
 				B03EF52F2193D757005CB0BD /* TestNetWorkController.m */,
+				B00ACBA821AFB6AB00E7AF09 /* TestFloatingController.h */,
+				B00ACBA921AFB6AB00E7AF09 /* TestFloatingController.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -459,6 +464,7 @@
 			files = (
 				B0066FF720CF9DEF00BFBF2C /* YDTest.m in Sources */,
 				6003F59E195388D20070C39A /* YDAppDelegate.m in Sources */,
+				B00ACBAA21AFB6AB00E7AF09 /* TestFloatingController.m in Sources */,
 				6003F5A7195388D20070C39A /* YDViewController.m in Sources */,
 				B03EF52B2193D474005CB0BD /* TestMainViewController.m in Sources */,
 				B01C2DE6218A982900D4D723 /* LearnSwift.swift in Sources */,

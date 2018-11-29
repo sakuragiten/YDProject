@@ -10,6 +10,5 @@
 
 #import "YDMap.h"
 #import "YDNetwork.h"
-#import "YDProject-Swift.h"
 
 #endif /* YDPoject_h */
