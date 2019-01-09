@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "YDPerson.h"
 
 @interface YDTest : NSObject
+
+@property (nonatomic, copy) NSString *name;
+
+@property (nonatomic, assign) NSInteger age;
+
+@property (nonatomic, strong) YDPerson *person;
 
 @end

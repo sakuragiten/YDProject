@@ -15,5 +15,9 @@
     @import Foundation;
 #endif
 
-
+#import <YDProject/YDPoject.h>
 #import <YDProject/YDProject-Swift.h>
+#import "YDTest.h"
+
+#import "TestMacro.h"
+#import "TestHeader.h"

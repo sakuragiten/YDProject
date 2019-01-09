@@ -3,6 +3,9 @@ use_frameworks!
 target 'YDProject_Example' do
   pod 'YDProject', :path => '../'
 
+
+  pod 'Masonry'
+
   target 'YDProject_Tests' do
     inherit! :search_paths
 

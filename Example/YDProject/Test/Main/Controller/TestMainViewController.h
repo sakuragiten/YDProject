@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TestViewModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TestMainViewController : UIViewController
+
+- (TestViewModelType)getDataType;
+
+
 
 @end
 
