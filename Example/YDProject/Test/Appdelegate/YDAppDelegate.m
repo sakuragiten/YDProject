@@ -17,8 +17,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     TestMainViewController *vc = [[TestMainViewController alloc] init];
+    vc.title = @"Test";
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    nav.title = @"Test";
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     

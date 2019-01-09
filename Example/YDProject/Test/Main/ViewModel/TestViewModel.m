@@ -40,7 +40,7 @@
 {
     self.dataArray = @[Test(@"NetWork", @"TestNetWorkController"),
                        Test(@"OpenGL", @"OpengGLMainViewController"),
-                       Test(@"仿微信悬浮按钮", @"TestFloatingController"),
+                       Test(@"FloatingButton", @"TestFloatingController"),
                        Test(@"Thread", @"TestThreadController")];
 }
 
