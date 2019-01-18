@@ -29,6 +29,13 @@
 		B016E66521E5D782009A4D4F /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B016E66121E5D782009A4D4F /* TestModel.m */; };
 		B016E66E21E5D79D009A4D4F /* OpengGLLesson1.m in Sources */ = {isa = PBXBuildFile; fileRef = B016E66A21E5D79D009A4D4F /* OpengGLLesson1.m */; };
 		B016E66F21E5D79D009A4D4F /* OpengGLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B016E66C21E5D79D009A4D4F /* OpengGLMainViewController.m */; };
+		B016E68921E71C7E009A4D4F /* OGLesson2View.m in Sources */ = {isa = PBXBuildFile; fileRef = B016E68421E71C7E009A4D4F /* OGLesson2View.m */; };
+		B016E68A21E71C7E009A4D4F /* OpenGLLesson2.m in Sources */ = {isa = PBXBuildFile; fileRef = B016E68721E71C7E009A4D4F /* OpenGLLesson2.m */; };
+		B016E68C21E725E4009A4D4F /* shaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B016E68B21E725E4009A4D4F /* shaderv.vsh */; };
+		B016E68E21E725FD009A4D4F /* shaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B016E68D21E725FD009A4D4F /* shaderf.fsh */; };
+		B01AF1DF21F16DD200E2E6CC /* CoreGraphicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01AF1DE21F16DD200E2E6CC /* CoreGraphicsViewController.m */; };
+		B01AF1E221F16EC500E2E6CC /* AttributesController.m in Sources */ = {isa = PBXBuildFile; fileRef = B01AF1E121F16EC500E2E6CC /* AttributesController.m */; };
+		B01AF1E421F1A24800E2E6CC /* STXINGKA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B01AF1E321F1A24700E2E6CC /* STXINGKA.ttf */; };
 		B01C2DE6218A982900D4D723 /* LearnSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C2DE5218A982900D4D723 /* LearnSwift.swift */; };
 		B03EF5232193D150005CB0BD /* json_parse.js in Resources */ = {isa = PBXBuildFile; fileRef = B03EF5222193D150005CB0BD /* json_parse.js */; };
 		B050B79C21B64D8D007F6A57 /* TestNetWorkController.m in Sources */ = {isa = PBXBuildFile; fileRef = B050B79721B64D8C007F6A57 /* TestNetWorkController.m */; };
@@ -89,6 +96,17 @@
 		B016E66B21E5D79D009A4D4F /* OpengGLLesson1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpengGLLesson1.h; sourceTree = "<group>"; };
 		B016E66C21E5D79D009A4D4F /* OpengGLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpengGLMainViewController.m; sourceTree = "<group>"; };
 		B016E66D21E5D79D009A4D4F /* OpengGLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpengGLMainViewController.h; sourceTree = "<group>"; };
+		B016E68421E71C7E009A4D4F /* OGLesson2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLesson2View.m; sourceTree = "<group>"; };
+		B016E68521E71C7E009A4D4F /* OGLesson2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLesson2View.h; sourceTree = "<group>"; };
+		B016E68721E71C7E009A4D4F /* OpenGLLesson2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLLesson2.m; sourceTree = "<group>"; };
+		B016E68821E71C7E009A4D4F /* OpenGLLesson2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLLesson2.h; sourceTree = "<group>"; };
+		B016E68B21E725E4009A4D4F /* shaderv.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderv.vsh; sourceTree = "<group>"; };
+		B016E68D21E725FD009A4D4F /* shaderf.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderf.fsh; sourceTree = "<group>"; };
+		B01AF1DD21F16DD200E2E6CC /* CoreGraphicsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsViewController.h; sourceTree = "<group>"; };
+		B01AF1DE21F16DD200E2E6CC /* CoreGraphicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreGraphicsViewController.m; sourceTree = "<group>"; };
+		B01AF1E021F16EC500E2E6CC /* AttributesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributesController.h; sourceTree = "<group>"; };
+		B01AF1E121F16EC500E2E6CC /* AttributesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributesController.m; sourceTree = "<group>"; };
+		B01AF1E321F1A24700E2E6CC /* STXINGKA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STXINGKA.ttf; sourceTree = "<group>"; };
 		B01C2DE4218A982900D4D723 /* YDProject_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDProject_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		B01C2DE5218A982900D4D723 /* LearnSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwift.swift; sourceTree = "<group>"; };
 		B03EF5222193D150005CB0BD /* json_parse.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = json_parse.js; sourceTree = "<group>"; };
@@ -275,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				B016E66721E5D79D009A4D4F /* OpenGL */,
+				B01AF1DA21F16DAC00E2E6CC /* CoreGraphics */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -285,6 +304,7 @@
 				B016E66D21E5D79D009A4D4F /* OpengGLMainViewController.h */,
 				B016E66C21E5D79D009A4D4F /* OpengGLMainViewController.m */,
 				B016E66821E5D79D009A4D4F /* ES_1 */,
+				B016E68221E71C7E009A4D4F /* ES_2 */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -302,6 +322,63 @@
 			children = (
 				B016E66B21E5D79D009A4D4F /* OpengGLLesson1.h */,
 				B016E66A21E5D79D009A4D4F /* OpengGLLesson1.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B016E68221E71C7E009A4D4F /* ES_2 */ = {
+			isa = PBXGroup;
+			children = (
+				B016E68B21E725E4009A4D4F /* shaderv.vsh */,
+				B016E68D21E725FD009A4D4F /* shaderf.fsh */,
+				B016E68321E71C7E009A4D4F /* View */,
+				B016E68621E71C7E009A4D4F /* Controllers */,
+			);
+			path = ES_2;
+			sourceTree = "<group>";
+		};
+		B016E68321E71C7E009A4D4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B016E68521E71C7E009A4D4F /* OGLesson2View.h */,
+				B016E68421E71C7E009A4D4F /* OGLesson2View.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B016E68621E71C7E009A4D4F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B016E68821E71C7E009A4D4F /* OpenGLLesson2.h */,
+				B016E68721E71C7E009A4D4F /* OpenGLLesson2.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B01AF1DA21F16DAC00E2E6CC /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				B01AF1DD21F16DD200E2E6CC /* CoreGraphicsViewController.h */,
+				B01AF1DE21F16DD200E2E6CC /* CoreGraphicsViewController.m */,
+				B01AF1DB21F16DAC00E2E6CC /* AttributeString */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		B01AF1DB21F16DAC00E2E6CC /* AttributeString */ = {
+			isa = PBXGroup;
+			children = (
+				B01AF1E321F1A24700E2E6CC /* STXINGKA.ttf */,
+				B01AF1DC21F16DAC00E2E6CC /* Controllers */,
+			);
+			path = AttributeString;
+			sourceTree = "<group>";
+		};
+		B01AF1DC21F16DAC00E2E6CC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B01AF1E021F16EC500E2E6CC /* AttributesController.h */,
+				B01AF1E121F16EC500E2E6CC /* AttributesController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -471,10 +548,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B03EF5232193D150005CB0BD /* json_parse.js in Resources */,
+				B01AF1E421F1A24800E2E6CC /* STXINGKA.ttf in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				B016E68C21E725E4009A4D4F /* shaderv.vsh in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				B016E68E21E725FD009A4D4F /* shaderf.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,14 +634,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01AF1E221F16EC500E2E6CC /* AttributesController.m in Sources */,
 				B0066FF720CF9DEF00BFBF2C /* YDTest.m in Sources */,
+				B016E68921E71C7E009A4D4F /* OGLesson2View.m in Sources */,
 				B016E66E21E5D79D009A4D4F /* OpengGLLesson1.m in Sources */,
 				B050B79C21B64D8D007F6A57 /* TestNetWorkController.m in Sources */,
 				6003F59E195388D20070C39A /* YDAppDelegate.m in Sources */,
 				B016E66521E5D782009A4D4F /* TestModel.m in Sources */,
+				B016E68A21E71C7E009A4D4F /* OpenGLLesson2.m in Sources */,
 				B050B7AA21B6784B007F6A57 /* YDPerson.m in Sources */,
 				6003F5A7195388D20070C39A /* YDViewController.m in Sources */,
 				B050B79E21B64D8D007F6A57 /* TestFloatingController.m in Sources */,
+				B01AF1DF21F16DD200E2E6CC /* CoreGraphicsViewController.m in Sources */,
 				B016E66F21E5D79D009A4D4F /* OpengGLMainViewController.m in Sources */,
 				B016E66421E5D782009A4D4F /* TestMainViewController.m in Sources */,
 				B016E66321E5D782009A4D4F /* TestViewModel.m in Sources */,

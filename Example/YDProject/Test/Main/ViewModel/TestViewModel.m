@@ -28,6 +28,9 @@
         case TestViewModelTypeOpenGL:
             [self settingOpengGLDataSource];
             break;
+        case TestViewModelTypeCoreGraphics:
+            [self settingCoreGraphicsDataSource];
+            break;
         default:
             break;
     }
@@ -40,6 +43,7 @@
 {
     self.dataArray = @[Test(@"NetWork", @"TestNetWorkController"),
                        Test(@"OpenGL", @"OpengGLMainViewController"),
+                       Test(@"CoreGraphics", @"CoreGraphicsViewController"),
                        Test(@"FloatingButton", @"TestFloatingController"),
                        Test(@"Thread", @"TestThreadController")];
 }
@@ -48,7 +52,14 @@
 #pragma mark - opengl
 - (void)settingOpengGLDataSource
 {
-    self.dataArray = @[Test(@"简单的画一张图", @"OpengGLLesson1")];
+    self.dataArray = @[Test(@"简单的画一张图", @"OpengGLLesson1"),
+                       Test(@"shader编译链接、glsl入门和简单图形变换", @"OpenGLLesson2")];
+}
+
+#pragma mark - CoreGraphics
+- (void)settingCoreGraphicsDataSource
+{
+    self.dataArray = @[Test(@"文本属性Attributes", @"AttributesController")];
 }
 
 

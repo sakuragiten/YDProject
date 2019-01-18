@@ -11,6 +11,8 @@
 
 #define rgb(r, g, b) [UIColor colorWithRed:(r) green:(g) blue:(b) alpha:1]
 
-
+/** fontName */
+#define kCoolFontName @"BradleyHandITCTT-Bold"
+#define kXingKaiFontName @"STXingkai" //@"STXingkaiSC-Light"
 
 #endif /* TestMacro_h */

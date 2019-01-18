@@ -31,3 +31,13 @@ import UIKit
         return bounds.contains(point)
     }
 }
+
+@objc public extension NSAttributedString {
+    
+    var rangeOfAll: NSRange {
+        get {
+            return NSRange.init(location: 0, length: self.length);
+        }
+    }
+    
+}
