@@ -10,6 +10,8 @@
 #define TestMacro_h
 
 #define rgb(r, g, b) [UIColor colorWithRed:(r) green:(g) blue:(b) alpha:1]
+#define screenWidth     UIScreen.mainScreen.bounds.size.width
+#define screenHeight    UIScreen.mainScreen.bounds.size.height
 
 /** fontName */
 #define kCoolFontName @"BradleyHandITCTT-Bold"

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C40B5F1221D02CD0088AB68 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C40B5F0221D02CD0088AB68 /* BlockViewController.m */; };
+		3C40B5F4221D04600088AB68 /* YDBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C40B5F3221D04600088AB68 /* YDBlock.m */; };
+		3CE0E21E2223D51F00C84265 /* YDPushAndPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0E21D2223D51F00C84265 /* YDPushAndPresentViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -59,6 +62,12 @@
 		124D8C5BB625CFBF851166B4 /* Pods-YDProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		16FD4D6C60990EB5BFFCFF64 /* YDProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDProject.podspec; path = ../YDProject.podspec; sourceTree = "<group>"; };
 		1EDD2CF7E4D9A3612BA09FCF /* Pods_YDProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C40B5EF221D02CD0088AB68 /* BlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		3C40B5F0221D02CD0088AB68 /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		3C40B5F2221D04600088AB68 /* YDBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBlock.h; sourceTree = "<group>"; };
+		3C40B5F3221D04600088AB68 /* YDBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBlock.m; sourceTree = "<group>"; };
+		3CE0E21C2223D51F00C84265 /* YDPushAndPresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushAndPresentViewController.h; sourceTree = "<group>"; };
+		3CE0E21D2223D51F00C84265 /* YDPushAndPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushAndPresentViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YDProject_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDProject_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -150,6 +159,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C40B5EE221D02B10088AB68 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				3C40B5EF221D02CD0088AB68 /* BlockViewController.h */,
+				3C40B5F0221D02CD0088AB68 /* BlockViewController.m */,
+				3C40B5F2221D04600088AB68 /* YDBlock.h */,
+				3C40B5F3221D04600088AB68 /* YDBlock.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		3CE0E21B2223D50800C84265 /* Push&Present */ = {
+			isa = PBXGroup;
+			children = (
+				3CE0E21C2223D51F00C84265 /* YDPushAndPresentViewController.h */,
+				3CE0E21D2223D51F00C84265 /* YDPushAndPresentViewController.m */,
+			);
+			path = "Push&Present";
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -434,6 +463,8 @@
 		B03EF52D2193D71E005CB0BD /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				3CE0E21B2223D50800C84265 /* Push&Present */,
+				3C40B5EE221D02B10088AB68 /* Block */,
 				B050B79521B64D8C007F6A57 /* Page_0 */,
 			);
 			path = Test;
@@ -638,13 +669,16 @@
 				B0066FF720CF9DEF00BFBF2C /* YDTest.m in Sources */,
 				B016E68921E71C7E009A4D4F /* OGLesson2View.m in Sources */,
 				B016E66E21E5D79D009A4D4F /* OpengGLLesson1.m in Sources */,
+				3CE0E21E2223D51F00C84265 /* YDPushAndPresentViewController.m in Sources */,
 				B050B79C21B64D8D007F6A57 /* TestNetWorkController.m in Sources */,
 				6003F59E195388D20070C39A /* YDAppDelegate.m in Sources */,
 				B016E66521E5D782009A4D4F /* TestModel.m in Sources */,
 				B016E68A21E71C7E009A4D4F /* OpenGLLesson2.m in Sources */,
 				B050B7AA21B6784B007F6A57 /* YDPerson.m in Sources */,
 				6003F5A7195388D20070C39A /* YDViewController.m in Sources */,
+				3C40B5F1221D02CD0088AB68 /* BlockViewController.m in Sources */,
 				B050B79E21B64D8D007F6A57 /* TestFloatingController.m in Sources */,
+				3C40B5F4221D04600088AB68 /* YDBlock.m in Sources */,
 				B01AF1DF21F16DD200E2E6CC /* CoreGraphicsViewController.m in Sources */,
 				B016E66F21E5D79D009A4D4F /* OpengGLMainViewController.m in Sources */,
 				B016E66421E5D782009A4D4F /* TestMainViewController.m in Sources */,

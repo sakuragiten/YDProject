@@ -45,7 +45,9 @@
                        Test(@"OpenGL", @"OpengGLMainViewController"),
                        Test(@"CoreGraphics", @"CoreGraphicsViewController"),
                        Test(@"FloatingButton", @"TestFloatingController"),
-                       Test(@"Thread", @"TestThreadController")];
+                       Test(@"Thread", @"TestThreadController"),
+                       Test(@"Block", @"BlockViewController"),
+                       Test(@"Push&Present", @"YDPushAndPresentViewController")];
 }
 
 
