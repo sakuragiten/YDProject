@@ -42,10 +42,10 @@
 - (void)settingMainDataSource
 {
     self.dataArray = @[Test(@"NetWork", @"TestNetWorkController"),
+                       Test(@"Basic", @"TestBasicMainViewController"),
                        Test(@"OpenGL", @"OpengGLMainViewController"),
                        Test(@"CoreGraphics", @"CoreGraphicsViewController"),
                        Test(@"FloatingButton", @"TestFloatingController"),
-                       Test(@"Thread", @"TestThreadController"),
                        Test(@"Block", @"BlockViewController"),
                        Test(@"Push&Present", @"YDPushAndPresentViewController")];
 }
@@ -62,6 +62,12 @@
 - (void)settingCoreGraphicsDataSource
 {
     self.dataArray = @[Test(@"文本属性Attributes", @"AttributesController")];
+}
+
+#pragma mark - basic
+- (void)settingBasicDataSource
+{
+    self.dataArray = @[Test(@"Thread", @"TestThreadController"),];
 }
 
 

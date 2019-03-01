@@ -13,6 +13,7 @@ typedef NS_ENUM(NSUInteger, TestViewModelType){
     TestViewModelTypeDefault = 0,
     TestViewModelTypeOpenGL = 1,
     TestViewModelTypeCoreGraphics = 2,
+    TestViewModelTypeCoreBasic = 3,
 };
 
 NS_ASSUME_NONNULL_BEGIN

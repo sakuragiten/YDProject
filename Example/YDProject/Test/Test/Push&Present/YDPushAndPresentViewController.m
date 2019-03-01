@@ -43,7 +43,7 @@
         btn.titleLabel.font = [UIFont systemFontOfSize:16];
         [btn setTitle:@"pushToNavigationWithViewController(crash)" forState:UIControlStateNormal];
         [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        btn.frame = CGRectMake(10, 150, screenWidth - 20, 40);
+        btn.frame = CGRectMake(10, 200, screenWidth - 20, 40);
         btn.backgroundColor = [UIColor randomColor];
         [btn addTarget:self action:@selector(pushToNavigationWithViewController) forControlEvents:UIControlEventTouchUpInside];
         
@@ -55,7 +55,7 @@
         btn.titleLabel.font = [UIFont systemFontOfSize:16];
         [btn setTitle:@"presentToViewControllerWithNavigation(crash)" forState:UIControlStateNormal];
         [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        btn.frame = CGRectMake(10, 200, screenWidth - 20, 40);
+        btn.frame = CGRectMake(10, 300, screenWidth - 20, 40);
         btn.backgroundColor = [UIColor randomColor];
         [btn addTarget:self action:@selector(presentToViewControllerWithNavigation) forControlEvents:UIControlEventTouchUpInside];
         
@@ -67,7 +67,7 @@
         btn.titleLabel.font = [UIFont systemFontOfSize:16];
         [btn setTitle:@"presentToNavigationWithViewController" forState:UIControlStateNormal];
         [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        btn.frame = CGRectMake(10, 250, screenWidth - 20, 40);
+        btn.frame = CGRectMake(10, 400, screenWidth - 20, 40);
         btn.backgroundColor = [UIColor randomColor];
         [btn addTarget:self action:@selector(presentToNavigationWithViewController) forControlEvents:UIControlEventTouchUpInside];
         
@@ -79,7 +79,7 @@
         btn.titleLabel.font = [UIFont systemFontOfSize:16];
         [btn setTitle:@"navPresentToViewControllerWithNavigation(crash)" forState:UIControlStateNormal];
         [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        btn.frame = CGRectMake(10, 300, screenWidth - 20, 40);
+        btn.frame = CGRectMake(10, 500, screenWidth - 20, 40);
         btn.backgroundColor = [UIColor randomColor];
         [btn addTarget:self action:@selector(navPresentToViewControllerWithNavigation) forControlEvents:UIControlEventTouchUpInside];
         
@@ -91,7 +91,7 @@
         btn.titleLabel.font = [UIFont systemFontOfSize:16];
         [btn setTitle:@"navPresentToNavigationWithViewController" forState:UIControlStateNormal];
         [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        btn.frame = CGRectMake(10, 350, screenWidth - 20, 40);
+        btn.frame = CGRectMake(10, 600, screenWidth - 20, 40);
         btn.backgroundColor = [UIColor randomColor];
         [btn addTarget:self action:@selector(navPresentToNavigationWithViewController) forControlEvents:UIControlEventTouchUpInside];
         
