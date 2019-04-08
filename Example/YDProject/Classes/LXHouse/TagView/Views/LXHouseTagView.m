@@ -7,6 +7,7 @@
 //
 
 #import "LXHouseTagView.h"
+#import "UIColor+YDExtension.h"
 
 @interface LXHouseTagFlowLayout : UICollectionViewFlowLayout
 
@@ -47,7 +48,7 @@
     return attr;
 }
 
--(NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect{
+- (NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect{
     
     NSMutableArray *array = [NSMutableArray array];
     NSInteger section = [self.collectionView numberOfSections];
@@ -80,7 +81,13 @@
 @property(nonatomic, strong) UICollectionView *collectionView;
 
 
+@property(nonatomic, copy) void (^styleHandle)(LXHouseTagStyle * _Nonnull style, NSString * _Nonnull title);
+
+
 @end
+
+
+static NSDictionary *_styleDict = nil;
 
 @implementation LXHouseTagView
 
@@ -111,9 +118,19 @@
 - (void)setupConfiguration
 {
     
-    self.tagsArray = @[@"托尔斯泰", @"tdsfsdfs", @"电费水费", @"打得过大公鸡分公司", @"d", @"dgsdfhggksdkfg"];
+    self.tagsArray = @[@"托尔斯泰", @"tdsfsdfs", @"电费水费", @"打得过大公鸡分公司", @"d", @"dgsdfhggksdkfg", @"特卖", @"严选", @"停售", @"即将开盘", @"商业", @"在售", @"售罄", @"待售"];
+    self.contentEdge = UIEdgeInsetsZero;
+    self.textEdge = UIEdgeInsetsMake(3, 10, 3, 10);
+    self.font = [UIFont systemFontOfSize:10.0 weight:UIFontWeightMedium];
+    if (_styleDict == nil) _styleDict = [LXHouseTagStyle houseTagStyleDict];
     
     [self setupUI];
+}
+
+
+- (void)settingTagStyle:(void (^)(LXHouseTagStyle * _Nonnull, NSString * _Nonnull))styleHandle
+{
+    _styleHandle = styleHandle;
 }
 
 
@@ -143,7 +160,7 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 10;
+    return self.tagsArray.count;
 }
 
 
@@ -151,7 +168,7 @@
 {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"LXTagViewCell" forIndexPath:indexPath];
     
-    cell.backgroundColor = [UIColor randomColor];
+    [self configCell:cell atIndexPath:indexPath];
     
     return cell;
 }
@@ -159,8 +176,73 @@
 #pragma mark - UICollectionViewDelegateFlowLayout
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    return CGSizeMake(60, 20);
+    NSString *tag = self.tagsArray[indexPath.row];
+    
+    return [self sizeOfTag:tag];
 }
+
+
+- (CGSize)sizeOfTag:(NSString *)tag
+{
+    CGFloat maxWidth = self.bounds.size.width - self.contentEdge.left - self.contentEdge.right;
+    NSDictionary *attributes = @{NSFontAttributeName : self.font};
+    CGSize textSize = [tag boundingRectWithSize:CGSizeMake(maxWidth, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil].size;
+    textSize.width += self.textEdge.left + self.textEdge.right;
+    textSize.height += self.textEdge.top + self.textEdge.bottom;
+    
+    return textSize;
+}
+
+
+
+- (void)configCell:(UICollectionViewCell *)cell atIndexPath:(NSIndexPath *)indexPath
+{
+    UILabel *tagLabel = [self tagLabelInCell:cell];
+    NSString *title = self.tagsArray[indexPath.row];
+    LXHouseTagStyle *tagStyle = [self houseTagFromTitle:title];
+    
+    !_styleHandle ? : _styleHandle(tagStyle, title);
+    tagLabel.text = title;
+    
+    tagLabel.layer.cornerRadius = tagStyle.cornerRadius;
+    tagLabel.layer.borderWidth = tagStyle.borderWidth;
+    tagLabel.layer.borderColor = tagStyle.borderColor.CGColor;
+    tagLabel.textColor = tagStyle.textColor;
+    tagLabel.layer.backgroundColor = tagStyle.backgroundColor.CGColor;
+    
+}
+
+
+- (UILabel *)tagLabelInCell:(UICollectionViewCell *)cell
+{
+    UILabel *tagLabel = [cell.contentView viewWithTag:123];
+    if (!tagLabel) {
+        tagLabel = [[UILabel alloc] init];
+        tagLabel.tag = 123;
+        tagLabel.font = self.font;
+        tagLabel.textAlignment = NSTextAlignmentCenter;
+        cell.backgroundColor = [UIColor clearColor];
+        cell.contentView.backgroundColor = [UIColor clearColor];
+        [cell addSubview:tagLabel];
+        
+        [tagLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.left.bottom.right.mas_equalTo(0);
+        }];
+    }
+    
+    return tagLabel;
+}
+
+
+- (LXHouseTagStyle *)houseTagFromTitle:(NSString *)title
+{
+    LXHouseTagStyle *style = _styleDict[title];
+    if (!style) style = [LXHouseTagStyle defaultStyle];
+    
+    return style;
+}
+
+
 
 
 #pragma mark - lazyLoad
@@ -171,7 +253,7 @@
         layout.minimumLineSpacing = 10.0;
         layout.minimumInteritemSpacing = 10.0;
         _collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
-        _collectionView.backgroundColor = [UIColor whiteColor];
+        _collectionView.backgroundColor = [UIColor clearColor];
         _collectionView.delegate = self;
         _collectionView.dataSource = self;
         
@@ -182,5 +264,61 @@
 }
 
 
+@end
+
+
+
+
+
+
+
+
+
+
+
+
+
+@implementation LXHouseTagStyle
+
++ (instancetype)defaultStyle
+{
+    LXHouseTagStyle *style = [[self alloc] init];
+    
+    style.cornerRadius = 2.0;
+    style.borderColor = [UIColor clearColor];
+    style.borderWidth = 0.0;
+    style.textColor = [UIColor colorWithHexString:@"#798089"];
+    style.backgroundColor = [UIColor colorWithHexString:@"#F0F2F5"];
+    
+    return style;
+}
+
+
++ (NSDictionary *)houseTagStyleDict
+{
+    NSString *dataFilePath = [[NSBundle mainBundle] pathForResource:@"HouseTagStyle" ofType:@"json"];
+    NSData *data = [NSData dataWithContentsOfFile:dataFilePath];
+    NSDictionary *rootDict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+    
+    NSMutableDictionary *styleDict = [NSMutableDictionary dictionary];
+    [rootDict.allKeys enumerateObjectsUsingBlock:^(NSString *key, NSUInteger idx, BOOL *stop) {
+        
+        NSDictionary *subDict = rootDict[key];
+        LXHouseTagStyle *style = [LXHouseTagStyle new];
+        style.cornerRadius = [subDict[@"cornerRadius"] floatValue];
+        style.borderWidth = [subDict[@"borderWidth"] floatValue];
+        style.borderColor = [UIColor colorWithHexString:subDict[@"borderColor"]];
+        style.textColor = [UIColor colorWithHexString:subDict[@"textColor"]];
+        style.backgroundColor = [UIColor colorWithHexString:subDict[@"backgroundColor"]];
+        [styleDict setObject:style forKey:key];
+    }];
+    
+    return styleDict;
+}
+
+
+
+
 
 @end
+

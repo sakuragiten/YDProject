@@ -1,0 +1,101 @@
+
+{
+    "BD" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "0.0",
+        "borderColor"     : "",
+        "textColor"       : "#FFFFFF",
+        "backgroundColor" : "#00B3EA"
+    },
+    "待售" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "1.0",
+        "borderColor"     : "#4A9DFA",
+        "textColor"       : "#4A9DFA",
+        "backgroundColor" : "#FFFFFF"
+    },
+    "即将开盘" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "1.0",
+        "borderColor"     : "#F9A54D",
+        "textColor"       : "#F9A54D",
+        "backgroundColor" : "#FFFFFF"
+    },
+    "在售" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "1.0",
+        "borderColor"     : "#A3C512",
+        "textColor"       : "#A3C512",
+        "backgroundColor" : "#FFFFFF"
+    },
+    "售罄" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "1.0",
+        "borderColor"     : "#D3D1D1",
+        "textColor"       : "#D3D1D1",
+        "backgroundColor" : "#FFFFFF"
+    },
+    "尾盘" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "1.0",
+        "borderColor"     : "#F9A54D",
+        "textColor"       : "#F9A54D",
+        "backgroundColor" : "#FFFFFF"
+    },
+    "特卖" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "0.0",
+        "borderColor"     : "",
+        "textColor"       : "#FFFFFF",
+        "backgroundColor" : "#E9BF3A"
+    },
+    "严选" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "0.0",
+        "borderColor"     : "",
+        "textColor"       : "#F1DDB5",
+        "backgroundColor" : "#504F5E"
+    },
+    "商业" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "0.0",
+        "borderColor"     : "",
+        "textColor"       : "#2F52E0",
+        "backgroundColor" : "#E6EAFA"
+    },
+    "住宅" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "0.0",
+        "borderColor"     : "",
+        "textColor"       : "#2F52E0",
+        "backgroundColor" : "#E6EAFA"
+    },
+    "办公" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "0.0",
+        "borderColor"     : "",
+        "textColor"       : "#2F52E0",
+        "backgroundColor" : "#E6EAFA"
+    },
+    "别墅" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "0.0",
+        "borderColor"     : "",
+        "textColor"       : "#2F52E0",
+        "backgroundColor" : "#E6EAFA"
+    },
+    "公寓" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "0.0",
+        "borderColor"     : "",
+        "textColor"       : "#2F52E0",
+        "backgroundColor" : "#E6EAFA"
+    },
+    "其他" : {
+        "cornerRadius"    : "2.0",
+        "borderWidth"     : "0.0",
+        "borderColor"     : "",
+        "textColor"       : "#F69147",
+        "backgroundColor" : "#FDEFE5"
+    }
+}

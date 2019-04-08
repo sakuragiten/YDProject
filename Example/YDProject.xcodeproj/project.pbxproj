@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0FD506225B1DEA0067D7CA /* UIColor+YDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0FD505225B1DEA0067D7CA /* UIColor+YDExtension.m */; };
+		4B0FD508225B1EB00067D7CA /* HouseTagStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B0FD507225B1EB00067D7CA /* HouseTagStyle.json */; };
 		4BDA047F22533ACB004450E6 /* YDPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA047A22533ACB004450E6 /* YDPerson.m */; };
 		4BDA048022533ACB004450E6 /* YDProject-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA047B22533ACB004450E6 /* YDProject-Info.plist */; };
 		4BDA048122533ACB004450E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA047C22533ACB004450E6 /* Images.xcassets */; };
@@ -67,6 +69,9 @@
 		124D8C5BB625CFBF851166B4 /* Pods-YDProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		16FD4D6C60990EB5BFFCFF64 /* YDProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDProject.podspec; path = ../YDProject.podspec; sourceTree = "<group>"; };
 		1EDD2CF7E4D9A3612BA09FCF /* Pods_YDProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0FD504225B1DEA0067D7CA /* UIColor+YDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+YDExtension.h"; sourceTree = "<group>"; };
+		4B0FD505225B1DEA0067D7CA /* UIColor+YDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YDExtension.m"; sourceTree = "<group>"; };
+		4B0FD507225B1EB00067D7CA /* HouseTagStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HouseTagStyle.json; sourceTree = "<group>"; };
 		4BDA047822533ACB004450E6 /* YDProject-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YDProject-Prefix.pch"; sourceTree = "<group>"; };
 		4BDA047922533ACB004450E6 /* YDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTest.h; sourceTree = "<group>"; };
 		4BDA047A22533ACB004450E6 /* YDPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDPerson.m; sourceTree = "<group>"; };
@@ -434,8 +439,11 @@
 		4BDA04DA22533D30004450E6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4B0FD504225B1DEA0067D7CA /* UIColor+YDExtension.h */,
+				4B0FD505225B1DEA0067D7CA /* UIColor+YDExtension.m */,
 				4BDA04DF22533D8F004450E6 /* LXHouseTagView.h */,
 				4BDA04E022533D8F004450E6 /* LXHouseTagView.m */,
+				4B0FD507225B1EB00067D7CA /* HouseTagStyle.json */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -662,6 +670,7 @@
 				4BDA048022533ACB004450E6 /* YDProject-Info.plist in Resources */,
 				B03EF5232193D150005CB0BD /* json_parse.js in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				4B0FD508225B1EB00067D7CA /* HouseTagStyle.json in Resources */,
 				4BDA04D622533AF3004450E6 /* shaderv.vsh in Resources */,
 				4BDA048122533ACB004450E6 /* Images.xcassets in Resources */,
 				4BDA04D022533AF2004450E6 /* STXINGKA.ttf in Resources */,
@@ -761,6 +770,7 @@
 				4BDA04D722533AF3004450E6 /* OGLesson2View.m in Sources */,
 				4BDA04D422533AF3004450E6 /* OpengGLMainViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				4B0FD506225B1DEA0067D7CA /* UIColor+YDExtension.m in Sources */,
 				4BDA047F22533ACB004450E6 /* YDPerson.m in Sources */,
 				4BDA04E5225346C2004450E6 /* LXHouseLeadPage.m in Sources */,
 				4BDA04CA22533AF2004450E6 /* BlockViewController.m in Sources */,
