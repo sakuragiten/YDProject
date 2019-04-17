@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B0FD506225B1DEA0067D7CA /* UIColor+YDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0FD505225B1DEA0067D7CA /* UIColor+YDExtension.m */; };
 		4B0FD508225B1EB00067D7CA /* HouseTagStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B0FD507225B1EB00067D7CA /* HouseTagStyle.json */; };
+		4B4799B32265B95500C5844B /* DecimalStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4799B22265B95500C5844B /* DecimalStringViewController.m */; };
+		4B4799B92266B65F00C5844B /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4799B82266B65F00C5844B /* SettingViewController.m */; };
+		4B4799BF2266BC2100C5844B /* SwitchButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4799BD2266BC2100C5844B /* SwitchButtonCell.m */; };
+		4B4799C02266BC2100C5844B /* SwitchButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4799BE2266BC2100C5844B /* SwitchButtonCell.xib */; };
+		4B7F1ABA22607BF100F24770 /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F1AB922607BF100F24770 /* GradientViewController.m */; };
+		4B7F1ABF226427E900F24770 /* LXGraphicsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F1ABE226427E900F24770 /* LXGraphicsController.m */; };
+		4B7F1AC322642BDC00F24770 /* UIView+LXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F1AC222642BDC00F24770 /* UIView+LXExtension.m */; };
+		4B7F1ADC2264B0C400F24770 /* ButtonContentPositionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F1ADB2264B0C400F24770 /* ButtonContentPositionController.m */; };
 		4BDA047F22533ACB004450E6 /* YDPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA047A22533ACB004450E6 /* YDPerson.m */; };
-		4BDA048022533ACB004450E6 /* YDProject-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA047B22533ACB004450E6 /* YDProject-Info.plist */; };
 		4BDA048122533ACB004450E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA047C22533ACB004450E6 /* Images.xcassets */; };
 		4BDA048222533ACB004450E6 /* YDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA047E22533ACB004450E6 /* YDTest.m */; };
 		4BDA04C422533AF2004450E6 /* TestNetWorkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA048822533AF2004450E6 /* TestNetWorkController.m */; };
@@ -67,15 +73,26 @@
 
 /* Begin PBXFileReference section */
 		124D8C5BB625CFBF851166B4 /* Pods-YDProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example.release.xcconfig"; sourceTree = "<group>"; };
-		16FD4D6C60990EB5BFFCFF64 /* YDProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDProject.podspec; path = ../YDProject.podspec; sourceTree = "<group>"; };
+		16FD4D6C60990EB5BFFCFF64 /* YDProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDProject.podspec; path = ../YDProject.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1EDD2CF7E4D9A3612BA09FCF /* Pods_YDProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B0FD504225B1DEA0067D7CA /* UIColor+YDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+YDExtension.h"; sourceTree = "<group>"; };
-		4B0FD505225B1DEA0067D7CA /* UIColor+YDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YDExtension.m"; sourceTree = "<group>"; };
 		4B0FD507225B1EB00067D7CA /* HouseTagStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HouseTagStyle.json; sourceTree = "<group>"; };
-		4BDA047822533ACB004450E6 /* YDProject-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YDProject-Prefix.pch"; sourceTree = "<group>"; };
+		4B4799B12265B95500C5844B /* DecimalStringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecimalStringViewController.h; sourceTree = "<group>"; };
+		4B4799B22265B95500C5844B /* DecimalStringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecimalStringViewController.m; sourceTree = "<group>"; };
+		4B4799B72266B65F00C5844B /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		4B4799B82266B65F00C5844B /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		4B4799BC2266BC2100C5844B /* SwitchButtonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchButtonCell.h; sourceTree = "<group>"; };
+		4B4799BD2266BC2100C5844B /* SwitchButtonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchButtonCell.m; sourceTree = "<group>"; };
+		4B4799BE2266BC2100C5844B /* SwitchButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchButtonCell.xib; sourceTree = "<group>"; };
+		4B7F1AB822607BF100F24770 /* GradientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		4B7F1AB922607BF100F24770 /* GradientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+		4B7F1ABD226427E900F24770 /* LXGraphicsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXGraphicsController.h; sourceTree = "<group>"; };
+		4B7F1ABE226427E900F24770 /* LXGraphicsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXGraphicsController.m; sourceTree = "<group>"; };
+		4B7F1AC122642BDC00F24770 /* UIView+LXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LXExtension.h"; sourceTree = "<group>"; };
+		4B7F1AC222642BDC00F24770 /* UIView+LXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LXExtension.m"; sourceTree = "<group>"; };
+		4B7F1ADA2264B0C400F24770 /* ButtonContentPositionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonContentPositionController.h; sourceTree = "<group>"; };
+		4B7F1ADB2264B0C400F24770 /* ButtonContentPositionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonContentPositionController.m; sourceTree = "<group>"; };
 		4BDA047922533ACB004450E6 /* YDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTest.h; sourceTree = "<group>"; };
 		4BDA047A22533ACB004450E6 /* YDPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDPerson.m; sourceTree = "<group>"; };
-		4BDA047B22533ACB004450E6 /* YDProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YDProject-Info.plist"; sourceTree = "<group>"; };
 		4BDA047C22533ACB004450E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4BDA047D22533ACB004450E6 /* YDPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPerson.h; sourceTree = "<group>"; };
 		4BDA047E22533ACB004450E6 /* YDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDTest.m; sourceTree = "<group>"; };
@@ -179,13 +196,107 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B4799B02265B93000C5844B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				4B4799B12265B95500C5844B /* DecimalStringViewController.h */,
+				4B4799B22265B95500C5844B /* DecimalStringViewController.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		4B4799B42266B50900C5844B /* Page_1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Page_1;
+			sourceTree = "<group>";
+		};
+		4B4799B52266B58B00C5844B /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				4B4799BA2266BA0800C5844B /* Views */,
+				4B4799B62266B5B300C5844B /* Controllers */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		4B4799B62266B5B300C5844B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B4799B72266B65F00C5844B /* SettingViewController.h */,
+				4B4799B82266B65F00C5844B /* SettingViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4B4799BA2266BA0800C5844B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B4799BB2266BA8300C5844B /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B4799BB2266BA8300C5844B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4B4799BC2266BC2100C5844B /* SwitchButtonCell.h */,
+				4B4799BD2266BC2100C5844B /* SwitchButtonCell.m */,
+				4B4799BE2266BC2100C5844B /* SwitchButtonCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4B7F1AB522607B7100F24770 /* Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				4B7F1AB822607BF100F24770 /* GradientViewController.h */,
+				4B7F1AB922607BF100F24770 /* GradientViewController.m */,
+			);
+			path = Gradient;
+			sourceTree = "<group>";
+		};
+		4B7F1ABC226427BB00F24770 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				4B7F1ABD226427E900F24770 /* LXGraphicsController.h */,
+				4B7F1ABE226427E900F24770 /* LXGraphicsController.m */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		4B7F1AC022642A2900F24770 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4B7F1AC122642BDC00F24770 /* UIView+LXExtension.h */,
+				4B7F1AC222642BDC00F24770 /* UIView+LXExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4B7F1AD82264B09300F24770 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				4B7F1AD92264B09300F24770 /* UIButton */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		4B7F1AD92264B09300F24770 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				4B7F1ADA2264B0C400F24770 /* ButtonContentPositionController.h */,
+				4B7F1ADB2264B0C400F24770 /* ButtonContentPositionController.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
 		4BDA047722533ACB004450E6 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				4BDA047822533ACB004450E6 /* YDProject-Prefix.pch */,
 				4BDA047922533ACB004450E6 /* YDTest.h */,
 				4BDA047A22533ACB004450E6 /* YDPerson.m */,
-				4BDA047B22533ACB004450E6 /* YDProject-Info.plist */,
 				4BDA047C22533ACB004450E6 /* Images.xcassets */,
 				4BDA047D22533ACB004450E6 /* YDPerson.h */,
 				4BDA047E22533ACB004450E6 /* YDTest.m */,
@@ -197,31 +308,34 @@
 			isa = PBXGroup;
 			children = (
 				4BDA049E22533AF2004450E6 /* Appdelegate */,
+				4B4799B52266B58B00C5844B /* Setting */,
 				4BDA04A122533AF2004450E6 /* Main */,
 				4BDA049722533AF2004450E6 /* LXHouse */,
 				4BDA049B22533AF2004450E6 /* Macro */,
-				4BDA048422533AF2004450E6 /* Test */,
+				4BDA048422533AF2004450E6 /* Basic */,
 				4BDA04AB22533AF2004450E6 /* Vendor */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		4BDA048422533AF2004450E6 /* Test */ = {
+		4BDA048422533AF2004450E6 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
 				4BDA048522533AF2004450E6 /* Page */,
 				4BDA048F22533AF2004450E6 /* Push&Present */,
 				4BDA049222533AF2004450E6 /* Block */,
 			);
-			path = Test;
+			path = Basic;
 			sourceTree = "<group>";
 		};
 		4BDA048522533AF2004450E6 /* Page */ = {
 			isa = PBXGroup;
 			children = (
-				4BDA048622533AF2004450E6 /* Page_0 */,
 				4BDA048D22533AF2004450E6 /* TestBasicMainViewController.h */,
 				4BDA048E22533AF2004450E6 /* TestBasicMainViewController.m */,
+				4BDA048622533AF2004450E6 /* Page_0 */,
+				4B4799B42266B50900C5844B /* Page_1 */,
+				4B4799B02265B93000C5844B /* NSString */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -230,11 +344,11 @@
 			isa = PBXGroup;
 			children = (
 				4BDA048722533AF2004450E6 /* TestFloatingController.h */,
-				4BDA048822533AF2004450E6 /* TestNetWorkController.m */,
-				4BDA048922533AF2004450E6 /* TestThreadController.m */,
 				4BDA048A22533AF2004450E6 /* TestFloatingController.m */,
-				4BDA048B22533AF2004450E6 /* TestThreadController.h */,
 				4BDA048C22533AF2004450E6 /* TestNetWorkController.h */,
+				4BDA048822533AF2004450E6 /* TestNetWorkController.m */,
+				4BDA048B22533AF2004450E6 /* TestThreadController.h */,
+				4BDA048922533AF2004450E6 /* TestThreadController.m */,
 			);
 			path = Page_0;
 			sourceTree = "<group>";
@@ -262,9 +376,12 @@
 		4BDA049722533AF2004450E6 /* LXHouse */ = {
 			isa = PBXGroup;
 			children = (
+				4B7F1AC022642A2900F24770 /* Category */,
 				4BDA049822533AF2004450E6 /* Main */,
 				4BDA04D922533C6B004450E6 /* TagView */,
 				4BDA04E22253469F004450E6 /* LeadPage */,
+				4B7F1ABC226427BB00F24770 /* Graphics */,
+				4B7F1AD82264B09300F24770 /* Test */,
 			);
 			path = LXHouse;
 			sourceTree = "<group>";
@@ -346,8 +463,9 @@
 			isa = PBXGroup;
 			children = (
 				4BDA04AD22533AF2004450E6 /* CoreGraphicsViewController.h */,
-				4BDA04AE22533AF2004450E6 /* AttributeString */,
 				4BDA04B322533AF2004450E6 /* CoreGraphicsViewController.m */,
+				4B7F1AB522607B7100F24770 /* Gradient */,
+				4BDA04AE22533AF2004450E6 /* AttributeString */,
 			);
 			path = CoreGraphics;
 			sourceTree = "<group>";
@@ -439,8 +557,6 @@
 		4BDA04DA22533D30004450E6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4B0FD504225B1DEA0067D7CA /* UIColor+YDExtension.h */,
-				4B0FD505225B1DEA0067D7CA /* UIColor+YDExtension.m */,
 				4BDA04DF22533D8F004450E6 /* LXHouseTagView.h */,
 				4BDA04E022533D8F004450E6 /* LXHouseTagView.m */,
 				4B0FD507225B1EB00067D7CA /* HouseTagStyle.json */,
@@ -667,7 +783,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BDA048022533ACB004450E6 /* YDProject-Info.plist in Resources */,
 				B03EF5232193D150005CB0BD /* json_parse.js in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				4B0FD508225B1EB00067D7CA /* HouseTagStyle.json in Resources */,
@@ -677,6 +792,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				4BDA04D522533AF3004450E6 /* shaderf.fsh in Resources */,
+				4B4799C02266BC2100C5844B /* SwitchButtonCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,20 +831,30 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/PaulGeorge/PaulGeorge.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/YDProject/YDProject.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PaulGeorge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YDProject.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C95BAFE3A56821FD82AE3D33 /* [CP] Check Pods Manifest.lock */ = {
@@ -757,9 +883,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BDA04CD22533AF2004450E6 /* TestViewModel.m in Sources */,
+				4B7F1AC322642BDC00F24770 /* UIView+LXExtension.m in Sources */,
+				4B7F1ABF226427E900F24770 /* LXGraphicsController.m in Sources */,
 				4BDA04D322533AF3004450E6 /* OpengGLLesson1.m in Sources */,
 				4BDA04E122533D8F004450E6 /* LXHouseTagView.m in Sources */,
 				4BDA04CC22533AF2004450E6 /* YDAppDelegate.m in Sources */,
+				4B7F1ADC2264B0C400F24770 /* ButtonContentPositionController.m in Sources */,
 				4BDA048222533ACB004450E6 /* YDTest.m in Sources */,
 				B01C2DE6218A982900D4D723 /* LearnSwift.swift in Sources */,
 				4BDA04C922533AF2004450E6 /* YDBlock.m in Sources */,
@@ -767,10 +896,11 @@
 				4BDA04CE22533AF2004450E6 /* TestModel.m in Sources */,
 				4BDA04CF22533AF2004450E6 /* TestMainViewController.m in Sources */,
 				4BDA04C522533AF2004450E6 /* TestThreadController.m in Sources */,
+				4B4799B92266B65F00C5844B /* SettingViewController.m in Sources */,
 				4BDA04D722533AF3004450E6 /* OGLesson2View.m in Sources */,
+				4B7F1ABA22607BF100F24770 /* GradientViewController.m in Sources */,
 				4BDA04D422533AF3004450E6 /* OpengGLMainViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				4B0FD506225B1DEA0067D7CA /* UIColor+YDExtension.m in Sources */,
 				4BDA047F22533ACB004450E6 /* YDPerson.m in Sources */,
 				4BDA04E5225346C2004450E6 /* LXHouseLeadPage.m in Sources */,
 				4BDA04CA22533AF2004450E6 /* BlockViewController.m in Sources */,
@@ -779,9 +909,11 @@
 				4BDA04C722533AF2004450E6 /* TestBasicMainViewController.m in Sources */,
 				4BDA04CB22533AF2004450E6 /* LXMainViewController.m in Sources */,
 				4BDA04DE22533D76004450E6 /* LXHouseTagController.m in Sources */,
+				4B4799BF2266BC2100C5844B /* SwitchButtonCell.m in Sources */,
 				4BDA04C822533AF2004450E6 /* YDPushAndPresentViewController.m in Sources */,
 				4BDA04C622533AF2004450E6 /* TestFloatingController.m in Sources */,
 				4BDA04D122533AF2004450E6 /* AttributesController.m in Sources */,
+				4B4799B32265B95500C5844B /* DecimalStringViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -915,8 +1047,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 37G28R6NSU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YDProject/Others/YDProject-Prefix.pch";
-				INFOPLIST_FILE = "YDProject/Others/YDProject-Info.plist";
+				GCC_PREFIX_HEADER = "YDProject/YDProject-Prefix.pch";
+				INFOPLIST_FILE = "YDProject/YDProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -937,8 +1070,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 37G28R6NSU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YDProject/Others/YDProject-Prefix.pch";
-				INFOPLIST_FILE = "YDProject/Others/YDProject-Info.plist";
+				GCC_PREFIX_HEADER = "YDProject/YDProject-Prefix.pch";
+				INFOPLIST_FILE = "YDProject/YDProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

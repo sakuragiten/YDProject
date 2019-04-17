@@ -68,13 +68,15 @@
 #pragma mark - CoreGraphics
 - (void)settingCoreGraphicsDataSource
 {
-    self.dataArray = @[Test(@"文本属性Attributes", @"AttributesController")];
+    self.dataArray = @[Test(@"文本属性Attributes", @"AttributesController"),
+                       Test(@"设置渐变层Gradient", @"GradientViewController")];
 }
 
 #pragma mark - basic
 - (void)settingBasicDataSource
 {
-    self.dataArray = @[Test(@"Thread", @"TestThreadController"),];
+    self.dataArray = @[Test(@"Thread", @"TestThreadController"),
+                       Test(@"DecimalString", @"DecimalStringViewController"),];
 }
 
 
@@ -82,8 +84,11 @@
 - (void)settingLXHouseDataSource
 {
     self.dataArray = @[Test(@"TagView", @"LXHouseTagController"),
-                       Test(@"LeadPage", @"LXHouseLeadPage"),];
+                       Test(@"LeadPage", @"LXHouseLeadPage"),
+                       Test(@"Graphics", @"LXGraphicsController"),
+                       Test(@"ButtonContent", @"ButtonContentPositionController"),];
 }
+
 
 @end
 

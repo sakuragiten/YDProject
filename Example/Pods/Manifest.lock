@@ -15,27 +15,63 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - Masonry (1.1.0)
+  - PaulGeorge (0.1.0):
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SnapKit (4.2.0)
   - YDProject (0.1.1):
     - AFNetworking (~> 3.1)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+    - SnapKit
 
 DEPENDENCIES:
   - Masonry
+  - PaulGeorge (from `https://github.com/sakuragiten/PaulGeorge.git`)
+  - ReactiveCocoa (~> 2.5)
   - YDProject (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - Masonry
+    - ReactiveCocoa
+    - RxCocoa
+    - RxSwift
+    - SnapKit
 
 EXTERNAL SOURCES:
+  PaulGeorge:
+    :git: https://github.com/sakuragiten/PaulGeorge.git
   YDProject:
     :path: "../"
+
+CHECKOUT OPTIONS:
+  PaulGeorge:
+    :commit: d3ea4212217df6ccca0b412cf0aadcb6ba265559
+    :git: https://github.com/sakuragiten/PaulGeorge.git
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  YDProject: 93064da2a51fc3d257549c7773e2d1fcd91355e8
+  PaulGeorge: 988c80a87c0e1c8256b722a76d7b1addf335dc0a
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  YDProject: 835d62d296e4585a91a4fe05ffab745497ab2224
 
-PODFILE CHECKSUM: 6d205bcbf9dd1abab5c922ce4a87c87bd0d86266
+PODFILE CHECKSUM: 80474b53b4fda4cb145a50218f25353f622aa0b7
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.6.1

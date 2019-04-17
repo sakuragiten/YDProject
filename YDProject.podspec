@@ -40,6 +40,12 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 3.1'
 #s.dependency 'ReactiveCocoa'
+
+#  swift
+  s.dependency 'RxSwift',    '~> 4.0'
+  s.dependency 'RxCocoa',    '~> 4.0'
+  s.dependency 'SnapKit'
+  
     s.prefix_header_contents = <<-EOS
 
     #import "YDMacro.h"

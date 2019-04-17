@@ -6,8 +6,7 @@
 //  Copyright © 2019 387970107@qq.com. All rights reserved.
 //
 
-#import "LXHouseTagView.h"
-#import "UIColor+YDExtension.h"
+#import "LXHouseTagView.h" 
 
 @interface LXHouseTagFlowLayout : UICollectionViewFlowLayout
 
@@ -307,6 +306,7 @@ static NSDictionary *_styleDict = nil;
         LXHouseTagStyle *style = [LXHouseTagStyle new];
         style.cornerRadius = [subDict[@"cornerRadius"] floatValue];
         style.borderWidth = [subDict[@"borderWidth"] floatValue];
+        style.borderColor = [UIColor colorWithHexString:subDict[@"borderColor"]];
         style.borderColor = [UIColor colorWithHexString:subDict[@"borderColor"]];
         style.textColor = [UIColor colorWithHexString:subDict[@"textColor"]];
         style.backgroundColor = [UIColor colorWithHexString:subDict[@"backgroundColor"]];

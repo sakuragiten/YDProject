@@ -7,7 +7,7 @@
 //
 
 #import "TestMainViewController.h"
-
+#import "SettingViewController.h"
 
 @interface TestMainViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -37,8 +37,19 @@
     [_tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.left.right.bottom.mas_equalTo(0);
     }];
+    
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"setting"] style:UIBarButtonItemStylePlain target:self action:@selector(rightAction)];
+    rightItem.tintColor = [UIColor darkGrayColor];
+//    self.navigationController.navigationItem.rightBarButtonItem = rightItem;
+    self.navigationItem.rightBarButtonItem = rightItem;
 }
 
+- (void)rightAction
+{
+    SettingViewController *vc = [[SettingViewController alloc] init];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 #pragma mark - UITableViewDataSource
 

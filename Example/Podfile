@@ -5,6 +5,8 @@ target 'YDProject_Example' do
 
 
   pod 'Masonry'
+  pod 'ReactiveCocoa', '~>2.5'
+  pod 'PaulGeorge', :git=> 'https://github.com/sakuragiten/PaulGeorge.git'
 
   target 'YDProject_Tests' do
     inherit! :search_paths
