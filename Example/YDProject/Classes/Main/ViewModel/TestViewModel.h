@@ -15,6 +15,7 @@ typedef NS_ENUM(NSUInteger, TestViewModelType){
     TestViewModelTypeCoreGraphics = 2,
     TestViewModelTypeCoreBasic = 3,
     TestViewModelTypeLXHouse = 4,
+    TestViewModelTypeLXBroker = 5,
 };
 
 NS_ASSUME_NONNULL_BEGIN

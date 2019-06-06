@@ -1,18 +1,18 @@
 //
-//  GradientViewController.m
+//  LXCardTestViewController.m
 //  YDProject_Example
 //
-//  Created by louxunmac on 2019/4/12.
+//  Created by louxunmac on 2019/6/6.
 //  Copyright © 2019 387970107@qq.com. All rights reserved.
 //
 
-#import "GradientViewController.h"
+#import "LXCardTestViewController.h"
 
-@interface GradientViewController ()
+@interface LXCardTestViewController ()
 
 @end
 
-@implementation GradientViewController
+@implementation LXCardTestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -21,12 +21,13 @@
     [self setupUI];
 }
 
-
 - (void)setupUI
 {
     self.view.backgroundColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.translucent = NO;
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
 }
-
 
 
 @end

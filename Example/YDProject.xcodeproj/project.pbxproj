@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0645F82269670300D99E54 /* CornerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0645F62269670300D99E54 /* CornerViewController.m */; };
+		4B0645F92269670300D99E54 /* CornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0645F72269670300D99E54 /* CornerViewController.xib */; };
 		4B0FD508225B1EB00067D7CA /* HouseTagStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B0FD507225B1EB00067D7CA /* HouseTagStyle.json */; };
+		4B352FC8229693E80047C33C /* LXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B352FC7229693E80047C33C /* LXWebViewController.m */; };
+		4B352FCC2296945C0047C33C /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B352FCB2296945C0047C33C /* test.html */; };
+		4B352FCF22969ED80047C33C /* LXWebViewJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B352FCE22969ED80047C33C /* LXWebViewJSBridge.m */; };
+		4B472604228401920000AA16 /* LXNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B472603228401920000AA16 /* LXNetworking.m */; };
+		4B4726082285743A0000AA16 /* LXHouseAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4726072285743A0000AA16 /* LXHouseAlbumController.m */; };
+		4B47260C2286B3B50000AA16 /* LXNewHouseImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47260B2286B3B50000AA16 /* LXNewHouseImageModel.m */; };
 		4B4799B32265B95500C5844B /* DecimalStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4799B22265B95500C5844B /* DecimalStringViewController.m */; };
 		4B4799B92266B65F00C5844B /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4799B82266B65F00C5844B /* SettingViewController.m */; };
 		4B4799BF2266BC2100C5844B /* SwitchButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4799BD2266BC2100C5844B /* SwitchButtonCell.m */; };
 		4B4799C02266BC2100C5844B /* SwitchButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4799BE2266BC2100C5844B /* SwitchButtonCell.xib */; };
-		4B7F1ABA22607BF100F24770 /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F1AB922607BF100F24770 /* GradientViewController.m */; };
+		4B5FE26122731C21002AB0B7 /* LXImageCutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FE26022731C21002AB0B7 /* LXImageCutViewController.m */; };
+		4B5FE26422754FBF002AB0B7 /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FE26322754FBF002AB0B7 /* DebugViewController.m */; };
 		4B7F1ABF226427E900F24770 /* LXGraphicsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F1ABE226427E900F24770 /* LXGraphicsController.m */; };
 		4B7F1AC322642BDC00F24770 /* UIView+LXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F1AC222642BDC00F24770 /* UIView+LXExtension.m */; };
 		4B7F1ADC2264B0C400F24770 /* ButtonContentPositionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F1ADB2264B0C400F24770 /* ButtonContentPositionController.m */; };
+		4B82FA7022A8E85300CB42AF /* LXBrokerMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82FA6F22A8E85300CB42AF /* LXBrokerMainController.m */; };
+		4B82FA7422A8EACA00CB42AF /* LXCardTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82FA7322A8EACA00CB42AF /* LXCardTestViewController.m */; };
+		4B82FA7722A8EC2300CB42AF /* LXBrokerCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82FA7622A8EC2300CB42AF /* LXBrokerCardView.m */; };
+		4BA3A85A229D0D0200B071A6 /* LXSegueToLouxunController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3A859229D0D0200B071A6 /* LXSegueToLouxunController.m */; };
 		4BDA047F22533ACB004450E6 /* YDPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA047A22533ACB004450E6 /* YDPerson.m */; };
 		4BDA048122533ACB004450E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA047C22533ACB004450E6 /* Images.xcassets */; };
 		4BDA048222533ACB004450E6 /* YDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA047E22533ACB004450E6 /* YDTest.m */; };
@@ -43,6 +56,10 @@
 		4BDA04DE22533D76004450E6 /* LXHouseTagController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA04DD22533D76004450E6 /* LXHouseTagController.m */; };
 		4BDA04E122533D8F004450E6 /* LXHouseTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA04E022533D8F004450E6 /* LXHouseTagView.m */; };
 		4BDA04E5225346C2004450E6 /* LXHouseLeadPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA04E4225346C2004450E6 /* LXHouseLeadPage.m */; };
+		4BDF5363227FC8F500D0EE3D /* StringStatementController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF5362227FC8F500D0EE3D /* StringStatementController.m */; };
+		4BFCEDB2228D6009009EE3DD /* LXHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCEDB1228D6009009EE3DD /* LXHTTPSessionManager.m */; };
+		4BFCEDB5228E5272009EE3DD /* LXNetwokingConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCEDB4228E5272009EE3DD /* LXNetwokingConfigManager.m */; };
+		4BFCEDB9228E7FD0009EE3DD /* LXNetworkingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCEDB8228E7FCF009EE3DD /* LXNetworkingController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -75,7 +92,21 @@
 		124D8C5BB625CFBF851166B4 /* Pods-YDProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		16FD4D6C60990EB5BFFCFF64 /* YDProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDProject.podspec; path = ../YDProject.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1EDD2CF7E4D9A3612BA09FCF /* Pods_YDProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0645F52269670300D99E54 /* CornerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CornerViewController.h; sourceTree = "<group>"; };
+		4B0645F62269670300D99E54 /* CornerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornerViewController.m; sourceTree = "<group>"; };
+		4B0645F72269670300D99E54 /* CornerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CornerViewController.xib; sourceTree = "<group>"; };
 		4B0FD507225B1EB00067D7CA /* HouseTagStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HouseTagStyle.json; sourceTree = "<group>"; };
+		4B352FC6229693E80047C33C /* LXWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXWebViewController.h; sourceTree = "<group>"; };
+		4B352FC7229693E80047C33C /* LXWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXWebViewController.m; sourceTree = "<group>"; };
+		4B352FCB2296945C0047C33C /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		4B352FCD22969ED80047C33C /* LXWebViewJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWebViewJSBridge.h; sourceTree = "<group>"; };
+		4B352FCE22969ED80047C33C /* LXWebViewJSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWebViewJSBridge.m; sourceTree = "<group>"; };
+		4B472602228401920000AA16 /* LXNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNetworking.h; sourceTree = "<group>"; };
+		4B472603228401920000AA16 /* LXNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXNetworking.m; sourceTree = "<group>"; };
+		4B4726062285743A0000AA16 /* LXHouseAlbumController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHouseAlbumController.h; sourceTree = "<group>"; };
+		4B4726072285743A0000AA16 /* LXHouseAlbumController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHouseAlbumController.m; sourceTree = "<group>"; };
+		4B47260A2286B3B50000AA16 /* LXNewHouseImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXNewHouseImageModel.h; sourceTree = "<group>"; };
+		4B47260B2286B3B50000AA16 /* LXNewHouseImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXNewHouseImageModel.m; sourceTree = "<group>"; };
 		4B4799B12265B95500C5844B /* DecimalStringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecimalStringViewController.h; sourceTree = "<group>"; };
 		4B4799B22265B95500C5844B /* DecimalStringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecimalStringViewController.m; sourceTree = "<group>"; };
 		4B4799B72266B65F00C5844B /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
@@ -83,14 +114,24 @@
 		4B4799BC2266BC2100C5844B /* SwitchButtonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchButtonCell.h; sourceTree = "<group>"; };
 		4B4799BD2266BC2100C5844B /* SwitchButtonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchButtonCell.m; sourceTree = "<group>"; };
 		4B4799BE2266BC2100C5844B /* SwitchButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchButtonCell.xib; sourceTree = "<group>"; };
-		4B7F1AB822607BF100F24770 /* GradientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
-		4B7F1AB922607BF100F24770 /* GradientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+		4B5FE25F22731C21002AB0B7 /* LXImageCutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXImageCutViewController.h; sourceTree = "<group>"; };
+		4B5FE26022731C21002AB0B7 /* LXImageCutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXImageCutViewController.m; sourceTree = "<group>"; };
+		4B5FE26222754FBF002AB0B7 /* DebugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugViewController.h; sourceTree = "<group>"; };
+		4B5FE26322754FBF002AB0B7 /* DebugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugViewController.m; sourceTree = "<group>"; };
 		4B7F1ABD226427E900F24770 /* LXGraphicsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXGraphicsController.h; sourceTree = "<group>"; };
 		4B7F1ABE226427E900F24770 /* LXGraphicsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXGraphicsController.m; sourceTree = "<group>"; };
 		4B7F1AC122642BDC00F24770 /* UIView+LXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LXExtension.h"; sourceTree = "<group>"; };
 		4B7F1AC222642BDC00F24770 /* UIView+LXExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LXExtension.m"; sourceTree = "<group>"; };
 		4B7F1ADA2264B0C400F24770 /* ButtonContentPositionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonContentPositionController.h; sourceTree = "<group>"; };
 		4B7F1ADB2264B0C400F24770 /* ButtonContentPositionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonContentPositionController.m; sourceTree = "<group>"; };
+		4B82FA6E22A8E85300CB42AF /* LXBrokerMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBrokerMainController.h; sourceTree = "<group>"; };
+		4B82FA6F22A8E85300CB42AF /* LXBrokerMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBrokerMainController.m; sourceTree = "<group>"; };
+		4B82FA7222A8EACA00CB42AF /* LXCardTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXCardTestViewController.h; sourceTree = "<group>"; };
+		4B82FA7322A8EACA00CB42AF /* LXCardTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXCardTestViewController.m; sourceTree = "<group>"; };
+		4B82FA7522A8EC2300CB42AF /* LXBrokerCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBrokerCardView.h; sourceTree = "<group>"; };
+		4B82FA7622A8EC2300CB42AF /* LXBrokerCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBrokerCardView.m; sourceTree = "<group>"; };
+		4BA3A858229D0D0200B071A6 /* LXSegueToLouxunController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXSegueToLouxunController.h; sourceTree = "<group>"; };
+		4BA3A859229D0D0200B071A6 /* LXSegueToLouxunController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSegueToLouxunController.m; sourceTree = "<group>"; };
 		4BDA047922533ACB004450E6 /* YDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTest.h; sourceTree = "<group>"; };
 		4BDA047A22533ACB004450E6 /* YDPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDPerson.m; sourceTree = "<group>"; };
 		4BDA047C22533ACB004450E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -143,6 +184,14 @@
 		4BDA04E022533D8F004450E6 /* LXHouseTagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHouseTagView.m; sourceTree = "<group>"; };
 		4BDA04E3225346C2004450E6 /* LXHouseLeadPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHouseLeadPage.h; sourceTree = "<group>"; };
 		4BDA04E4225346C2004450E6 /* LXHouseLeadPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHouseLeadPage.m; sourceTree = "<group>"; };
+		4BDF5361227FC8F500D0EE3D /* StringStatementController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringStatementController.h; sourceTree = "<group>"; };
+		4BDF5362227FC8F500D0EE3D /* StringStatementController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringStatementController.m; sourceTree = "<group>"; };
+		4BFCEDB0228D6009009EE3DD /* LXHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHTTPSessionManager.h; sourceTree = "<group>"; };
+		4BFCEDB1228D6009009EE3DD /* LXHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHTTPSessionManager.m; sourceTree = "<group>"; };
+		4BFCEDB3228E5272009EE3DD /* LXNetwokingConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNetwokingConfigManager.h; sourceTree = "<group>"; };
+		4BFCEDB4228E5272009EE3DD /* LXNetwokingConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXNetwokingConfigManager.m; sourceTree = "<group>"; };
+		4BFCEDB7228E7FCF009EE3DD /* LXNetworkingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNetworkingController.h; sourceTree = "<group>"; };
+		4BFCEDB8228E7FCF009EE3DD /* LXNetworkingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXNetworkingController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YDProject_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDProject_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -196,11 +245,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B352FC5229693D00047C33C /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				4B352FCD22969ED80047C33C /* LXWebViewJSBridge.h */,
+				4B352FCE22969ED80047C33C /* LXWebViewJSBridge.m */,
+				4B352FCB2296945C0047C33C /* test.html */,
+				4B352FC6229693E80047C33C /* LXWebViewController.h */,
+				4B352FC7229693E80047C33C /* LXWebViewController.m */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		4B472601228401710000AA16 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4B472602228401920000AA16 /* LXNetworking.h */,
+				4B472603228401920000AA16 /* LXNetworking.m */,
+				4BFCEDB3228E5272009EE3DD /* LXNetwokingConfigManager.h */,
+				4BFCEDB4228E5272009EE3DD /* LXNetwokingConfigManager.m */,
+				4BFCEDB0228D6009009EE3DD /* LXHTTPSessionManager.h */,
+				4BFCEDB1228D6009009EE3DD /* LXHTTPSessionManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4B472605228572920000AA16 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				4B47260A2286B3B50000AA16 /* LXNewHouseImageModel.h */,
+				4B47260B2286B3B50000AA16 /* LXNewHouseImageModel.m */,
+				4B4726062285743A0000AA16 /* LXHouseAlbumController.h */,
+				4B4726072285743A0000AA16 /* LXHouseAlbumController.m */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
 		4B4799B02265B93000C5844B /* NSString */ = {
 			isa = PBXGroup;
 			children = (
 				4B4799B12265B95500C5844B /* DecimalStringViewController.h */,
 				4B4799B22265B95500C5844B /* DecimalStringViewController.m */,
+				4BDF5361227FC8F500D0EE3D /* StringStatementController.h */,
+				4BDF5362227FC8F500D0EE3D /* StringStatementController.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -208,6 +295,8 @@
 		4B4799B42266B50900C5844B /* Page_1 */ = {
 			isa = PBXGroup;
 			children = (
+				4B5FE26222754FBF002AB0B7 /* DebugViewController.h */,
+				4B5FE26322754FBF002AB0B7 /* DebugViewController.m */,
 			);
 			path = Page_1;
 			sourceTree = "<group>";
@@ -248,13 +337,14 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		4B7F1AB522607B7100F24770 /* Gradient */ = {
+		4B7F1AB522607B7100F24770 /* Layer */ = {
 			isa = PBXGroup;
 			children = (
-				4B7F1AB822607BF100F24770 /* GradientViewController.h */,
-				4B7F1AB922607BF100F24770 /* GradientViewController.m */,
+				4B0645F52269670300D99E54 /* CornerViewController.h */,
+				4B0645F62269670300D99E54 /* CornerViewController.m */,
+				4B0645F72269670300D99E54 /* CornerViewController.xib */,
 			);
-			path = Gradient;
+			path = Layer;
 			sourceTree = "<group>";
 		};
 		4B7F1ABC226427BB00F24770 /* Graphics */ = {
@@ -262,6 +352,8 @@
 			children = (
 				4B7F1ABD226427E900F24770 /* LXGraphicsController.h */,
 				4B7F1ABE226427E900F24770 /* LXGraphicsController.m */,
+				4B5FE25F22731C21002AB0B7 /* LXImageCutViewController.h */,
+				4B5FE26022731C21002AB0B7 /* LXImageCutViewController.m */,
 			);
 			path = Graphics;
 			sourceTree = "<group>";
@@ -278,7 +370,10 @@
 		4B7F1AD82264B09300F24770 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				4BFCEDB6228E7FA5009EE3DD /* LXNetworking */,
 				4B7F1AD92264B09300F24770 /* UIButton */,
+				4B352FC5229693D00047C33C /* WebView */,
+				4BA3A857229D0CD400B071A6 /* SegueToLouxun */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -290,6 +385,60 @@
 				4B7F1ADB2264B0C400F24770 /* ButtonContentPositionController.m */,
 			);
 			path = UIButton;
+			sourceTree = "<group>";
+		};
+		4B82FA6A22A8E80700CB42AF /* LXBroker */ = {
+			isa = PBXGroup;
+			children = (
+				4B82FA6D22A8E82900CB42AF /* Main */,
+				4B82FA6B22A8E80700CB42AF /* Home */,
+			);
+			path = LXBroker;
+			sourceTree = "<group>";
+		};
+		4B82FA6B22A8E80700CB42AF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4B82FA6C22A8E80700CB42AF /* Card */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4B82FA6C22A8E80700CB42AF /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				4B82FA7222A8EACA00CB42AF /* LXCardTestViewController.h */,
+				4B82FA7322A8EACA00CB42AF /* LXCardTestViewController.m */,
+				4B82FA7122A8EAB700CB42AF /* CardView */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		4B82FA6D22A8E82900CB42AF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4B82FA6E22A8E85300CB42AF /* LXBrokerMainController.h */,
+				4B82FA6F22A8E85300CB42AF /* LXBrokerMainController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4B82FA7122A8EAB700CB42AF /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				4B82FA7522A8EC2300CB42AF /* LXBrokerCardView.h */,
+				4B82FA7622A8EC2300CB42AF /* LXBrokerCardView.m */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		4BA3A857229D0CD400B071A6 /* SegueToLouxun */ = {
+			isa = PBXGroup;
+			children = (
+				4BA3A858229D0D0200B071A6 /* LXSegueToLouxunController.h */,
+				4BA3A859229D0D0200B071A6 /* LXSegueToLouxunController.m */,
+			);
+			path = SegueToLouxun;
 			sourceTree = "<group>";
 		};
 		4BDA047722533ACB004450E6 /* Others */ = {
@@ -310,6 +459,7 @@
 				4BDA049E22533AF2004450E6 /* Appdelegate */,
 				4B4799B52266B58B00C5844B /* Setting */,
 				4BDA04A122533AF2004450E6 /* Main */,
+				4B82FA6A22A8E80700CB42AF /* LXBroker */,
 				4BDA049722533AF2004450E6 /* LXHouse */,
 				4BDA049B22533AF2004450E6 /* Macro */,
 				4BDA048422533AF2004450E6 /* Basic */,
@@ -365,10 +515,10 @@
 		4BDA049222533AF2004450E6 /* Block */ = {
 			isa = PBXGroup;
 			children = (
-				4BDA049322533AF2004450E6 /* YDBlock.m */,
+				4BDA049622533AF2004450E6 /* BlockViewController.h */,
 				4BDA049422533AF2004450E6 /* BlockViewController.m */,
 				4BDA049522533AF2004450E6 /* YDBlock.h */,
-				4BDA049622533AF2004450E6 /* BlockViewController.h */,
+				4BDA049322533AF2004450E6 /* YDBlock.m */,
 			);
 			path = Block;
 			sourceTree = "<group>";
@@ -376,12 +526,14 @@
 		4BDA049722533AF2004450E6 /* LXHouse */ = {
 			isa = PBXGroup;
 			children = (
+				4B472601228401710000AA16 /* Networking */,
 				4B7F1AC022642A2900F24770 /* Category */,
 				4BDA049822533AF2004450E6 /* Main */,
 				4BDA04D922533C6B004450E6 /* TagView */,
 				4BDA04E22253469F004450E6 /* LeadPage */,
 				4B7F1ABC226427BB00F24770 /* Graphics */,
 				4B7F1AD82264B09300F24770 /* Test */,
+				4B472605228572920000AA16 /* Album */,
 			);
 			path = LXHouse;
 			sourceTree = "<group>";
@@ -464,7 +616,7 @@
 			children = (
 				4BDA04AD22533AF2004450E6 /* CoreGraphicsViewController.h */,
 				4BDA04B322533AF2004450E6 /* CoreGraphicsViewController.m */,
-				4B7F1AB522607B7100F24770 /* Gradient */,
+				4B7F1AB522607B7100F24770 /* Layer */,
 				4BDA04AE22533AF2004450E6 /* AttributeString */,
 			);
 			path = CoreGraphics;
@@ -580,6 +732,15 @@
 				4BDA04E4225346C2004450E6 /* LXHouseLeadPage.m */,
 			);
 			path = LeadPage;
+			sourceTree = "<group>";
+		};
+		4BFCEDB6228E7FA5009EE3DD /* LXNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				4BFCEDB7228E7FCF009EE3DD /* LXNetworkingController.h */,
+				4BFCEDB8228E7FCF009EE3DD /* LXNetworkingController.m */,
+			);
+			path = LXNetworking;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -789,7 +950,9 @@
 				4BDA04D622533AF3004450E6 /* shaderv.vsh in Resources */,
 				4BDA048122533ACB004450E6 /* Images.xcassets in Resources */,
 				4BDA04D022533AF2004450E6 /* STXINGKA.ttf in Resources */,
+				4B0645F92269670300D99E54 /* CornerViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				4B352FCC2296945C0047C33C /* test.html in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				4BDA04D522533AF3004450E6 /* shaderf.fsh in Resources */,
 				4B4799C02266BC2100C5844B /* SwitchButtonCell.xib in Resources */,
@@ -838,8 +1001,10 @@
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/YDProject/YDProject.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFPlayer/ZFPlayer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -849,8 +1014,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YDProject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFPlayer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -888,27 +1055,42 @@
 				4BDA04D322533AF3004450E6 /* OpengGLLesson1.m in Sources */,
 				4BDA04E122533D8F004450E6 /* LXHouseTagView.m in Sources */,
 				4BDA04CC22533AF2004450E6 /* YDAppDelegate.m in Sources */,
+				4B82FA7422A8EACA00CB42AF /* LXCardTestViewController.m in Sources */,
+				4B82FA7722A8EC2300CB42AF /* LXBrokerCardView.m in Sources */,
+				4B4726082285743A0000AA16 /* LXHouseAlbumController.m in Sources */,
 				4B7F1ADC2264B0C400F24770 /* ButtonContentPositionController.m in Sources */,
 				4BDA048222533ACB004450E6 /* YDTest.m in Sources */,
 				B01C2DE6218A982900D4D723 /* LearnSwift.swift in Sources */,
 				4BDA04C922533AF2004450E6 /* YDBlock.m in Sources */,
 				4BDA04C422533AF2004450E6 /* TestNetWorkController.m in Sources */,
+				4BFCEDB9228E7FD0009EE3DD /* LXNetworkingController.m in Sources */,
 				4BDA04CE22533AF2004450E6 /* TestModel.m in Sources */,
 				4BDA04CF22533AF2004450E6 /* TestMainViewController.m in Sources */,
+				4B352FC8229693E80047C33C /* LXWebViewController.m in Sources */,
+				4B5FE26122731C21002AB0B7 /* LXImageCutViewController.m in Sources */,
+				4B5FE26422754FBF002AB0B7 /* DebugViewController.m in Sources */,
 				4BDA04C522533AF2004450E6 /* TestThreadController.m in Sources */,
 				4B4799B92266B65F00C5844B /* SettingViewController.m in Sources */,
 				4BDA04D722533AF3004450E6 /* OGLesson2View.m in Sources */,
-				4B7F1ABA22607BF100F24770 /* GradientViewController.m in Sources */,
+				4BA3A85A229D0D0200B071A6 /* LXSegueToLouxunController.m in Sources */,
 				4BDA04D422533AF3004450E6 /* OpengGLMainViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				4BDA047F22533ACB004450E6 /* YDPerson.m in Sources */,
 				4BDA04E5225346C2004450E6 /* LXHouseLeadPage.m in Sources */,
+				4B352FCF22969ED80047C33C /* LXWebViewJSBridge.m in Sources */,
 				4BDA04CA22533AF2004450E6 /* BlockViewController.m in Sources */,
+				4BFCEDB5228E5272009EE3DD /* LXNetwokingConfigManager.m in Sources */,
 				4BDA04D822533AF3004450E6 /* OpenGLLesson2.m in Sources */,
 				4BDA04D222533AF2004450E6 /* CoreGraphicsViewController.m in Sources */,
+				4B472604228401920000AA16 /* LXNetworking.m in Sources */,
 				4BDA04C722533AF2004450E6 /* TestBasicMainViewController.m in Sources */,
+				4BFCEDB2228D6009009EE3DD /* LXHTTPSessionManager.m in Sources */,
+				4B82FA7022A8E85300CB42AF /* LXBrokerMainController.m in Sources */,
 				4BDA04CB22533AF2004450E6 /* LXMainViewController.m in Sources */,
+				4B0645F82269670300D99E54 /* CornerViewController.m in Sources */,
 				4BDA04DE22533D76004450E6 /* LXHouseTagController.m in Sources */,
+				4B47260C2286B3B50000AA16 /* LXNewHouseImageModel.m in Sources */,
+				4BDF5363227FC8F500D0EE3D /* StringStatementController.m in Sources */,
 				4B4799BF2266BC2100C5844B /* SwitchButtonCell.m in Sources */,
 				4BDA04C822533AF2004450E6 /* YDPushAndPresentViewController.m in Sources */,
 				4BDA04C622533AF2004450E6 /* TestFloatingController.m in Sources */,
@@ -1049,7 +1231,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDProject/YDProject-Prefix.pch";
 				INFOPLIST_FILE = "YDProject/YDProject-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -1057,6 +1239,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "YDProject/YDProject_Example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
+				WARNING_CFLAGS = "-Wno-ambiguous-macro";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1072,13 +1255,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDProject/YDProject-Prefix.pch";
 				INFOPLIST_FILE = "YDProject/YDProject-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "YDProject/YDProject_Example-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
+				WARNING_CFLAGS = "-Wno-ambiguous-macro";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -37,6 +37,8 @@
         case TestViewModelTypeLXHouse:
             [self settingLXHouseDataSource];
             break;
+        case TestViewModelTypeLXBroker:
+            [self settingLXBrokerDataSource];
         default:
             break;
     }
@@ -50,6 +52,7 @@
     self.dataArray = @[Test(@"NetWork", @"TestNetWorkController"),
                        Test(@"Basic", @"TestBasicMainViewController"),
                        Test(@"LXHouse", @"LXMainViewController"),
+                       Test(@"LXBroker-楼讯经纪", @"LXBrokerMainController"),
                        Test(@"OpenGL", @"OpengGLMainViewController"),
                        Test(@"CoreGraphics", @"CoreGraphicsViewController"),
                        Test(@"FloatingButton", @"TestFloatingController"),
@@ -69,14 +72,16 @@
 - (void)settingCoreGraphicsDataSource
 {
     self.dataArray = @[Test(@"文本属性Attributes", @"AttributesController"),
-                       Test(@"设置渐变层Gradient", @"GradientViewController")];
+                       Test(@"设置圆角CornerRadius", @"CornerViewController")];
 }
 
 #pragma mark - basic
 - (void)settingBasicDataSource
 {
     self.dataArray = @[Test(@"Thread", @"TestThreadController"),
-                       Test(@"DecimalString", @"DecimalStringViewController"),];
+                       Test(@"DecimalString", @"DecimalStringViewController"),
+                       Test(@"Debug", @"DebugViewController"),
+                       Test(@"多行字符串的声明", @"StringStatementController"),];
 }
 
 
@@ -86,7 +91,19 @@
     self.dataArray = @[Test(@"TagView", @"LXHouseTagController"),
                        Test(@"LeadPage", @"LXHouseLeadPage"),
                        Test(@"Graphics", @"LXGraphicsController"),
-                       Test(@"ButtonContent", @"ButtonContentPositionController"),];
+                       Test(@"ButtonContent", @"ButtonContentPositionController"),
+                       Test(@"ImageCut", @"LXImageCutViewController"),
+                       Test(@"Album", @"LXHouseAlbumController"),
+                       Test(@"Networking", @"LXNetworkingController"),
+                       Test(@"WebView", @"LXWebViewController"),
+                       Test(@"SegueToLouxunApp", @"LXSegueToLouxunController"),];
+}
+
+
+#pragma mark - LXBroker
+- (void)settingLXBrokerDataSource
+{
+    self.dataArray = @[Test(@"CardView", @"LXCardTestViewController"),];
 }
 
 

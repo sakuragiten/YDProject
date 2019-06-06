@@ -66,19 +66,23 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     
-    return self.imageArray.count;
+    return self.imageArray.count * 100;
 }
 
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     
     // Configure the cell
-    UIImage *image = self.imageArray[indexPath.row];
+    UIImage *image = self.imageArray[indexPath.row % self.imageArray.count];
     UIImageView *imageView = [self imageViewFromCell:cell];
     imageView.image = image;
     
     UIButton *finishBtn = [self finishButtonFromCell:cell];
-    finishBtn.hidden = indexPath.row != self.imageArray.count - 1;
+    finishBtn.hidden = indexPath.row % self.imageArray.count != self.imageArray.count - 1;
+    
+    
+    
+    NSLog(@"current row === %ld", indexPath.row);
     
     return cell;
 }
@@ -125,8 +129,12 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (void)finishAction
 {
-    !_finishHandle ? : _finishHandle();
-    [self dismissViewControllerAnimated:YES completion:nil];
+//    !_finishHandle ? : _finishHandle();
+//    [self dismissViewControllerAnimated:YES completion:nil];
+    
+    int r = arc4random_uniform(300);
+    CGPoint p = CGPointMake(r * self.collectionView.frame.size.width, 0);
+    [self.collectionView setContentOffset:p];
 }
 
 #pragma mark <UICollectionViewDelegate>

@@ -9,38 +9,9 @@
 #import <UIKit/UIKit.h>
 
 
-
-@interface LXHouseTagStyle : NSObject
-
-/** 圆角 默认2*/
-@property(nonatomic, assign) CGFloat cornerRadius;
-
-/** 边框 默认0*/
-@property(nonatomic, assign) CGFloat borderWidth;
-
-/** 边框颜色 */
-@property(nonatomic, strong) UIColor *borderColor;
-
-/** 文字颜色 */
-@property(nonatomic, strong) UIColor *textColor;
-
-/** 背景颜色 */
-@property(nonatomic, strong) UIColor *backgroundColor;
-
-/** 默认的样式 */
-+ (instancetype)defaultStyle;
-
-/** 样式的数据集合 */
-+ (NSDictionary *)houseTagStyleDict;
-
-@end
-
-
-
-
-
-
 NS_ASSUME_NONNULL_BEGIN
+
+@class LXHouseTagStyle;
 
 @interface LXHouseTagView : UIView
 
@@ -51,7 +22,19 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, copy) void (^heightRefresh)(CGFloat height);
 
 
+/** max number of lines,  deafult is 0 */
+@property(nonatomic, assign) NSInteger maxNumberOfLines;
 
+/** max number of tags, deafult is 0 */
+@property(nonatomic, assign) NSInteger maxNumberOfTags;
+
+@property(nonatomic, assign) CGFloat minimumLineSpacing;
+
+@property(nonatomic, assign) CGFloat minimumInteritemSpacing;
+
+
+
+- (void)reloadTagView:(NSArray<NSString *> *)tagsArray heightRefresh:(void (^)(CGFloat height))heightRefresh;
 
 - (void)reloadData;
 
@@ -85,7 +68,43 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
+/**
+ tag 是否支持滚动 默认为 NO
+ */
+@property (nonatomic, assign) BOOL scrollEnable;
+
+
+
 
 @end
+
+
+
+
+@interface LXHouseTagStyle : NSObject
+
+/** 圆角 默认2*/
+@property(nonatomic, assign) CGFloat cornerRadius;
+
+/** 边框 默认0*/
+@property(nonatomic, assign) CGFloat borderWidth;
+
+/** 边框颜色 */
+@property(nonatomic, strong) UIColor *borderColor;
+
+/** 文字颜色 */
+@property(nonatomic, strong) UIColor *textColor;
+
+/** 背景颜色 */
+@property(nonatomic, strong) UIColor *backgroundColor;
+
+/** 默认的样式 */
++ (instancetype)defaultStyle;
+
+/** 样式的数据集合 */
++ (NSDictionary *)houseTagStyleDict;
+
+@end
+
 
 NS_ASSUME_NONNULL_END

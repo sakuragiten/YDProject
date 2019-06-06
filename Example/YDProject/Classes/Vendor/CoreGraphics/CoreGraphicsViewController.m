@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSString *text = @"1???";
+    NSString *text2 = @"2？？？";
+    NSLog(@"%@", [text substringToIndex:1]);
+    NSLog(@"%.2f-----%.2f", text.doubleValue, text2.doubleValue);
 }
 
 - (TestViewModelType)getDataType

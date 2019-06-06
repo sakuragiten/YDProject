@@ -1,3 +1,5 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'YDProject_Example' do
@@ -7,7 +9,13 @@ target 'YDProject_Example' do
   pod 'Masonry'
   pod 'ReactiveCocoa', '~>2.5'
   pod 'PaulGeorge', :git=> 'https://github.com/sakuragiten/PaulGeorge.git'
-
+  
+  pod 'ZFPlayer', '~> 3.0'
+  pod 'ZFPlayer/ControlView', '~> 3.0'
+  pod 'ZFPlayer/AVPlayer', '~> 3.0'
+  
+  pod 'SAMKeychain', '~> 1.5.3'
+  
   target 'YDProject_Tests' do
     inherit! :search_paths
 

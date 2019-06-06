@@ -21,7 +21,6 @@ NS_ASSUME_NONNULL_BEGIN
 /** 一般 默认黄色 */
 @property(nonatomic, strong) UIColor *normalColor;
 
-
 /** 卡顿 默认红色 */
 @property(nonatomic, strong) UIColor *worseColor;
 

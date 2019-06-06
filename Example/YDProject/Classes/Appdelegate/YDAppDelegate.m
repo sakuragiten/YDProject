@@ -23,8 +23,17 @@
     [self.window makeKeyAndVisible];
     
     
+    
+    [LXNetworking setupAndConfigurationForNewWorking];
+    
+    
     return YES;
 }
+
+
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

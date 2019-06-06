@@ -41,7 +41,7 @@
 - (void)configuration
 {
     _smoothlyColor = [UIColor greenColor];
-    _normalColor = [UIColor colorWithRed:250 green:205 blue:59 alpha:1];
+    _normalColor = [UIColor colorWithRed:250/255.0 green:205/255.0 blue:59/255.0 alpha:1];
     _worseColor = [UIColor redColor];
     
     _valueLabel = [FPSLabel new];
@@ -62,9 +62,9 @@
     _valueLabel.text = [NSString stringWithFormat:@"FPS: %@", valueString];
     
     UIColor *textColor;
-    if (_value < 70) {
+    if (_value > 55) {
         textColor = _smoothlyColor;
-    } else if (_value < 100) {
+    } else if (_value > 30) {
         textColor = _normalColor;
     } else {
         textColor = _worseColor;
@@ -148,7 +148,11 @@
     if (self = [super init]) {
         CGSize screenSize = [UIScreen mainScreen].bounds.size;
         CGSize fpsSize = CGSizeMake(70, 30);
-        self.font = [UIFont systemFontOfSize:15 weight:UIFontWeightMedium];
+        if (@available(iOS 8.2, *)) {
+            self.font = [UIFont systemFontOfSize:15 weight:UIFontWeightMedium];
+        } else {
+            self.font = [UIFont systemFontOfSize:15];
+        }
         self.textAlignment = NSTextAlignmentCenter;
         self.layer.backgroundColor = [UIColor lightGrayColor].CGColor;
         self.layer.cornerRadius = 15;

@@ -12,6 +12,5 @@
 #import "YDNetwork.h"
 #import "YDFPS.h"
 
-#import "YDProject-Swift.h"
 
 #endif /* YDHeader_h */

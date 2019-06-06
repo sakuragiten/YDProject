@@ -29,18 +29,30 @@ PODS:
   - RxCocoa (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
   - RxSwift (4.5.0)
+  - SAMKeychain (1.5.3)
   - SnapKit (4.2.0)
   - YDProject (0.1.1):
     - AFNetworking (~> 3.1)
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
     - SnapKit
+  - ZFPlayer (3.2.10):
+    - ZFPlayer/Core (= 3.2.10)
+  - ZFPlayer/AVPlayer (3.2.10):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (3.2.10):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (3.2.10)
 
 DEPENDENCIES:
   - Masonry
   - PaulGeorge (from `https://github.com/sakuragiten/PaulGeorge.git`)
   - ReactiveCocoa (~> 2.5)
+  - SAMKeychain (~> 1.5.3)
   - YDProject (from `../`)
+  - ZFPlayer (~> 3.0)
+  - ZFPlayer/AVPlayer (~> 3.0)
+  - ZFPlayer/ControlView (~> 3.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -49,7 +61,9 @@ SPEC REPOS:
     - ReactiveCocoa
     - RxCocoa
     - RxSwift
+    - SAMKeychain
     - SnapKit
+    - ZFPlayer
 
 EXTERNAL SOURCES:
   PaulGeorge:
@@ -59,7 +73,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   PaulGeorge:
-    :commit: d3ea4212217df6ccca0b412cf0aadcb6ba265559
+    :commit: ec8a1ddf42a8d5eeb98832f82b01ddaeafa9d3eb
     :git: https://github.com/sakuragiten/PaulGeorge.git
 
 SPEC CHECKSUMS:
@@ -69,9 +83,11 @@ SPEC CHECKSUMS:
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  YDProject: 835d62d296e4585a91a4fe05ffab745497ab2224
+  YDProject: 7ad8e776fc4622582e9c9267ca1b516652c16c46
+  ZFPlayer: a51c6ffebaf06b91d373091bb4a62ee188cfc7de
 
-PODFILE CHECKSUM: 80474b53b4fda4cb145a50218f25353f622aa0b7
+PODFILE CHECKSUM: d0fcd19062df0825c9ced267a0d6f963e7d69858
 
 COCOAPODS: 1.6.1

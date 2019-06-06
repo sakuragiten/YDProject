@@ -11,7 +11,6 @@
 @interface LXHouseTagFlowLayout : UICollectionViewFlowLayout
 
 
-
 @end
 
 
@@ -27,20 +26,32 @@
     UICollectionViewLayoutAttributes *attr = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
     
     id<UICollectionViewDelegateFlowLayout> delegate = (id<UICollectionViewDelegateFlowLayout>)self.collectionView.delegate;
+    LXHouseTagView *tagView = (LXHouseTagView *)delegate;
     
     CGSize size = [delegate collectionView:self.collectionView layout:self sizeForItemAtIndexPath:indexPath];
     static UICollectionViewLayoutAttributes *attr1 = nil;
+    static int numberOfLine = 0;
     if (indexPath.row == 0) {
         attr.frame = CGRectMake(0, 0, size.width, size.height);
+        numberOfLine = 0;
     } else {
-        CGFloat x = attr1.frame.origin.x + attr1.frame.size.width + self.minimumInteritemSpacing;
-        CGFloat viewWidth = CGRectGetWidth(self.collectionView.frame) - x;
-        
-        if (viewWidth >= size.width) {
-            attr.frame = CGRectMake(x, attr1.frame.origin.y, size.width, size.height);
-        } else {
-            CGFloat y = attr1.frame.origin.y + attr1.bounds.size.height + self.minimumLineSpacing;
-            attr.frame = CGRectMake(0, y, size.width, size.height);
+        attr.frame = CGRectZero;
+        if (tagView.maxNumberOfLines == 0 || numberOfLine < tagView.maxNumberOfLines) {
+            CGFloat x = attr1.frame.origin.x + attr1.frame.size.width + self.minimumInteritemSpacing;
+            CGFloat viewWidth = CGRectGetWidth(self.collectionView.frame) - x;
+            
+            if (viewWidth >= size.width) {
+                attr.frame = CGRectMake(x, attr1.frame.origin.y, size.width, size.height);
+            } else {
+                numberOfLine ++; //换行了
+                if (tagView.maxNumberOfLines == 0 || numberOfLine < tagView.maxNumberOfLines) {
+                    CGFloat y = attr1.frame.origin.y + attr1.bounds.size.height + self.minimumLineSpacing;
+                    attr.frame = CGRectMake(0, y, size.width, size.height);
+                } else {
+                    NSLog(@"bkx");
+                    return attr;
+                }
+            }
         }
     }
     attr1 = attr;
@@ -55,7 +66,7 @@
     for (int b = 0; b < section; b ++) {
         NSInteger count = [self.collectionView numberOfItemsInSection:b];
         //add cells
-        for (int i=0; i<count; i++)
+        for (int i = 0; i<count; i++)
         {
             NSIndexPath *indexPath = [NSIndexPath indexPathForItem:i inSection:b];
             
@@ -82,6 +93,11 @@
 
 @property(nonatomic, copy) void (^styleHandle)(LXHouseTagStyle * _Nonnull style, NSString * _Nonnull title);
 
+/** 文字标签的缓存 */
+@property(nonatomic, strong) NSMutableDictionary *tagSizeCache;
+
+/** 不能直接用 maxNumberOfTags 因为可能设置了行数 */
+@property(nonatomic, assign) NSInteger maxCount;
 
 @end
 
@@ -117,13 +133,104 @@ static NSDictionary *_styleDict = nil;
 - (void)setupConfiguration
 {
     
-    self.tagsArray = @[@"托尔斯泰", @"tdsfsdfs", @"电费水费", @"打得过大公鸡分公司", @"d", @"dgsdfhggksdkfg", @"特卖", @"严选", @"停售", @"即将开盘", @"商业", @"在售", @"售罄", @"待售"];
+//    self.tagsArray = @[@"托尔斯泰", @"tdsfsdfs", @"电费水费", @"打得过大公鸡分公司", @"d", @"dgsdfhggksdkfg", @"特卖", @"严选", @"停售", @"即将开盘", @"商业", @"在售", @"售罄", @"待售"];
     self.contentEdge = UIEdgeInsetsZero;
     self.textEdge = UIEdgeInsetsMake(3, 10, 3, 10);
+    self.minimumLineSpacing = 6.0;
+    self.minimumInteritemSpacing = 6.0;
+    
     self.font = [UIFont systemFontOfSize:10.0 weight:UIFontWeightMedium];
+//    self.maxNumberOfLines = 2;
     if (_styleDict == nil) _styleDict = [LXHouseTagStyle houseTagStyleDict];
     
+    @weakify(self)
+    [[[RACObserve(self.collectionView, contentSize)
+       skip:1]
+      distinctUntilChanged]
+     subscribeNext:^(id x) {
+         @strongify(self)
+         CGFloat height = [x CGSizeValue].height;
+         !self.heightRefresh ? : self.heightRefresh(height);
+         NSLog(@"%@", x);
+    }];
+    
+    
     [self setupUI];
+}
+
+
+
+
+
+- (void)reloadTagView:(NSArray<NSString *> *)tagsArray heightRefresh:(void (^)(CGFloat))heightRefresh
+{
+    self.heightRefresh = heightRefresh;
+    
+    [self reloadTagView:[self sortedTagArray:tagsArray]];
+}
+
+
+- (void)reloadTagView:(NSArray<NSString *> *)tagsArray
+{
+    if (tagsArray.count == 0) {
+        !self.heightRefresh ? : self.heightRefresh(0);
+        return;
+    }
+    
+    _tagsArray = tagsArray;
+    
+    [self reloadData];
+}
+
+
+- (NSArray *)sortedTagArray:(NSArray *)tagArray
+{
+    //前三个 按 在售 住宅 榜单  中间正常显示  长的放在后面
+    NSMutableArray *tmp = [NSMutableArray array];
+    NSMutableArray *lengthTagArray = [NSMutableArray array];
+    NSMutableArray *bdArray = [NSMutableArray array]; //榜单可以有多种  比如 热卖 热搜 需要同时显示
+    NSString *selling, *residence, *special, *strict;
+    
+    for (NSString *tagName in tagArray) {
+        //过滤掉空字符串
+        if (tagName.length == 0) continue;
+        
+        NSString *tag = tagName;
+        if (tagName.length > 12) {
+            tag = [NSString stringWithFormat:@"%@...", [tagName substringToIndex:12]];
+        }
+        
+        if ([@[@"在售", @"待售",  @"即将开盘", @"售罄", @"尾盘"] containsObject:tag]) {
+            selling = tag;
+        } else if ([@[@"商业", @"住宅",  @"办公", @"别墅", @"公寓", @"其他"] containsObject:tag]) {
+            residence = tag;
+        } else if ([tag hasPrefix:@"BD"]) {
+            [bdArray addObject:[tag substringFromIndex:2]];
+        } else if ([tag isEqualToString:@"特卖"]) {
+            special = tag;
+        } else if ([tag isEqualToString:@"严选"]) {
+            strict = tag;
+        } else if (tag.length > 9) {
+            [lengthTagArray addObject:tag];
+        } else {
+            [tmp addObject:tag];
+        }
+    }
+    //严选优先级最高
+    
+    if (bdArray.count) {
+        NSIndexSet *indexSet = [NSIndexSet indexSetWithIndexesInRange:NSMakeRange(0, bdArray.count)];
+        [tmp insertObjects:bdArray atIndexes:indexSet];
+    }
+    if (residence) [tmp insertObject:residence atIndex:0];
+    if (selling) [tmp insertObject:selling atIndex:0];
+    if (special) [tmp insertObject:special atIndex:0];
+    if (strict) [tmp insertObject:strict atIndex:0];
+    
+    
+    [tmp addObjectsFromArray:lengthTagArray];
+    
+    return tmp;
 }
 
 
@@ -133,19 +240,75 @@ static NSDictionary *_styleDict = nil;
 }
 
 
+- (void)layoutSubviews
+{
+    
+    [self collectionLayout];
+}
+
+- (void)collectionLayout
+{
+    CGFloat x = self.contentEdge.left;
+    CGFloat y = self.contentEdge.top;
+    CGFloat w = self.frame.size.width - x - self.contentEdge.right;
+    CGFloat h = self.frame.size.height - y - self.contentEdge.bottom;
+    self.collectionView.frame = CGRectMake(x, y, w, h);
+}
+
 - (void)setupUI
 {
     [self addSubview:self.collectionView];
-    
-    [_collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.right.bottom.mas_equalTo(0);
-    }];
+    _collectionView.backgroundColor = [UIColor greenColor];
+    [self collectionLayout];
 }
 
 
 - (void)reloadData
 {
+    self.maxCount = [self getMaxCountInLines];
     [self.collectionView reloadData];
+}
+
+
+//指定行数内 最多显示多少个
+- (NSInteger)getMaxCountInLines
+{
+    if (self.maxNumberOfLines > 0) {
+        NSInteger numberOfLine = 0;
+        CGFloat currentWidth = 0;
+        CGFloat space = 0;
+        for (int i = 0; i < self.tagsArray.count; i ++) {
+            NSString *tag = self.tagsArray[i];
+            CGSize size = [self sizeOfTag:tag];
+            
+            CGFloat needWidth = size.width + space + currentWidth;
+            CGFloat contentWidth = self.collectionView.frame.size.width - self.contentEdge.left - self.contentEdge.right;
+            if (needWidth < contentWidth) {
+                currentWidth = needWidth;
+            } else {
+                //换行了
+                numberOfLine ++;
+                if (numberOfLine < self.maxNumberOfLines) {
+                    currentWidth = size.width;
+                } else {
+                    if (self.maxNumberOfTags == 0 || self.maxNumberOfTags > i) {
+                        return i > 0 ? i - 1 : 0;
+                    } else {
+                        return self.maxNumberOfTags;
+                    }
+                }
+            }
+            space = self.minimumInteritemSpacing;
+        }
+        
+        return self.tagsArray.count;
+        
+    } else {
+        if (self.maxNumberOfTags == 0) {
+            return self.tagsArray.count;
+        }
+        return self.maxNumberOfTags;
+    }
 }
 
 
@@ -154,12 +317,13 @@ static NSDictionary *_styleDict = nil;
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
-    return 3;
+    return 1;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return self.tagsArray.count;
+    NSLog(@"maxCount == %ld", self.maxCount);
+    return self.maxCount;
 }
 
 
@@ -183,12 +347,16 @@ static NSDictionary *_styleDict = nil;
 
 - (CGSize)sizeOfTag:(NSString *)tag
 {
+    if (self.tagSizeCache[tag]) {
+        return [self.tagSizeCache[tag] CGSizeValue];
+    }
+    
     CGFloat maxWidth = self.bounds.size.width - self.contentEdge.left - self.contentEdge.right;
     NSDictionary *attributes = @{NSFontAttributeName : self.font};
     CGSize textSize = [tag boundingRectWithSize:CGSizeMake(maxWidth, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil].size;
     textSize.width += self.textEdge.left + self.textEdge.right;
     textSize.height += self.textEdge.top + self.textEdge.bottom;
-    
+    self.tagSizeCache[tag] = [NSValue valueWithCGSize:textSize];
     return textSize;
 }
 
@@ -255,11 +423,20 @@ static NSDictionary *_styleDict = nil;
         _collectionView.backgroundColor = [UIColor clearColor];
         _collectionView.delegate = self;
         _collectionView.dataSource = self;
+        _collectionView.scrollEnabled = self.scrollEnable;
         
         [_collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"LXTagViewCell"];
     }
     
     return _collectionView;
+}
+
+- (NSMutableDictionary *)tagSizeCache
+{
+    if (!_tagSizeCache) {
+        _tagSizeCache = [NSMutableDictionary dictionary];
+    }
+    return _tagSizeCache;
 }
 
 
