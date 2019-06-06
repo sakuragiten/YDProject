@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LXBrokerCardView : UIView
 
+/** number of count item in one page, default is 3 */
+@property(nonatomic, assign) NSInteger numberOfItemPerPage;
+
 
 
 

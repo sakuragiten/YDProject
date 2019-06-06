@@ -28,6 +28,7 @@
 		4B82FA7022A8E85300CB42AF /* LXBrokerMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82FA6F22A8E85300CB42AF /* LXBrokerMainController.m */; };
 		4B82FA7422A8EACA00CB42AF /* LXCardTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82FA7322A8EACA00CB42AF /* LXCardTestViewController.m */; };
 		4B82FA7722A8EC2300CB42AF /* LXBrokerCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82FA7622A8EC2300CB42AF /* LXBrokerCardView.m */; };
+		4B82FA7A22A8F3EB00CB42AF /* LXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82FA7922A8F3EB00CB42AF /* LXPageControl.m */; };
 		4BA3A85A229D0D0200B071A6 /* LXSegueToLouxunController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3A859229D0D0200B071A6 /* LXSegueToLouxunController.m */; };
 		4BDA047F22533ACB004450E6 /* YDPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA047A22533ACB004450E6 /* YDPerson.m */; };
 		4BDA048122533ACB004450E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA047C22533ACB004450E6 /* Images.xcassets */; };
@@ -130,6 +131,8 @@
 		4B82FA7322A8EACA00CB42AF /* LXCardTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXCardTestViewController.m; sourceTree = "<group>"; };
 		4B82FA7522A8EC2300CB42AF /* LXBrokerCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBrokerCardView.h; sourceTree = "<group>"; };
 		4B82FA7622A8EC2300CB42AF /* LXBrokerCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBrokerCardView.m; sourceTree = "<group>"; };
+		4B82FA7822A8F3EB00CB42AF /* LXPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXPageControl.h; sourceTree = "<group>"; };
+		4B82FA7922A8F3EB00CB42AF /* LXPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXPageControl.m; sourceTree = "<group>"; };
 		4BA3A858229D0D0200B071A6 /* LXSegueToLouxunController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXSegueToLouxunController.h; sourceTree = "<group>"; };
 		4BA3A859229D0D0200B071A6 /* LXSegueToLouxunController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSegueToLouxunController.m; sourceTree = "<group>"; };
 		4BDA047922533ACB004450E6 /* YDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTest.h; sourceTree = "<group>"; };
@@ -428,6 +431,8 @@
 			children = (
 				4B82FA7522A8EC2300CB42AF /* LXBrokerCardView.h */,
 				4B82FA7622A8EC2300CB42AF /* LXBrokerCardView.m */,
+				4B82FA7822A8F3EB00CB42AF /* LXPageControl.h */,
+				4B82FA7922A8F3EB00CB42AF /* LXPageControl.m */,
 			);
 			path = CardView;
 			sourceTree = "<group>";
@@ -1061,6 +1066,7 @@
 				4B7F1ADC2264B0C400F24770 /* ButtonContentPositionController.m in Sources */,
 				4BDA048222533ACB004450E6 /* YDTest.m in Sources */,
 				B01C2DE6218A982900D4D723 /* LearnSwift.swift in Sources */,
+				4B82FA7A22A8F3EB00CB42AF /* LXPageControl.m in Sources */,
 				4BDA04C922533AF2004450E6 /* YDBlock.m in Sources */,
 				4BDA04C422533AF2004450E6 /* TestNetWorkController.m in Sources */,
 				4BFCEDB9228E7FD0009EE3DD /* LXNetworkingController.m in Sources */,

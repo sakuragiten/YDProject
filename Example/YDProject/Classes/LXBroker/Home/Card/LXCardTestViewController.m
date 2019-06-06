@@ -8,7 +8,13 @@
 
 #import "LXCardTestViewController.h"
 
+#import "LXBrokerCardView.h"
+
 @interface LXCardTestViewController ()
+
+
+@property (nonatomic, strong) LXBrokerCardView *cardView;
+
 
 @end
 
@@ -26,6 +32,16 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.navigationBar.translucent = NO;
     self.edgesForExtendedLayout = UIRectEdgeNone;
+    
+    
+    _cardView = [LXBrokerCardView new];
+    [self.view addSubview:_cardView];
+    
+    [_cardView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.mas_equalTo(20);
+        make.right.mas_equalTo(-20);
+        make.height.mas_equalTo(140);
+    }];
     
 }
 
