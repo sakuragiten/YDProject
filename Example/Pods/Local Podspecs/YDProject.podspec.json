@@ -16,12 +16,21 @@
     "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
   "source_files": "YDProject/Classes/**/*",
   "dependencies": {
     "AFNetworking": [
       "~> 3.1"
+    ],
+    "RxSwift": [
+      "~> 4.0"
+    ],
+    "RxCocoa": [
+      "~> 4.0"
+    ],
+    "SnapKit": [
+
     ]
   },
   "prefix_header_contents": "#import \"YDMacro.h\"\n#import \"YDHeader.h\""
