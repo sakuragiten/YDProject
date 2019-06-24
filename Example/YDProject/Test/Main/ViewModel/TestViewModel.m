@@ -67,7 +67,8 @@
 #pragma mark - basic
 - (void)settingBasicDataSource
 {
-    self.dataArray = @[Test(@"Thread", @"TestThreadController"),];
+    self.dataArray = @[Test(@"Thread", @"TestThreadController"),
+                       Test(@"Designated Initializer", @"TestDesignatedInitializer"),];
 }
 
 
