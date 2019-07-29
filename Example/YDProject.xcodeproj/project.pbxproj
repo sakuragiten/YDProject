@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0F591E22297593008A97AE /* TestDesignatedInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F591D22297593008A97AE /* TestDesignatedInitializer.m */; };
+		3C0F5921222975F3008A97AE /* DIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F5920222975F3008A97AE /* DIPerson.m */; };
+		3C0F59242229773C008A97AE /* DIMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F59232229773C008A97AE /* DIMan.m */; };
+		3C40B5F1221D02CD0088AB68 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C40B5F0221D02CD0088AB68 /* BlockViewController.m */; };
+		3C40B5F4221D04600088AB68 /* YDBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C40B5F3221D04600088AB68 /* YDBlock.m */; };
+		3CE0E21E2223D51F00C84265 /* YDPushAndPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0E21D2223D51F00C84265 /* YDPushAndPresentViewController.m */; };
+		3CE0E22E222937DA00C84265 /* TestNetWorkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0E226222937DA00C84265 /* TestNetWorkController.m */; };
+		3CE0E22F222937DA00C84265 /* TestThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0E227222937DA00C84265 /* TestThreadController.m */; };
+		3CE0E230222937DA00C84265 /* TestFloatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0E228222937DA00C84265 /* TestFloatingController.m */; };
+		3CE0E231222937DA00C84265 /* TestBasicMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0E22D222937DA00C84265 /* TestBasicMainViewController.m */; };
 		4B0645F82269670300D99E54 /* CornerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0645F62269670300D99E54 /* CornerViewController.m */; };
 		4B0645F92269670300D99E54 /* CornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0645F72269670300D99E54 /* CornerViewController.xib */; };
 		4B0EFAA222EE8FAC00DDA154 /* LXMarkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0EFAA122EE8FAC00DDA154 /* LXMarkTableViewController.m */; };
@@ -105,6 +115,26 @@
 		124D8C5BB625CFBF851166B4 /* Pods-YDProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		16FD4D6C60990EB5BFFCFF64 /* YDProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDProject.podspec; path = ../YDProject.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1EDD2CF7E4D9A3612BA09FCF /* Pods_YDProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0F591C22297593008A97AE /* TestDesignatedInitializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDesignatedInitializer.h; sourceTree = "<group>"; };
+		3C0F591D22297593008A97AE /* TestDesignatedInitializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDesignatedInitializer.m; sourceTree = "<group>"; };
+		3C0F591F222975F3008A97AE /* DIPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIPerson.h; sourceTree = "<group>"; };
+		3C0F5920222975F3008A97AE /* DIPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIPerson.m; sourceTree = "<group>"; };
+		3C0F59222229773C008A97AE /* DIMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIMan.h; sourceTree = "<group>"; };
+		3C0F59232229773C008A97AE /* DIMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIMan.m; sourceTree = "<group>"; };
+		3C40B5EF221D02CD0088AB68 /* BlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		3C40B5F0221D02CD0088AB68 /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		3C40B5F2221D04600088AB68 /* YDBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBlock.h; sourceTree = "<group>"; };
+		3C40B5F3221D04600088AB68 /* YDBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBlock.m; sourceTree = "<group>"; };
+		3CE0E21C2223D51F00C84265 /* YDPushAndPresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushAndPresentViewController.h; sourceTree = "<group>"; };
+		3CE0E21D2223D51F00C84265 /* YDPushAndPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushAndPresentViewController.m; sourceTree = "<group>"; };
+		3CE0E225222937DA00C84265 /* TestFloatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFloatingController.h; sourceTree = "<group>"; };
+		3CE0E226222937DA00C84265 /* TestNetWorkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNetWorkController.m; sourceTree = "<group>"; };
+		3CE0E227222937DA00C84265 /* TestThreadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestThreadController.m; sourceTree = "<group>"; };
+		3CE0E228222937DA00C84265 /* TestFloatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFloatingController.m; sourceTree = "<group>"; };
+		3CE0E229222937DA00C84265 /* TestThreadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestThreadController.h; sourceTree = "<group>"; };
+		3CE0E22A222937DA00C84265 /* TestNetWorkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNetWorkController.h; sourceTree = "<group>"; };
+		3CE0E22C222937DA00C84265 /* TestBasicMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBasicMainViewController.h; sourceTree = "<group>"; };
+		3CE0E22D222937DA00C84265 /* TestBasicMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBasicMainViewController.m; sourceTree = "<group>"; };
 		4B0645F52269670300D99E54 /* CornerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CornerViewController.h; sourceTree = "<group>"; };
 		4B0645F62269670300D99E54 /* CornerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornerViewController.m; sourceTree = "<group>"; };
 		4B0645F72269670300D99E54 /* CornerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CornerViewController.xib; sourceTree = "<group>"; };
@@ -331,6 +361,12 @@
 		4B4799B42266B50900C5844B /* Page_1 */ = {
 			isa = PBXGroup;
 			children = (
+				3C0F591C22297593008A97AE /* TestDesignatedInitializer.h */,
+				3C0F591D22297593008A97AE /* TestDesignatedInitializer.m */,
+				3C0F591F222975F3008A97AE /* DIPerson.h */,
+				3C0F5920222975F3008A97AE /* DIPerson.m */,
+				3C0F59222229773C008A97AE /* DIMan.h */,
+				3C0F59232229773C008A97AE /* DIMan.m */,
 				4B5FE26222754FBF002AB0B7 /* DebugViewController.h */,
 				4B5FE26322754FBF002AB0B7 /* DebugViewController.m */,
 			);
@@ -1151,6 +1187,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01AF1E221F16EC500E2E6CC /* AttributesController.m in Sources */,
+				B0066FF720CF9DEF00BFBF2C /* YDTest.m in Sources */,
+				3CE0E22E222937DA00C84265 /* TestNetWorkController.m in Sources */,
+				B016E68921E71C7E009A4D4F /* OGLesson2View.m in Sources */,
+				B016E66E21E5D79D009A4D4F /* OpengGLLesson1.m in Sources */,
+				3CE0E21E2223D51F00C84265 /* YDPushAndPresentViewController.m in Sources */,
+				6003F59E195388D20070C39A /* YDAppDelegate.m in Sources */,
+				B016E66521E5D782009A4D4F /* TestModel.m in Sources */,
+				B016E68A21E71C7E009A4D4F /* OpenGLLesson2.m in Sources */,
+				3C0F5921222975F3008A97AE /* DIPerson.m in Sources */,
+				3CE0E22F222937DA00C84265 /* TestThreadController.m in Sources */,
+				B050B7AA21B6784B007F6A57 /* YDPerson.m in Sources */,
+				6003F5A7195388D20070C39A /* YDViewController.m in Sources */,
+				3C40B5F1221D02CD0088AB68 /* BlockViewController.m in Sources */,
+				3CE0E230222937DA00C84265 /* TestFloatingController.m in Sources */,
+				3CE0E231222937DA00C84265 /* TestBasicMainViewController.m in Sources */,
+				3C40B5F4221D04600088AB68 /* YDBlock.m in Sources */,
+				B01AF1DF21F16DD200E2E6CC /* CoreGraphicsViewController.m in Sources */,
+				3C0F59242229773C008A97AE /* DIMan.m in Sources */,
+				B016E66F21E5D79D009A4D4F /* OpengGLMainViewController.m in Sources */,
+				B016E66421E5D782009A4D4F /* TestMainViewController.m in Sources */,
+				B016E66321E5D782009A4D4F /* TestViewModel.m in Sources */,
+				B01C2DE6218A982900D4D723 /* LearnSwift.swift in Sources */,
+				3C0F591E22297593008A97AE /* TestDesignatedInitializer.m in Sources */,
 				4BDA04CD22533AF2004450E6 /* TestViewModel.m in Sources */,
 				4B7F1AC322642BDC00F24770 /* UIView+LXExtension.m in Sources */,
 				4B7F1ABF226427E900F24770 /* LXGraphicsController.m in Sources */,

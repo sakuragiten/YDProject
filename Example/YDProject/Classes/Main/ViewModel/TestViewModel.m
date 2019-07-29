@@ -80,6 +80,8 @@
 - (void)settingBasicDataSource
 {
     self.dataArray = @[Test(@"Thread", @"TestThreadController"),
+                       Test(@"Designated Initializer", @"TestDesignatedInitializer"),
+
                        Test(@"DecimalString", @"DecimalStringViewController"),
                        Test(@"Debug", @"DebugViewController"),
                        Test(@"RAC", @"TestRACViewController"),
