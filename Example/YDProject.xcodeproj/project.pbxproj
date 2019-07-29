@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4B0645F82269670300D99E54 /* CornerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0645F62269670300D99E54 /* CornerViewController.m */; };
 		4B0645F92269670300D99E54 /* CornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0645F72269670300D99E54 /* CornerViewController.xib */; };
+		4B0EFAA222EE8FAC00DDA154 /* LXMarkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0EFAA122EE8FAC00DDA154 /* LXMarkTableViewController.m */; };
 		4B0FD508225B1EB00067D7CA /* HouseTagStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B0FD507225B1EB00067D7CA /* HouseTagStyle.json */; };
 		4B352FC8229693E80047C33C /* LXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B352FC7229693E80047C33C /* LXWebViewController.m */; };
 		4B352FCC2296945C0047C33C /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B352FCB2296945C0047C33C /* test.html */; };
@@ -22,6 +23,7 @@
 		4B4799C02266BC2100C5844B /* SwitchButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4799BE2266BC2100C5844B /* SwitchButtonCell.xib */; };
 		4B5FE26122731C21002AB0B7 /* LXImageCutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FE26022731C21002AB0B7 /* LXImageCutViewController.m */; };
 		4B5FE26422754FBF002AB0B7 /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FE26322754FBF002AB0B7 /* DebugViewController.m */; };
+		4B65A39B22B73A8D003F36CB /* YDVideoTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B65A39A22B73A8D003F36CB /* YDVideoTestController.m */; };
 		4B7F1ABF226427E900F24770 /* LXGraphicsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F1ABE226427E900F24770 /* LXGraphicsController.m */; };
 		4B7F1AC322642BDC00F24770 /* UIView+LXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F1AC222642BDC00F24770 /* UIView+LXExtension.m */; };
 		4B7F1ADC2264B0C400F24770 /* ButtonContentPositionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7F1ADB2264B0C400F24770 /* ButtonContentPositionController.m */; };
@@ -29,6 +31,10 @@
 		4B82FA7422A8EACA00CB42AF /* LXCardTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82FA7322A8EACA00CB42AF /* LXCardTestViewController.m */; };
 		4B82FA7722A8EC2300CB42AF /* LXBrokerCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82FA7622A8EC2300CB42AF /* LXBrokerCardView.m */; };
 		4B82FA7A22A8F3EB00CB42AF /* LXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82FA7922A8F3EB00CB42AF /* LXPageControl.m */; };
+		4B82FA7D22ADE46300CB42AF /* LXPopLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B82FA7C22ADE46300CB42AF /* LXPopLabel.m */; };
+		4B8C9A5D22E9828300711060 /* LXMarkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C9A5C22E9828300711060 /* LXMarkController.m */; };
+		4B8C9A6022E983E000711060 /* UIView+Mark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C9A5F22E983E000711060 /* UIView+Mark.m */; };
+		4B9D87CE22CA1A4E004D5FD8 /* TestImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D87CD22CA1A4E004D5FD8 /* TestImageViewController.m */; };
 		4BA3A85A229D0D0200B071A6 /* LXSegueToLouxunController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA3A859229D0D0200B071A6 /* LXSegueToLouxunController.m */; };
 		4BDA047F22533ACB004450E6 /* YDPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA047A22533ACB004450E6 /* YDPerson.m */; };
 		4BDA048122533ACB004450E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA047C22533ACB004450E6 /* Images.xcassets */; };
@@ -58,6 +64,12 @@
 		4BDA04E122533D8F004450E6 /* LXHouseTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA04E022533D8F004450E6 /* LXHouseTagView.m */; };
 		4BDA04E5225346C2004450E6 /* LXHouseLeadPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA04E4225346C2004450E6 /* LXHouseLeadPage.m */; };
 		4BDF5363227FC8F500D0EE3D /* StringStatementController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF5362227FC8F500D0EE3D /* StringStatementController.m */; };
+		4BE645EB22B0D3E300A2CF54 /* LXBroadcastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE645EA22B0D3E300A2CF54 /* LXBroadcastView.m */; };
+		4BF5E59F22D57B1F003D57F3 /* YDCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5E59E22D57B1F003D57F3 /* YDCityController.m */; };
+		4BF5E5A122D57B92003D57F3 /* Area.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BF5E5A022D57B91003D57F3 /* Area.json */; };
+		4BF5E5A322D57E06003D57F3 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BF5E5A222D57E06003D57F3 /* city.json */; };
+		4BF5E5A522D5976B003D57F3 /* filterCity.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BF5E5A422D5976A003D57F3 /* filterCity.json */; };
+		4BFA764122C0ED47009F4E78 /* TestRACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA764022C0ED47009F4E78 /* TestRACViewController.m */; };
 		4BFCEDB2228D6009009EE3DD /* LXHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCEDB1228D6009009EE3DD /* LXHTTPSessionManager.m */; };
 		4BFCEDB5228E5272009EE3DD /* LXNetwokingConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCEDB4228E5272009EE3DD /* LXNetwokingConfigManager.m */; };
 		4BFCEDB9228E7FD0009EE3DD /* LXNetworkingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCEDB8228E7FCF009EE3DD /* LXNetworkingController.m */; };
@@ -96,6 +108,8 @@
 		4B0645F52269670300D99E54 /* CornerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CornerViewController.h; sourceTree = "<group>"; };
 		4B0645F62269670300D99E54 /* CornerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornerViewController.m; sourceTree = "<group>"; };
 		4B0645F72269670300D99E54 /* CornerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CornerViewController.xib; sourceTree = "<group>"; };
+		4B0EFAA022EE8FAC00DDA154 /* LXMarkTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXMarkTableViewController.h; sourceTree = "<group>"; };
+		4B0EFAA122EE8FAC00DDA154 /* LXMarkTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXMarkTableViewController.m; sourceTree = "<group>"; };
 		4B0FD507225B1EB00067D7CA /* HouseTagStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HouseTagStyle.json; sourceTree = "<group>"; };
 		4B352FC6229693E80047C33C /* LXWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXWebViewController.h; sourceTree = "<group>"; };
 		4B352FC7229693E80047C33C /* LXWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXWebViewController.m; sourceTree = "<group>"; };
@@ -119,6 +133,8 @@
 		4B5FE26022731C21002AB0B7 /* LXImageCutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXImageCutViewController.m; sourceTree = "<group>"; };
 		4B5FE26222754FBF002AB0B7 /* DebugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugViewController.h; sourceTree = "<group>"; };
 		4B5FE26322754FBF002AB0B7 /* DebugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugViewController.m; sourceTree = "<group>"; };
+		4B65A39922B73A8D003F36CB /* YDVideoTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDVideoTestController.h; sourceTree = "<group>"; };
+		4B65A39A22B73A8D003F36CB /* YDVideoTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDVideoTestController.m; sourceTree = "<group>"; };
 		4B7F1ABD226427E900F24770 /* LXGraphicsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXGraphicsController.h; sourceTree = "<group>"; };
 		4B7F1ABE226427E900F24770 /* LXGraphicsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXGraphicsController.m; sourceTree = "<group>"; };
 		4B7F1AC122642BDC00F24770 /* UIView+LXExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LXExtension.h"; sourceTree = "<group>"; };
@@ -133,6 +149,14 @@
 		4B82FA7622A8EC2300CB42AF /* LXBrokerCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBrokerCardView.m; sourceTree = "<group>"; };
 		4B82FA7822A8F3EB00CB42AF /* LXPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXPageControl.h; sourceTree = "<group>"; };
 		4B82FA7922A8F3EB00CB42AF /* LXPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXPageControl.m; sourceTree = "<group>"; };
+		4B82FA7B22ADE46300CB42AF /* LXPopLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXPopLabel.h; sourceTree = "<group>"; };
+		4B82FA7C22ADE46300CB42AF /* LXPopLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXPopLabel.m; sourceTree = "<group>"; };
+		4B8C9A5B22E9828300711060 /* LXMarkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXMarkController.h; sourceTree = "<group>"; };
+		4B8C9A5C22E9828300711060 /* LXMarkController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXMarkController.m; sourceTree = "<group>"; };
+		4B8C9A5E22E983E000711060 /* UIView+Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Mark.h"; sourceTree = "<group>"; };
+		4B8C9A5F22E983E000711060 /* UIView+Mark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Mark.m"; sourceTree = "<group>"; };
+		4B9D87CC22CA1A4E004D5FD8 /* TestImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestImageViewController.h; sourceTree = "<group>"; };
+		4B9D87CD22CA1A4E004D5FD8 /* TestImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestImageViewController.m; sourceTree = "<group>"; };
 		4BA3A858229D0D0200B071A6 /* LXSegueToLouxunController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXSegueToLouxunController.h; sourceTree = "<group>"; };
 		4BA3A859229D0D0200B071A6 /* LXSegueToLouxunController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSegueToLouxunController.m; sourceTree = "<group>"; };
 		4BDA047922533ACB004450E6 /* YDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTest.h; sourceTree = "<group>"; };
@@ -189,6 +213,15 @@
 		4BDA04E4225346C2004450E6 /* LXHouseLeadPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHouseLeadPage.m; sourceTree = "<group>"; };
 		4BDF5361227FC8F500D0EE3D /* StringStatementController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringStatementController.h; sourceTree = "<group>"; };
 		4BDF5362227FC8F500D0EE3D /* StringStatementController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringStatementController.m; sourceTree = "<group>"; };
+		4BE645E922B0D3E300A2CF54 /* LXBroadcastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBroadcastView.h; sourceTree = "<group>"; };
+		4BE645EA22B0D3E300A2CF54 /* LXBroadcastView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBroadcastView.m; sourceTree = "<group>"; };
+		4BF5E59D22D57B1F003D57F3 /* YDCityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDCityController.h; sourceTree = "<group>"; };
+		4BF5E59E22D57B1F003D57F3 /* YDCityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDCityController.m; sourceTree = "<group>"; };
+		4BF5E5A022D57B91003D57F3 /* Area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Area.json; sourceTree = "<group>"; };
+		4BF5E5A222D57E06003D57F3 /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
+		4BF5E5A422D5976A003D57F3 /* filterCity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = filterCity.json; sourceTree = "<group>"; };
+		4BFA763F22C0ED47009F4E78 /* TestRACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRACViewController.h; sourceTree = "<group>"; };
+		4BFA764022C0ED47009F4E78 /* TestRACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRACViewController.m; sourceTree = "<group>"; };
 		4BFCEDB0228D6009009EE3DD /* LXHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHTTPSessionManager.h; sourceTree = "<group>"; };
 		4BFCEDB1228D6009009EE3DD /* LXHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHTTPSessionManager.m; sourceTree = "<group>"; };
 		4BFCEDB3228E5272009EE3DD /* LXNetwokingConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNetwokingConfigManager.h; sourceTree = "<group>"; };
@@ -340,6 +373,15 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		4B65A39722B739F6003F36CB /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				4B65A39922B73A8D003F36CB /* YDVideoTestController.h */,
+				4B65A39A22B73A8D003F36CB /* YDVideoTestController.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
 		4B7F1AB522607B7100F24770 /* Layer */ = {
 			isa = PBXGroup;
 			children = (
@@ -393,6 +435,8 @@
 		4B82FA6A22A8E80700CB42AF /* LXBroker */ = {
 			isa = PBXGroup;
 			children = (
+				4B8C9A5A22E9825000711060 /* Mark */,
+				4B65A39722B739F6003F36CB /* Video */,
 				4B82FA6D22A8E82900CB42AF /* Main */,
 				4B82FA6B22A8E80700CB42AF /* Home */,
 			);
@@ -402,6 +446,7 @@
 		4B82FA6B22A8E80700CB42AF /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				4BE645E822B0D3CC00A2CF54 /* BroadCast */,
 				4B82FA6C22A8E80700CB42AF /* Card */,
 			);
 			path = Home;
@@ -433,8 +478,23 @@
 				4B82FA7622A8EC2300CB42AF /* LXBrokerCardView.m */,
 				4B82FA7822A8F3EB00CB42AF /* LXPageControl.h */,
 				4B82FA7922A8F3EB00CB42AF /* LXPageControl.m */,
+				4B82FA7B22ADE46300CB42AF /* LXPopLabel.h */,
+				4B82FA7C22ADE46300CB42AF /* LXPopLabel.m */,
 			);
 			path = CardView;
+			sourceTree = "<group>";
+		};
+		4B8C9A5A22E9825000711060 /* Mark */ = {
+			isa = PBXGroup;
+			children = (
+				4B8C9A5B22E9828300711060 /* LXMarkController.h */,
+				4B8C9A5C22E9828300711060 /* LXMarkController.m */,
+				4B0EFAA022EE8FAC00DDA154 /* LXMarkTableViewController.h */,
+				4B0EFAA122EE8FAC00DDA154 /* LXMarkTableViewController.m */,
+				4B8C9A5E22E983E000711060 /* UIView+Mark.h */,
+				4B8C9A5F22E983E000711060 /* UIView+Mark.m */,
+			);
+			path = Mark;
 			sourceTree = "<group>";
 		};
 		4BA3A857229D0CD400B071A6 /* SegueToLouxun */ = {
@@ -490,6 +550,7 @@
 				4BDA048E22533AF2004450E6 /* TestBasicMainViewController.m */,
 				4BDA048622533AF2004450E6 /* Page_0 */,
 				4B4799B42266B50900C5844B /* Page_1 */,
+				4BFA763E22C0ED09009F4E78 /* Page_2 */,
 				4B4799B02265B93000C5844B /* NSString */,
 			);
 			path = Page;
@@ -612,6 +673,7 @@
 			children = (
 				4BDA04AC22533AF2004450E6 /* CoreGraphics */,
 				4BDA04B422533AF2004450E6 /* OpenGL */,
+				4BF5E59C22D57B09003D57F3 /* City */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -737,6 +799,38 @@
 				4BDA04E4225346C2004450E6 /* LXHouseLeadPage.m */,
 			);
 			path = LeadPage;
+			sourceTree = "<group>";
+		};
+		4BE645E822B0D3CC00A2CF54 /* BroadCast */ = {
+			isa = PBXGroup;
+			children = (
+				4BE645E922B0D3E300A2CF54 /* LXBroadcastView.h */,
+				4BE645EA22B0D3E300A2CF54 /* LXBroadcastView.m */,
+			);
+			path = BroadCast;
+			sourceTree = "<group>";
+		};
+		4BF5E59C22D57B09003D57F3 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				4BF5E5A422D5976A003D57F3 /* filterCity.json */,
+				4BF5E5A222D57E06003D57F3 /* city.json */,
+				4BF5E5A022D57B91003D57F3 /* Area.json */,
+				4BF5E59D22D57B1F003D57F3 /* YDCityController.h */,
+				4BF5E59E22D57B1F003D57F3 /* YDCityController.m */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		4BFA763E22C0ED09009F4E78 /* Page_2 */ = {
+			isa = PBXGroup;
+			children = (
+				4BFA763F22C0ED47009F4E78 /* TestRACViewController.h */,
+				4BFA764022C0ED47009F4E78 /* TestRACViewController.m */,
+				4B9D87CC22CA1A4E004D5FD8 /* TestImageViewController.h */,
+				4B9D87CD22CA1A4E004D5FD8 /* TestImageViewController.m */,
+			);
+			path = Page_2;
 			sourceTree = "<group>";
 		};
 		4BFCEDB6228E7FA5009EE3DD /* LXNetworking */ = {
@@ -951,8 +1045,10 @@
 			files = (
 				B03EF5232193D150005CB0BD /* json_parse.js in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				4BF5E5A522D5976B003D57F3 /* filterCity.json in Resources */,
 				4B0FD508225B1EB00067D7CA /* HouseTagStyle.json in Resources */,
 				4BDA04D622533AF3004450E6 /* shaderv.vsh in Resources */,
+				4BF5E5A322D57E06003D57F3 /* city.json in Resources */,
 				4BDA048122533ACB004450E6 /* Images.xcassets in Resources */,
 				4BDA04D022533AF2004450E6 /* STXINGKA.ttf in Resources */,
 				4B0645F92269670300D99E54 /* CornerViewController.xib in Resources */,
@@ -961,6 +1057,7 @@
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				4BDA04D522533AF3004450E6 /* shaderf.fsh in Resources */,
 				4B4799C02266BC2100C5844B /* SwitchButtonCell.xib in Resources */,
+				4BF5E5A122D57B92003D57F3 /* Area.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1060,9 +1157,13 @@
 				4BDA04D322533AF3004450E6 /* OpengGLLesson1.m in Sources */,
 				4BDA04E122533D8F004450E6 /* LXHouseTagView.m in Sources */,
 				4BDA04CC22533AF2004450E6 /* YDAppDelegate.m in Sources */,
+				4BE645EB22B0D3E300A2CF54 /* LXBroadcastView.m in Sources */,
 				4B82FA7422A8EACA00CB42AF /* LXCardTestViewController.m in Sources */,
+				4B8C9A5D22E9828300711060 /* LXMarkController.m in Sources */,
+				4B9D87CE22CA1A4E004D5FD8 /* TestImageViewController.m in Sources */,
 				4B82FA7722A8EC2300CB42AF /* LXBrokerCardView.m in Sources */,
 				4B4726082285743A0000AA16 /* LXHouseAlbumController.m in Sources */,
+				4BF5E59F22D57B1F003D57F3 /* YDCityController.m in Sources */,
 				4B7F1ADC2264B0C400F24770 /* ButtonContentPositionController.m in Sources */,
 				4BDA048222533ACB004450E6 /* YDTest.m in Sources */,
 				B01C2DE6218A982900D4D723 /* LearnSwift.swift in Sources */,
@@ -1086,19 +1187,24 @@
 				4B352FCF22969ED80047C33C /* LXWebViewJSBridge.m in Sources */,
 				4BDA04CA22533AF2004450E6 /* BlockViewController.m in Sources */,
 				4BFCEDB5228E5272009EE3DD /* LXNetwokingConfigManager.m in Sources */,
+				4B0EFAA222EE8FAC00DDA154 /* LXMarkTableViewController.m in Sources */,
 				4BDA04D822533AF3004450E6 /* OpenGLLesson2.m in Sources */,
 				4BDA04D222533AF2004450E6 /* CoreGraphicsViewController.m in Sources */,
 				4B472604228401920000AA16 /* LXNetworking.m in Sources */,
+				4B8C9A6022E983E000711060 /* UIView+Mark.m in Sources */,
 				4BDA04C722533AF2004450E6 /* TestBasicMainViewController.m in Sources */,
 				4BFCEDB2228D6009009EE3DD /* LXHTTPSessionManager.m in Sources */,
 				4B82FA7022A8E85300CB42AF /* LXBrokerMainController.m in Sources */,
+				4BFA764122C0ED47009F4E78 /* TestRACViewController.m in Sources */,
 				4BDA04CB22533AF2004450E6 /* LXMainViewController.m in Sources */,
 				4B0645F82269670300D99E54 /* CornerViewController.m in Sources */,
 				4BDA04DE22533D76004450E6 /* LXHouseTagController.m in Sources */,
 				4B47260C2286B3B50000AA16 /* LXNewHouseImageModel.m in Sources */,
 				4BDF5363227FC8F500D0EE3D /* StringStatementController.m in Sources */,
+				4B82FA7D22ADE46300CB42AF /* LXPopLabel.m in Sources */,
 				4B4799BF2266BC2100C5844B /* SwitchButtonCell.m in Sources */,
 				4BDA04C822533AF2004450E6 /* YDPushAndPresentViewController.m in Sources */,
+				4B65A39B22B73A8D003F36CB /* YDVideoTestController.m in Sources */,
 				4BDA04C622533AF2004450E6 /* TestFloatingController.m in Sources */,
 				4BDA04D122533AF2004450E6 /* AttributesController.m in Sources */,
 				4B4799B32265B95500C5844B /* DecimalStringViewController.m in Sources */,

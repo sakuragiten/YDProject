@@ -67,13 +67,6 @@ static LXHTTPSessionManager *lx_manager = nil;
     } else if (requestType == POST) {
         [self.manager POST:url parameters:params progress:progress success:success failure:failure];
     }
-    
-//    [self.manager GET:@"http://10.1.220.5:9090/service-house/house/detailIndexById/2129048762218196994" parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-//        NSLog(@"%@", responseObject);
-//    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-//        NSLog(@"%@", error);
-//    }];
-    
 }
 
 

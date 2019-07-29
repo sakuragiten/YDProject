@@ -57,7 +57,8 @@
                        Test(@"CoreGraphics", @"CoreGraphicsViewController"),
                        Test(@"FloatingButton", @"TestFloatingController"),
                        Test(@"Block", @"BlockViewController"),
-                       Test(@"Push&Present", @"YDPushAndPresentViewController")];
+                       Test(@"Push&Present", @"YDPushAndPresentViewController"),
+                       Test(@"CityList", @"YDCityController")];
 }
 
 
@@ -81,7 +82,9 @@
     self.dataArray = @[Test(@"Thread", @"TestThreadController"),
                        Test(@"DecimalString", @"DecimalStringViewController"),
                        Test(@"Debug", @"DebugViewController"),
-                       Test(@"多行字符串的声明", @"StringStatementController"),];
+                       Test(@"RAC", @"TestRACViewController"),
+                       Test(@"多行字符串的声明", @"StringStatementController"),
+                       Test(@"测试图片", @"TestImageViewController"),];
 }
 
 
@@ -103,7 +106,9 @@
 #pragma mark - LXBroker
 - (void)settingLXBrokerDataSource
 {
-    self.dataArray = @[Test(@"CardView", @"LXCardTestViewController"),];
+    self.dataArray = @[Test(@"CardView", @"LXCardTestViewController"),
+                       Test(@"Video", @"YDVideoTestController"),
+                       Test(@"打码", @"LXMarkController"),];
 }
 
 

@@ -8,6 +8,7 @@
 
 #import "LXBrokerCardView.h"
 #import "LXPageControl.h"
+#import "LXPopLabel.h"
 
 @interface LXBrokerCardView ()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
@@ -63,13 +64,26 @@
     [self addSubview:self.pageConrol];
     
     [_collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.right.bottom.mas_equalTo(0);
+        make.top.left.right.mas_equalTo(0);
+        make.height.mas_equalTo(122.0);
     }];
     
     [_pageConrol mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.mas_equalTo(-20);
+        make.top.equalTo(self.collectionView.mas_bottom).offset(15.0);
         make.centerX.equalTo(self.collectionView);
     }];
+    
+    
+    LXPopLabel *popLabel = [LXPopLabel new];
+    popLabel.text = @"↑这是一段测试文字";
+    [self addSubview:popLabel];
+    [popLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.height.mas_equalTo(17);
+        make.bottom.mas_equalTo(0);
+//        make.width.mas_equalTo(40);
+        make.centerX.equalTo(self.pageConrol);
+    }];
+    
 }
 
 
@@ -164,6 +178,8 @@
     
     return _pageConrol;
 }
+
+
 
 
 

@@ -68,7 +68,7 @@
         imageView.layer.masksToBounds = YES;
         [self settingImageView:imageView selected:selected];
         
-        [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        [imageView mas_remakeConstraints:^(MASConstraintMaker *make) {
             last ? make.left.equalTo(last.mas_right).offset(self.itemSpace) : make.left.mas_equalTo(0);
             make.top.mas_equalTo(0);
             make.size.mas_equalTo(size);

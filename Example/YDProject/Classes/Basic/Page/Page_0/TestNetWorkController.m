@@ -42,12 +42,19 @@
 
 - (void)testAction
 {
-    NSString *url = @"https://testapi.mediportal.com.cn/online-marketing/mobil/promotion/getPromotionDetail/5be23e9c04dd3c07e8daa39a?access_token=9d7692dba4ad4029953ee2a14be26708 ";
-    url = [url stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
-    //    url = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    [YDNetwork sendGETReuqestWithUrl:url paramteres:nil completionHandle:^(BOOL success, id  _Nonnull responseObject, NSError * _Nonnull error) {
-        NSLog(@"%@", responseObject);
-    }];
+//    NSString *url = @"https://testapi.mediportal.com.cn/online-marketing/mobil/promotion/getPromotionDetail/5be23e9c04dd3c07e8daa39a?access_token=9d7692dba4ad4029953ee2a14be26708 ";
+//    url = [url stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+//    //    url = [url stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+//    [YDNetwork sendGETReuqestWithUrl:url paramteres:nil completionHandle:^(BOOL success, id  _Nonnull responseObject, NSError * _Nonnull error) {
+//        NSLog(@"%@", responseObject);
+//    }];
+    
+    
+    
+    NSString *url = @"http://10.1.220.5:9090/service-user/appletsUserInfo/getQRcodeUrl?scene=27";
+    NSDictionary *params = @{@"scene" : @"27"};
+//    [YDNetwork ];
+    
 }
 
 

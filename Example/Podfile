@@ -15,6 +15,7 @@ target 'YDProject_Example' do
   pod 'ZFPlayer/AVPlayer', '~> 3.0'
   
   pod 'SAMKeychain', '~> 1.5.3'
+  pod 'SDWebImageView'
   
   target 'YDProject_Tests' do
     inherit! :search_paths

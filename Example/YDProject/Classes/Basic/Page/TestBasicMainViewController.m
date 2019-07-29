@@ -56,22 +56,22 @@
     
     
     
-    NSArray *a = @[@"1", @"2", @"3"];
-    NSArray *b = [NSArray mutableCopy];
+//    NSArray *a = @[@"1", @"2", @"3"];
+//    NSArray *b = [NSArray mutableCopy];
 //    [b removeLastObject];
     
     
     
 //    NSLog(@"a = %ld, b = %ld", a.count, b.count);
 //    NSLog(@"a[0]:%@, b[0]:%@", a[0], b[0]);
-    NSLog(@"a:%@, B:%@", a, b);
+//    NSLog(@"a:%@, B:%@", a, b);
     
-    NSMutableArray *aa = [NSMutableArray arrayWithObjects:@"1", @"2", @"3", nil];
-    NSMutableArray *bb = [aa copy];;
+//    NSMutableArray *aa = [NSMutableArray arrayWithObjects:@"1", @"2", @"3", nil];
+//    NSMutableArray *bb = [aa copy];;
+//
+//    [aa removeAllObjects];
     
-    [aa removeAllObjects];
-    
-    NSLog(@"aa = %ld, bb = %ld", aa.count, bb.count);
+//    NSLog(@"aa = %ld, bb = %ld", aa.count, bb.count);
 }
 
 
