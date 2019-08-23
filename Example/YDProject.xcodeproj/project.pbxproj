@@ -10,13 +10,6 @@
 		3C0F591E22297593008A97AE /* TestDesignatedInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F591D22297593008A97AE /* TestDesignatedInitializer.m */; };
 		3C0F5921222975F3008A97AE /* DIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F5920222975F3008A97AE /* DIPerson.m */; };
 		3C0F59242229773C008A97AE /* DIMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F59232229773C008A97AE /* DIMan.m */; };
-		3C40B5F1221D02CD0088AB68 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C40B5F0221D02CD0088AB68 /* BlockViewController.m */; };
-		3C40B5F4221D04600088AB68 /* YDBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C40B5F3221D04600088AB68 /* YDBlock.m */; };
-		3CE0E21E2223D51F00C84265 /* YDPushAndPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0E21D2223D51F00C84265 /* YDPushAndPresentViewController.m */; };
-		3CE0E22E222937DA00C84265 /* TestNetWorkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0E226222937DA00C84265 /* TestNetWorkController.m */; };
-		3CE0E22F222937DA00C84265 /* TestThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0E227222937DA00C84265 /* TestThreadController.m */; };
-		3CE0E230222937DA00C84265 /* TestFloatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0E228222937DA00C84265 /* TestFloatingController.m */; };
-		3CE0E231222937DA00C84265 /* TestBasicMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0E22D222937DA00C84265 /* TestBasicMainViewController.m */; };
 		4B0645F82269670300D99E54 /* CornerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0645F62269670300D99E54 /* CornerViewController.m */; };
 		4B0645F92269670300D99E54 /* CornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0645F72269670300D99E54 /* CornerViewController.xib */; };
 		4B0EFAA222EE8FAC00DDA154 /* LXMarkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0EFAA122EE8FAC00DDA154 /* LXMarkTableViewController.m */; };
@@ -49,11 +42,9 @@
 		4BDA047F22533ACB004450E6 /* YDPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA047A22533ACB004450E6 /* YDPerson.m */; };
 		4BDA048122533ACB004450E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDA047C22533ACB004450E6 /* Images.xcassets */; };
 		4BDA048222533ACB004450E6 /* YDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA047E22533ACB004450E6 /* YDTest.m */; };
-		4BDA04C422533AF2004450E6 /* TestNetWorkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA048822533AF2004450E6 /* TestNetWorkController.m */; };
 		4BDA04C522533AF2004450E6 /* TestThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA048922533AF2004450E6 /* TestThreadController.m */; };
 		4BDA04C622533AF2004450E6 /* TestFloatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA048A22533AF2004450E6 /* TestFloatingController.m */; };
 		4BDA04C722533AF2004450E6 /* TestBasicMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA048E22533AF2004450E6 /* TestBasicMainViewController.m */; };
-		4BDA04C822533AF2004450E6 /* YDPushAndPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA049022533AF2004450E6 /* YDPushAndPresentViewController.m */; };
 		4BDA04C922533AF2004450E6 /* YDBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA049322533AF2004450E6 /* YDBlock.m */; };
 		4BDA04CA22533AF2004450E6 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA049422533AF2004450E6 /* BlockViewController.m */; };
 		4BDA04CB22533AF2004450E6 /* LXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA049922533AF2004450E6 /* LXMainViewController.m */; };
@@ -73,6 +64,9 @@
 		4BDA04DE22533D76004450E6 /* LXHouseTagController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA04DD22533D76004450E6 /* LXHouseTagController.m */; };
 		4BDA04E122533D8F004450E6 /* LXHouseTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA04E022533D8F004450E6 /* LXHouseTagView.m */; };
 		4BDA04E5225346C2004450E6 /* LXHouseLeadPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA04E4225346C2004450E6 /* LXHouseLeadPage.m */; };
+		4BDA9BE6230FBD6D0008FF03 /* BaiduMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA9BE5230FBD6D0008FF03 /* BaiduMapViewController.m */; };
+		4BDA9BED230FC11F0008FF03 /* TestNetWorkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA9BEB230FC11F0008FF03 /* TestNetWorkController.m */; };
+		4BDA9BF0230FC1530008FF03 /* YDPushAndPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA9BEF230FC1530008FF03 /* YDPushAndPresentViewController.m */; };
 		4BDF5363227FC8F500D0EE3D /* StringStatementController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF5362227FC8F500D0EE3D /* StringStatementController.m */; };
 		4BE645EB22B0D3E300A2CF54 /* LXBroadcastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE645EA22B0D3E300A2CF54 /* LXBroadcastView.m */; };
 		4BF5E59F22D57B1F003D57F3 /* YDCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5E59E22D57B1F003D57F3 /* YDCityController.m */; };
@@ -94,9 +88,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		77802B9CEF6AC847473FACAB /* Pods_YDProject_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F2AF585B30D5AB42231747 /* Pods_YDProject_Example.framework */; };
+		77802B9CEF6AC847473FACAB /* Pods_YDProject_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F2AF585B30D5AB42231747 /* Pods_YDProject_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B01C2DE6218A982900D4D723 /* LearnSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01C2DE5218A982900D4D723 /* LearnSwift.swift */; };
 		B03EF5232193D150005CB0BD /* json_parse.js in Resources */ = {isa = PBXBuildFile; fileRef = B03EF5222193D150005CB0BD /* json_parse.js */; };
 		C844BF12366D9C861BC8092F /* Pods_YDProject_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDD2CF7E4D9A3612BA09FCF /* Pods_YDProject_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -121,19 +114,12 @@
 		3C0F5920222975F3008A97AE /* DIPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIPerson.m; sourceTree = "<group>"; };
 		3C0F59222229773C008A97AE /* DIMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIMan.h; sourceTree = "<group>"; };
 		3C0F59232229773C008A97AE /* DIMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIMan.m; sourceTree = "<group>"; };
-		3C40B5EF221D02CD0088AB68 /* BlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
 		3C40B5F0221D02CD0088AB68 /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
-		3C40B5F2221D04600088AB68 /* YDBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBlock.h; sourceTree = "<group>"; };
 		3C40B5F3221D04600088AB68 /* YDBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBlock.m; sourceTree = "<group>"; };
-		3CE0E21C2223D51F00C84265 /* YDPushAndPresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushAndPresentViewController.h; sourceTree = "<group>"; };
 		3CE0E21D2223D51F00C84265 /* YDPushAndPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushAndPresentViewController.m; sourceTree = "<group>"; };
-		3CE0E225222937DA00C84265 /* TestFloatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFloatingController.h; sourceTree = "<group>"; };
 		3CE0E226222937DA00C84265 /* TestNetWorkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNetWorkController.m; sourceTree = "<group>"; };
 		3CE0E227222937DA00C84265 /* TestThreadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestThreadController.m; sourceTree = "<group>"; };
 		3CE0E228222937DA00C84265 /* TestFloatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFloatingController.m; sourceTree = "<group>"; };
-		3CE0E229222937DA00C84265 /* TestThreadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestThreadController.h; sourceTree = "<group>"; };
-		3CE0E22A222937DA00C84265 /* TestNetWorkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNetWorkController.h; sourceTree = "<group>"; };
-		3CE0E22C222937DA00C84265 /* TestBasicMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBasicMainViewController.h; sourceTree = "<group>"; };
 		3CE0E22D222937DA00C84265 /* TestBasicMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBasicMainViewController.m; sourceTree = "<group>"; };
 		4B0645F52269670300D99E54 /* CornerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CornerViewController.h; sourceTree = "<group>"; };
 		4B0645F62269670300D99E54 /* CornerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornerViewController.m; sourceTree = "<group>"; };
@@ -195,15 +181,11 @@
 		4BDA047D22533ACB004450E6 /* YDPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPerson.h; sourceTree = "<group>"; };
 		4BDA047E22533ACB004450E6 /* YDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDTest.m; sourceTree = "<group>"; };
 		4BDA048722533AF2004450E6 /* TestFloatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFloatingController.h; sourceTree = "<group>"; };
-		4BDA048822533AF2004450E6 /* TestNetWorkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNetWorkController.m; sourceTree = "<group>"; };
 		4BDA048922533AF2004450E6 /* TestThreadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestThreadController.m; sourceTree = "<group>"; };
 		4BDA048A22533AF2004450E6 /* TestFloatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFloatingController.m; sourceTree = "<group>"; };
 		4BDA048B22533AF2004450E6 /* TestThreadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestThreadController.h; sourceTree = "<group>"; };
-		4BDA048C22533AF2004450E6 /* TestNetWorkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNetWorkController.h; sourceTree = "<group>"; };
 		4BDA048D22533AF2004450E6 /* TestBasicMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBasicMainViewController.h; sourceTree = "<group>"; };
 		4BDA048E22533AF2004450E6 /* TestBasicMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBasicMainViewController.m; sourceTree = "<group>"; };
-		4BDA049022533AF2004450E6 /* YDPushAndPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDPushAndPresentViewController.m; sourceTree = "<group>"; };
-		4BDA049122533AF2004450E6 /* YDPushAndPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPushAndPresentViewController.h; sourceTree = "<group>"; };
 		4BDA049322533AF2004450E6 /* YDBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDBlock.m; sourceTree = "<group>"; };
 		4BDA049422533AF2004450E6 /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
 		4BDA049522533AF2004450E6 /* YDBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDBlock.h; sourceTree = "<group>"; };
@@ -241,6 +223,13 @@
 		4BDA04E022533D8F004450E6 /* LXHouseTagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHouseTagView.m; sourceTree = "<group>"; };
 		4BDA04E3225346C2004450E6 /* LXHouseLeadPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXHouseLeadPage.h; sourceTree = "<group>"; };
 		4BDA04E4225346C2004450E6 /* LXHouseLeadPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHouseLeadPage.m; sourceTree = "<group>"; };
+		4BDA9BE4230FBD6D0008FF03 /* BaiduMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiduMapViewController.h; sourceTree = "<group>"; };
+		4BDA9BE5230FBD6D0008FF03 /* BaiduMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduMapViewController.m; sourceTree = "<group>"; };
+		4BDA9BEA230FC0DD0008FF03 /* TestFloatingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestFloatingController.m; path = YDProject/Classes/Basic/Page/Page_0/TestFloatingController.m; sourceTree = "<group>"; };
+		4BDA9BEB230FC11F0008FF03 /* TestNetWorkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNetWorkController.m; sourceTree = "<group>"; };
+		4BDA9BEC230FC11F0008FF03 /* TestNetWorkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNetWorkController.h; sourceTree = "<group>"; };
+		4BDA9BEE230FC1530008FF03 /* YDPushAndPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPushAndPresentViewController.h; sourceTree = "<group>"; };
+		4BDA9BEF230FC1530008FF03 /* YDPushAndPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDPushAndPresentViewController.m; sourceTree = "<group>"; };
 		4BDF5361227FC8F500D0EE3D /* StringStatementController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringStatementController.h; sourceTree = "<group>"; };
 		4BDF5362227FC8F500D0EE3D /* StringStatementController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringStatementController.m; sourceTree = "<group>"; };
 		4BE645E922B0D3E300A2CF54 /* LXBroadcastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBroadcastView.h; sourceTree = "<group>"; };
@@ -474,6 +463,7 @@
 				4B8C9A5A22E9825000711060 /* Mark */,
 				4B65A39722B739F6003F36CB /* Video */,
 				4B82FA6D22A8E82900CB42AF /* Main */,
+				4BDA9BE2230FBD5B0008FF03 /* Map */,
 				4B82FA6B22A8E80700CB42AF /* Home */,
 			);
 			path = LXBroker;
@@ -595,10 +585,10 @@
 		4BDA048622533AF2004450E6 /* Page_0 */ = {
 			isa = PBXGroup;
 			children = (
+				4BDA9BEC230FC11F0008FF03 /* TestNetWorkController.h */,
+				4BDA9BEB230FC11F0008FF03 /* TestNetWorkController.m */,
 				4BDA048722533AF2004450E6 /* TestFloatingController.h */,
 				4BDA048A22533AF2004450E6 /* TestFloatingController.m */,
-				4BDA048C22533AF2004450E6 /* TestNetWorkController.h */,
-				4BDA048822533AF2004450E6 /* TestNetWorkController.m */,
 				4BDA048B22533AF2004450E6 /* TestThreadController.h */,
 				4BDA048922533AF2004450E6 /* TestThreadController.m */,
 			);
@@ -608,8 +598,8 @@
 		4BDA048F22533AF2004450E6 /* Push&Present */ = {
 			isa = PBXGroup;
 			children = (
-				4BDA049022533AF2004450E6 /* YDPushAndPresentViewController.m */,
-				4BDA049122533AF2004450E6 /* YDPushAndPresentViewController.h */,
+				4BDA9BEE230FC1530008FF03 /* YDPushAndPresentViewController.h */,
+				4BDA9BEF230FC1530008FF03 /* YDPushAndPresentViewController.m */,
 			);
 			path = "Push&Present";
 			sourceTree = "<group>";
@@ -837,6 +827,37 @@
 			path = LeadPage;
 			sourceTree = "<group>";
 		};
+		4BDA9BE1230FBD2B0008FF03 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				3CE0E226222937DA00C84265 /* TestNetWorkController.m */,
+				3CE0E21D2223D51F00C84265 /* YDPushAndPresentViewController.m */,
+				3CE0E227222937DA00C84265 /* TestThreadController.m */,
+				3C40B5F0221D02CD0088AB68 /* BlockViewController.m */,
+				3CE0E228222937DA00C84265 /* TestFloatingController.m */,
+				3CE0E22D222937DA00C84265 /* TestBasicMainViewController.m */,
+				3C40B5F3221D04600088AB68 /* YDBlock.m */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		4BDA9BE2230FBD5B0008FF03 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				4BDA9BE3230FBD5B0008FF03 /* Controllers */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		4BDA9BE3230FBD5B0008FF03 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4BDA9BE4230FBD6D0008FF03 /* BaiduMapViewController.h */,
+				4BDA9BE5230FBD6D0008FF03 /* BaiduMapViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		4BE645E822B0D3CC00A2CF54 /* BroadCast */ = {
 			isa = PBXGroup;
 			children = (
@@ -881,12 +902,14 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				4BDA9BEA230FC0DD0008FF03 /* TestFloatingController.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YDProject */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				CB8B770A688FAC14FC8467E0 /* Pods */,
+				4BDA9BE1230FBD2B0008FF03 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1187,29 +1210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B01AF1E221F16EC500E2E6CC /* AttributesController.m in Sources */,
-				B0066FF720CF9DEF00BFBF2C /* YDTest.m in Sources */,
-				3CE0E22E222937DA00C84265 /* TestNetWorkController.m in Sources */,
-				B016E68921E71C7E009A4D4F /* OGLesson2View.m in Sources */,
-				B016E66E21E5D79D009A4D4F /* OpengGLLesson1.m in Sources */,
-				3CE0E21E2223D51F00C84265 /* YDPushAndPresentViewController.m in Sources */,
-				6003F59E195388D20070C39A /* YDAppDelegate.m in Sources */,
-				B016E66521E5D782009A4D4F /* TestModel.m in Sources */,
-				B016E68A21E71C7E009A4D4F /* OpenGLLesson2.m in Sources */,
+				4BDA04C622533AF2004450E6 /* TestFloatingController.m in Sources */,
 				3C0F5921222975F3008A97AE /* DIPerson.m in Sources */,
-				3CE0E22F222937DA00C84265 /* TestThreadController.m in Sources */,
-				B050B7AA21B6784B007F6A57 /* YDPerson.m in Sources */,
-				6003F5A7195388D20070C39A /* YDViewController.m in Sources */,
-				3C40B5F1221D02CD0088AB68 /* BlockViewController.m in Sources */,
-				3CE0E230222937DA00C84265 /* TestFloatingController.m in Sources */,
-				3CE0E231222937DA00C84265 /* TestBasicMainViewController.m in Sources */,
-				3C40B5F4221D04600088AB68 /* YDBlock.m in Sources */,
-				B01AF1DF21F16DD200E2E6CC /* CoreGraphicsViewController.m in Sources */,
 				3C0F59242229773C008A97AE /* DIMan.m in Sources */,
-				B016E66F21E5D79D009A4D4F /* OpengGLMainViewController.m in Sources */,
-				B016E66421E5D782009A4D4F /* TestMainViewController.m in Sources */,
-				B016E66321E5D782009A4D4F /* TestViewModel.m in Sources */,
-				B01C2DE6218A982900D4D723 /* LearnSwift.swift in Sources */,
 				3C0F591E22297593008A97AE /* TestDesignatedInitializer.m in Sources */,
 				4BDA04CD22533AF2004450E6 /* TestViewModel.m in Sources */,
 				4B7F1AC322642BDC00F24770 /* UIView+LXExtension.m in Sources */,
@@ -1226,12 +1229,11 @@
 				4BF5E59F22D57B1F003D57F3 /* YDCityController.m in Sources */,
 				4B7F1ADC2264B0C400F24770 /* ButtonContentPositionController.m in Sources */,
 				4BDA048222533ACB004450E6 /* YDTest.m in Sources */,
-				B01C2DE6218A982900D4D723 /* LearnSwift.swift in Sources */,
 				4B82FA7A22A8F3EB00CB42AF /* LXPageControl.m in Sources */,
 				4BDA04C922533AF2004450E6 /* YDBlock.m in Sources */,
-				4BDA04C422533AF2004450E6 /* TestNetWorkController.m in Sources */,
 				4BFCEDB9228E7FD0009EE3DD /* LXNetworkingController.m in Sources */,
 				4BDA04CE22533AF2004450E6 /* TestModel.m in Sources */,
+				4BDA9BE6230FBD6D0008FF03 /* BaiduMapViewController.m in Sources */,
 				4BDA04CF22533AF2004450E6 /* TestMainViewController.m in Sources */,
 				4B352FC8229693E80047C33C /* LXWebViewController.m in Sources */,
 				4B5FE26122731C21002AB0B7 /* LXImageCutViewController.m in Sources */,
@@ -1242,6 +1244,7 @@
 				4BA3A85A229D0D0200B071A6 /* LXSegueToLouxunController.m in Sources */,
 				4BDA04D422533AF3004450E6 /* OpengGLMainViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				4BDA9BF0230FC1530008FF03 /* YDPushAndPresentViewController.m in Sources */,
 				4BDA047F22533ACB004450E6 /* YDPerson.m in Sources */,
 				4BDA04E5225346C2004450E6 /* LXHouseLeadPage.m in Sources */,
 				4B352FCF22969ED80047C33C /* LXWebViewJSBridge.m in Sources */,
@@ -1260,12 +1263,11 @@
 				4B0645F82269670300D99E54 /* CornerViewController.m in Sources */,
 				4BDA04DE22533D76004450E6 /* LXHouseTagController.m in Sources */,
 				4B47260C2286B3B50000AA16 /* LXNewHouseImageModel.m in Sources */,
+				4BDA9BED230FC11F0008FF03 /* TestNetWorkController.m in Sources */,
 				4BDF5363227FC8F500D0EE3D /* StringStatementController.m in Sources */,
 				4B82FA7D22ADE46300CB42AF /* LXPopLabel.m in Sources */,
 				4B4799BF2266BC2100C5844B /* SwitchButtonCell.m in Sources */,
-				4BDA04C822533AF2004450E6 /* YDPushAndPresentViewController.m in Sources */,
 				4B65A39B22B73A8D003F36CB /* YDVideoTestController.m in Sources */,
-				4BDA04C622533AF2004450E6 /* TestFloatingController.m in Sources */,
 				4BDA04D122533AF2004450E6 /* AttributesController.m in Sources */,
 				4B4799B32265B95500C5844B /* DecimalStringViewController.m in Sources */,
 			);
@@ -1396,8 +1398,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F2CC51C302C8BB6B90103069 /* Pods-YDProject_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 37G28R6NSU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1420,8 +1423,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 124D8C5BB625CFBF851166B4 /* Pods-YDProject_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 37G28R6NSU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1443,7 +1447,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6FC2014707B49871F73E8E8F /* Pods-YDProject_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -1468,7 +1471,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9D16DF19AFFFA0E559444FAE /* Pods-YDProject_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

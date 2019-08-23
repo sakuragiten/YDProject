@@ -110,7 +110,8 @@
 {
     self.dataArray = @[Test(@"CardView", @"LXCardTestViewController"),
                        Test(@"Video", @"YDVideoTestController"),
-                       Test(@"打码", @"LXMarkController"),];
+                       Test(@"打码", @"LXMarkController"),
+                       Test(@"百度地图", @"BaiduMapViewController"),];
 }
 
 
