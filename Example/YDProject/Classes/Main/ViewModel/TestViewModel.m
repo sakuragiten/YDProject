@@ -58,7 +58,8 @@
                        Test(@"FloatingButton", @"TestFloatingController"),
                        Test(@"Block", @"BlockViewController"),
                        Test(@"Push&Present", @"YDPushAndPresentViewController"),
-                       Test(@"CityList", @"YDCityController")];
+                       Test(@"CityList", @"YDCityController"),
+                       Test(@"萌萌考试", @"ExamViewController"),];
 }
 
 

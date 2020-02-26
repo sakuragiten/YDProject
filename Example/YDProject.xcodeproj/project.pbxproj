@@ -10,6 +10,9 @@
 		3C0F591E22297593008A97AE /* TestDesignatedInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F591D22297593008A97AE /* TestDesignatedInitializer.m */; };
 		3C0F5921222975F3008A97AE /* DIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F5920222975F3008A97AE /* DIPerson.m */; };
 		3C0F59242229773C008A97AE /* DIMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F59232229773C008A97AE /* DIMan.m */; };
+		3C28299123EEDEA60005CDF1 /* ExamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C28299023EEDEA60005CDF1 /* ExamViewController.m */; };
+		3C28299423EEE0A70005CDF1 /* ExamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C28299323EEE0A70005CDF1 /* ExamView.m */; };
+		3C28299623EEE0B20005CDF1 /* ExamViewff.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C28299523EEE0B20005CDF1 /* ExamViewff.xib */; };
 		4B0645F82269670300D99E54 /* CornerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0645F62269670300D99E54 /* CornerViewController.m */; };
 		4B0645F92269670300D99E54 /* CornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0645F72269670300D99E54 /* CornerViewController.xib */; };
 		4B0EFAA222EE8FAC00DDA154 /* LXMarkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0EFAA122EE8FAC00DDA154 /* LXMarkTableViewController.m */; };
@@ -114,6 +117,11 @@
 		3C0F5920222975F3008A97AE /* DIPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIPerson.m; sourceTree = "<group>"; };
 		3C0F59222229773C008A97AE /* DIMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIMan.h; sourceTree = "<group>"; };
 		3C0F59232229773C008A97AE /* DIMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIMan.m; sourceTree = "<group>"; };
+		3C28298F23EEDEA60005CDF1 /* ExamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExamViewController.h; sourceTree = "<group>"; };
+		3C28299023EEDEA60005CDF1 /* ExamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamViewController.m; sourceTree = "<group>"; };
+		3C28299223EEE0A70005CDF1 /* ExamView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExamView.h; sourceTree = "<group>"; };
+		3C28299323EEE0A70005CDF1 /* ExamView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamView.m; sourceTree = "<group>"; };
+		3C28299523EEE0B20005CDF1 /* ExamViewff.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExamViewff.xib; sourceTree = "<group>"; };
 		3C40B5F0221D02CD0088AB68 /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
 		3C40B5F3221D04600088AB68 /* YDBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBlock.m; sourceTree = "<group>"; };
 		3CE0E21D2223D51F00C84265 /* YDPushAndPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushAndPresentViewController.m; sourceTree = "<group>"; };
@@ -247,7 +255,7 @@
 		4BFCEDB4228E5272009EE3DD /* LXNetwokingConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXNetwokingConfigManager.m; sourceTree = "<group>"; };
 		4BFCEDB7228E7FCF009EE3DD /* LXNetworkingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNetworkingController.h; sourceTree = "<group>"; };
 		4BFCEDB8228E7FCF009EE3DD /* LXNetworkingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXNetworkingController.m; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* YDProject_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDProject_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* Mengmeng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mengmeng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -300,6 +308,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C28298E23EEDE640005CDF1 /* Exam */ = {
+			isa = PBXGroup;
+			children = (
+				3C28298F23EEDEA60005CDF1 /* ExamViewController.h */,
+				3C28299023EEDEA60005CDF1 /* ExamViewController.m */,
+				3C28299223EEE0A70005CDF1 /* ExamView.h */,
+				3C28299323EEE0A70005CDF1 /* ExamView.m */,
+				3C28299523EEE0B20005CDF1 /* ExamViewff.xib */,
+			);
+			name = Exam;
+			path = Page/Exam;
+			sourceTree = "<group>";
+		};
 		4B352FC5229693D00047C33C /* WebView */ = {
 			isa = PBXGroup;
 			children = (
@@ -562,6 +583,7 @@
 		4BDA048422533AF2004450E6 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				3C28298E23EEDE640005CDF1 /* Exam */,
 				4BDA048522533AF2004450E6 /* Page */,
 				4BDA048F22533AF2004450E6 /* Push&Present */,
 				4BDA049222533AF2004450E6 /* Block */,
@@ -916,7 +938,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* YDProject_Example.app */,
+				6003F58A195388D20070C39A /* Mengmeng.app */,
 				6003F5AE195388D20070C39A /* YDProject_Tests.xctest */,
 			);
 			name = Products;
@@ -1037,7 +1059,7 @@
 			);
 			name = YDProject_Example;
 			productName = YDProject;
-			productReference = 6003F58A195388D20070C39A /* YDProject_Example.app */;
+			productReference = 6003F58A195388D20070C39A /* Mengmeng.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* YDProject_Tests */ = {
@@ -1070,8 +1092,9 @@
 				ORGANIZATIONNAME = "387970107@qq.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 37G28R6NSU;
+						DevelopmentTeam = F4Z23R5KH3;
 						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -1083,6 +1106,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1105,6 +1129,7 @@
 				B03EF5232193D150005CB0BD /* json_parse.js in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				4BF5E5A522D5976B003D57F3 /* filterCity.json in Resources */,
+				3C28299623EEE0B20005CDF1 /* ExamViewff.xib in Resources */,
 				4B0FD508225B1EB00067D7CA /* HouseTagStyle.json in Resources */,
 				4BDA04D622533AF3004450E6 /* shaderv.vsh in Resources */,
 				4BF5E5A322D57E06003D57F3 /* city.json in Resources */,
@@ -1210,6 +1235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C28299123EEDEA60005CDF1 /* ExamViewController.m in Sources */,
 				4BDA04C622533AF2004450E6 /* TestFloatingController.m in Sources */,
 				3C0F5921222975F3008A97AE /* DIPerson.m in Sources */,
 				3C0F59242229773C008A97AE /* DIMan.m in Sources */,
@@ -1270,6 +1296,7 @@
 				4B65A39B22B73A8D003F36CB /* YDVideoTestController.m in Sources */,
 				4BDA04D122533AF2004450E6 /* AttributesController.m in Sources */,
 				4B4799B32265B95500C5844B /* DecimalStringViewController.m in Sources */,
+				3C28299423EEE0A70005CDF1 /* ExamView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1402,7 +1429,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 37G28R6NSU;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4Z23R5KH3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDProject/YDProject-Prefix.pch";
 				INFOPLIST_FILE = "YDProject/YDProject-Info.plist";
@@ -1410,7 +1439,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Mengmeng;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "YDProject/YDProject_Example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -1427,7 +1457,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 37G28R6NSU;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4Z23R5KH3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDProject/YDProject-Prefix.pch";
 				INFOPLIST_FILE = "YDProject/YDProject-Info.plist";
@@ -1435,7 +1467,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Mengmeng;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "YDProject/YDProject_Example-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				WARNING_CFLAGS = "-Wno-ambiguous-macro";
