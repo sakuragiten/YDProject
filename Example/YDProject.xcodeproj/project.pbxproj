@@ -13,6 +13,7 @@
 		3C28299123EEDEA60005CDF1 /* ExamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C28299023EEDEA60005CDF1 /* ExamViewController.m */; };
 		3C28299423EEE0A70005CDF1 /* ExamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C28299323EEE0A70005CDF1 /* ExamView.m */; };
 		3C28299623EEE0B20005CDF1 /* ExamViewff.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C28299523EEE0B20005CDF1 /* ExamViewff.xib */; };
+		444D7DE824B5E987005723AB /* YDShapLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444D7DE724B5E987005723AB /* YDShapLayerController.m */; };
 		4B0645F82269670300D99E54 /* CornerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0645F62269670300D99E54 /* CornerViewController.m */; };
 		4B0645F92269670300D99E54 /* CornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0645F72269670300D99E54 /* CornerViewController.xib */; };
 		4B0EFAA222EE8FAC00DDA154 /* LXMarkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0EFAA122EE8FAC00DDA154 /* LXMarkTableViewController.m */; };
@@ -129,6 +130,8 @@
 		3CE0E227222937DA00C84265 /* TestThreadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestThreadController.m; sourceTree = "<group>"; };
 		3CE0E228222937DA00C84265 /* TestFloatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFloatingController.m; sourceTree = "<group>"; };
 		3CE0E22D222937DA00C84265 /* TestBasicMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBasicMainViewController.m; sourceTree = "<group>"; };
+		444D7DE624B5E987005723AB /* YDShapLayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDShapLayerController.h; sourceTree = "<group>"; };
+		444D7DE724B5E987005723AB /* YDShapLayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDShapLayerController.m; sourceTree = "<group>"; };
 		4B0645F52269670300D99E54 /* CornerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CornerViewController.h; sourceTree = "<group>"; };
 		4B0645F62269670300D99E54 /* CornerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornerViewController.m; sourceTree = "<group>"; };
 		4B0645F72269670300D99E54 /* CornerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CornerViewController.xib; sourceTree = "<group>"; };
@@ -319,6 +322,15 @@
 			);
 			name = Exam;
 			path = Page/Exam;
+			sourceTree = "<group>";
+		};
+		444D7DE424B5E947005723AB /* ShapLayer */ = {
+			isa = PBXGroup;
+			children = (
+				444D7DE624B5E987005723AB /* YDShapLayerController.h */,
+				444D7DE724B5E987005723AB /* YDShapLayerController.m */,
+			);
+			path = ShapLayer;
 			sourceTree = "<group>";
 		};
 		4B352FC5229693D00047C33C /* WebView */ = {
@@ -583,6 +595,7 @@
 		4BDA048422533AF2004450E6 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				444D7DE424B5E947005723AB /* ShapLayer */,
 				3C28298E23EEDE640005CDF1 /* Exam */,
 				4BDA048522533AF2004450E6 /* Page */,
 				4BDA048F22533AF2004450E6 /* Push&Present */,
@@ -1247,6 +1260,7 @@
 				4BDA04E122533D8F004450E6 /* LXHouseTagView.m in Sources */,
 				4BDA04CC22533AF2004450E6 /* YDAppDelegate.m in Sources */,
 				4BE645EB22B0D3E300A2CF54 /* LXBroadcastView.m in Sources */,
+				444D7DE824B5E987005723AB /* YDShapLayerController.m in Sources */,
 				4B82FA7422A8EACA00CB42AF /* LXCardTestViewController.m in Sources */,
 				4B8C9A5D22E9828300711060 /* LXMarkController.m in Sources */,
 				4B9D87CE22CA1A4E004D5FD8 /* TestImageViewController.m in Sources */,
