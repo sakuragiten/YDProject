@@ -88,7 +88,8 @@
                        Test(@"Debug", @"DebugViewController"),
                        Test(@"RAC", @"TestRACViewController"),
                        Test(@"多行字符串的声明", @"StringStatementController"),
-                       Test(@"测试图片", @"TestImageViewController"),];
+                       Test(@"测试图片", @"TestImageViewController"),
+                       Test(@"CAShapLayer", @"YDShapLayerController"),];
 }
 
 
