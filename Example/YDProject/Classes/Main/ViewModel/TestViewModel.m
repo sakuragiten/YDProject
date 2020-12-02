@@ -50,6 +50,7 @@
 - (void)settingMainDataSource
 {
     self.dataArray = @[Test(@"NetWork", @"TestNetWorkController"),
+                       Test(@"Album", @"TestAlbumViewController"),
                        Test(@"Basic", @"TestBasicMainViewController"),
                        Test(@"LXHouse", @"LXMainViewController"),
                        Test(@"LXBroker-楼讯经纪", @"LXBrokerMainController"),
