@@ -20,6 +20,7 @@
 #import <YDProject/YDProject-Swift.h>
 #import <PaulGeorge/PaulGeorge-Swift.h>
 
+#import <AsyncDisplayKit/AsyncDisplayKit.h>
 
 #import "YDTest.h"
 

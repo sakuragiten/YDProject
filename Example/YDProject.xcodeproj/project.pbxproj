@@ -17,6 +17,21 @@
 		3C28299123EEDEA60005CDF1 /* ExamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C28299023EEDEA60005CDF1 /* ExamViewController.m */; };
 		3C28299423EEE0A70005CDF1 /* ExamView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C28299323EEE0A70005CDF1 /* ExamView.m */; };
 		3C28299623EEE0B20005CDF1 /* ExamViewff.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C28299523EEE0B20005CDF1 /* ExamViewff.xib */; };
+		3C306CB025A92E0F00F41585 /* InteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C306CAD25A92E0F00F41585 /* InteractiveTransition.m */; };
+		3C306CB125A92E0F00F41585 /* PresentationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C306CAE25A92E0F00F41585 /* PresentationTransition.m */; };
+		3C306CB625A92EDC00F41585 /* YDTransitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C306CB525A92EDC00F41585 /* YDTransitViewController.m */; };
+		3C306CB925A92F4700F41585 /* YDPresentDestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C306CB825A92F4700F41585 /* YDPresentDestinationViewController.m */; };
+		3C306CBE25A9469C00F41585 /* PresentationAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C306CBD25A9469C00F41585 /* PresentationAnimatedTransition.m */; };
+		3C306CD125A95ADF00F41585 /* PushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C306CD025A95ADF00F41585 /* PushTransition.m */; };
+		3C306CD425A95EAB00F41585 /* YDPushDestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C306CD325A95EAB00F41585 /* YDPushDestinationViewController.m */; };
+		3C306CD725ABD52900F41585 /* YDPresentNavDestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C306CD625ABD52900F41585 /* YDPresentNavDestinationViewController.m */; };
+		3C306CDA25ABD58400F41585 /* YDPresentNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C306CD925ABD58400F41585 /* YDPresentNavViewController.m */; };
+		3C307AA825B7B901005A91A3 /* YDLikeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C307AA725B7B901005A91A3 /* YDLikeAnimationViewController.m */; };
+		3C7BE599257F2E0000889995 /* TestTextTureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BE598257F2E0000889995 /* TestTextTureViewController.m */; };
+		3C7BE5AA2580A3CD00889995 /* curveLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7BE5A92580A3CD00889995 /* curveLine.png */; };
+		3CA7DD2C257DCE1C00B1DE05 /* TestCurveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7DD2B257DCE1C00B1DE05 /* TestCurveViewController.m */; };
+		3CA7DD33257DD04E00B1DE05 /* UIBezierPath+curved.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7DD32257DD04E00B1DE05 /* UIBezierPath+curved.m */; };
+		3CA7DD36257DDE1600B1DE05 /* YDCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7DD35257DDE1600B1DE05 /* YDCurveView.m */; };
 		444D7DE824B5E987005723AB /* YDShapLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444D7DE724B5E987005723AB /* YDShapLayerController.m */; };
 		4B0645F82269670300D99E54 /* CornerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0645F62269670300D99E54 /* CornerViewController.m */; };
 		4B0645F92269670300D99E54 /* CornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0645F72269670300D99E54 /* CornerViewController.xib */; };
@@ -135,12 +150,40 @@
 		3C28299223EEE0A70005CDF1 /* ExamView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExamView.h; sourceTree = "<group>"; };
 		3C28299323EEE0A70005CDF1 /* ExamView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExamView.m; sourceTree = "<group>"; };
 		3C28299523EEE0B20005CDF1 /* ExamViewff.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExamViewff.xib; sourceTree = "<group>"; };
+		3C306CAA25A92E0F00F41585 /* InteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveTransition.h; sourceTree = "<group>"; };
+		3C306CAB25A92E0F00F41585 /* PresentationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentationTransition.h; sourceTree = "<group>"; };
+		3C306CAC25A92E0F00F41585 /* PresentationAnimatedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentationAnimatedTransition.h; sourceTree = "<group>"; };
+		3C306CAD25A92E0F00F41585 /* InteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveTransition.m; sourceTree = "<group>"; };
+		3C306CAE25A92E0F00F41585 /* PresentationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentationTransition.m; sourceTree = "<group>"; };
+		3C306CB425A92EDC00F41585 /* YDTransitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDTransitViewController.h; sourceTree = "<group>"; };
+		3C306CB525A92EDC00F41585 /* YDTransitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDTransitViewController.m; sourceTree = "<group>"; };
+		3C306CB725A92F4700F41585 /* YDPresentDestinationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPresentDestinationViewController.h; sourceTree = "<group>"; };
+		3C306CB825A92F4700F41585 /* YDPresentDestinationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPresentDestinationViewController.m; sourceTree = "<group>"; };
+		3C306CBD25A9469C00F41585 /* PresentationAnimatedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentationAnimatedTransition.m; sourceTree = "<group>"; };
+		3C306CCF25A95ADF00F41585 /* PushTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushTransition.h; sourceTree = "<group>"; };
+		3C306CD025A95ADF00F41585 /* PushTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushTransition.m; sourceTree = "<group>"; };
+		3C306CD225A95EAB00F41585 /* YDPushDestinationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPushDestinationViewController.h; sourceTree = "<group>"; };
+		3C306CD325A95EAB00F41585 /* YDPushDestinationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushDestinationViewController.m; sourceTree = "<group>"; };
+		3C306CD525ABD52900F41585 /* YDPresentNavDestinationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPresentNavDestinationViewController.h; sourceTree = "<group>"; };
+		3C306CD625ABD52900F41585 /* YDPresentNavDestinationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPresentNavDestinationViewController.m; sourceTree = "<group>"; };
+		3C306CD825ABD58400F41585 /* YDPresentNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPresentNavViewController.h; sourceTree = "<group>"; };
+		3C306CD925ABD58400F41585 /* YDPresentNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPresentNavViewController.m; sourceTree = "<group>"; };
+		3C307AA625B7B901005A91A3 /* YDLikeAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLikeAnimationViewController.h; sourceTree = "<group>"; };
+		3C307AA725B7B901005A91A3 /* YDLikeAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLikeAnimationViewController.m; sourceTree = "<group>"; };
 		3C40B5F0221D02CD0088AB68 /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
 		3C40B5F3221D04600088AB68 /* YDBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBlock.m; sourceTree = "<group>"; };
+		3C7BE597257F2E0000889995 /* TestTextTureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTextTureViewController.h; sourceTree = "<group>"; };
+		3C7BE598257F2E0000889995 /* TestTextTureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTextTureViewController.m; sourceTree = "<group>"; };
+		3C7BE5A92580A3CD00889995 /* curveLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = curveLine.png; sourceTree = "<group>"; };
+		3CA7DD2A257DCE1C00B1DE05 /* TestCurveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCurveViewController.h; sourceTree = "<group>"; };
+		3CA7DD2B257DCE1C00B1DE05 /* TestCurveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCurveViewController.m; sourceTree = "<group>"; };
+		3CA7DD31257DD04E00B1DE05 /* UIBezierPath+curved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+curved.h"; sourceTree = "<group>"; };
+		3CA7DD32257DD04E00B1DE05 /* UIBezierPath+curved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+curved.m"; sourceTree = "<group>"; };
+		3CA7DD34257DDE1600B1DE05 /* YDCurveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDCurveView.h; sourceTree = "<group>"; };
+		3CA7DD35257DDE1600B1DE05 /* YDCurveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDCurveView.m; sourceTree = "<group>"; };
 		3CE0E21D2223D51F00C84265 /* YDPushAndPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushAndPresentViewController.m; sourceTree = "<group>"; };
 		3CE0E226222937DA00C84265 /* TestNetWorkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNetWorkController.m; sourceTree = "<group>"; };
 		3CE0E227222937DA00C84265 /* TestThreadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestThreadController.m; sourceTree = "<group>"; };
-		3CE0E228222937DA00C84265 /* TestFloatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFloatingController.m; sourceTree = "<group>"; };
 		3CE0E22D222937DA00C84265 /* TestBasicMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestBasicMainViewController.m; sourceTree = "<group>"; };
 		444D7DE624B5E987005723AB /* YDShapLayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDShapLayerController.h; sourceTree = "<group>"; };
 		444D7DE724B5E987005723AB /* YDShapLayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDShapLayerController.m; sourceTree = "<group>"; };
@@ -248,7 +291,6 @@
 		4BDA04E4225346C2004450E6 /* LXHouseLeadPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXHouseLeadPage.m; sourceTree = "<group>"; };
 		4BDA9BE4230FBD6D0008FF03 /* BaiduMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiduMapViewController.h; sourceTree = "<group>"; };
 		4BDA9BE5230FBD6D0008FF03 /* BaiduMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduMapViewController.m; sourceTree = "<group>"; };
-		4BDA9BEA230FC0DD0008FF03 /* TestFloatingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TestFloatingController.m; path = YDProject/Classes/Basic/Page/Page_0/TestFloatingController.m; sourceTree = "<group>"; };
 		4BDA9BEB230FC11F0008FF03 /* TestNetWorkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNetWorkController.m; sourceTree = "<group>"; };
 		4BDA9BEC230FC11F0008FF03 /* TestNetWorkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNetWorkController.h; sourceTree = "<group>"; };
 		4BDA9BEE230FC1530008FF03 /* YDPushAndPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPushAndPresentViewController.h; sourceTree = "<group>"; };
@@ -391,11 +433,93 @@
 			path = Page/Exam;
 			sourceTree = "<group>";
 		};
+		3C306CA825A92DE200F41585 /* Transit */ = {
+			isa = PBXGroup;
+			children = (
+				3C306CB325A92EBF00F41585 /* Controller */,
+				3C306CA925A92E0F00F41585 /* Transition */,
+			);
+			path = Transit;
+			sourceTree = "<group>";
+		};
+		3C306CA925A92E0F00F41585 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				3C306CAA25A92E0F00F41585 /* InteractiveTransition.h */,
+				3C306CAD25A92E0F00F41585 /* InteractiveTransition.m */,
+				3C306CAC25A92E0F00F41585 /* PresentationAnimatedTransition.h */,
+				3C306CBD25A9469C00F41585 /* PresentationAnimatedTransition.m */,
+				3C306CAB25A92E0F00F41585 /* PresentationTransition.h */,
+				3C306CAE25A92E0F00F41585 /* PresentationTransition.m */,
+				3C306CCF25A95ADF00F41585 /* PushTransition.h */,
+				3C306CD025A95ADF00F41585 /* PushTransition.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		3C306CB325A92EBF00F41585 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3C306CB425A92EDC00F41585 /* YDTransitViewController.h */,
+				3C306CB525A92EDC00F41585 /* YDTransitViewController.m */,
+				3C306CB725A92F4700F41585 /* YDPresentDestinationViewController.h */,
+				3C306CB825A92F4700F41585 /* YDPresentDestinationViewController.m */,
+				3C306CD225A95EAB00F41585 /* YDPushDestinationViewController.h */,
+				3C306CD325A95EAB00F41585 /* YDPushDestinationViewController.m */,
+				3C306CD525ABD52900F41585 /* YDPresentNavDestinationViewController.h */,
+				3C306CD625ABD52900F41585 /* YDPresentNavDestinationViewController.m */,
+				3C306CD825ABD58400F41585 /* YDPresentNavViewController.h */,
+				3C306CD925ABD58400F41585 /* YDPresentNavViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3C307AA425B7B8BE005A91A3 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				3C307AA525B7B8C8005A91A3 /* Like */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		3C307AA525B7B8C8005A91A3 /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				3C307AA625B7B901005A91A3 /* YDLikeAnimationViewController.h */,
+				3C307AA725B7B901005A91A3 /* YDLikeAnimationViewController.m */,
+			);
+			path = Like;
+			sourceTree = "<group>";
+		};
+		3C7BE596257F2DE400889995 /* TextTure */ = {
+			isa = PBXGroup;
+			children = (
+				3C7BE597257F2E0000889995 /* TestTextTureViewController.h */,
+				3C7BE598257F2E0000889995 /* TestTextTureViewController.m */,
+			);
+			path = TextTure;
+			sourceTree = "<group>";
+		};
+		3CA7DD30257DD02300B1DE05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7DD31257DD04E00B1DE05 /* UIBezierPath+curved.h */,
+				3CA7DD32257DD04E00B1DE05 /* UIBezierPath+curved.m */,
+				3CA7DD34257DDE1600B1DE05 /* YDCurveView.h */,
+				3CA7DD35257DDE1600B1DE05 /* YDCurveView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		444D7DE424B5E947005723AB /* ShapLayer */ = {
 			isa = PBXGroup;
 			children = (
+				3C7BE5A92580A3CD00889995 /* curveLine.png */,
+				3CA7DD30257DD02300B1DE05 /* View */,
 				444D7DE624B5E987005723AB /* YDShapLayerController.h */,
 				444D7DE724B5E987005723AB /* YDShapLayerController.m */,
+				3CA7DD2A257DCE1C00B1DE05 /* TestCurveViewController.h */,
+				3CA7DD2B257DCE1C00B1DE05 /* TestCurveViewController.m */,
 			);
 			path = ShapLayer;
 			sourceTree = "<group>";
@@ -662,6 +786,8 @@
 		4BDA048422533AF2004450E6 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				3C307AA425B7B8BE005A91A3 /* Animation */,
+				3C306CA825A92DE200F41585 /* Transit */,
 				444D7DE424B5E947005723AB /* ShapLayer */,
 				3C28298E23EEDE640005CDF1 /* Exam */,
 				4BDA048522533AF2004450E6 /* Page */,
@@ -799,6 +925,7 @@
 		4BDA04AB22533AF2004450E6 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				3C7BE596257F2DE400889995 /* TextTure */,
 				3C1BF0ED24800AE900B1336C /* Album */,
 				4BDA04AC22533AF2004450E6 /* CoreGraphics */,
 				4BDA04B422533AF2004450E6 /* OpenGL */,
@@ -840,9 +967,9 @@
 			isa = PBXGroup;
 			children = (
 				4BDA04B522533AF2004450E6 /* ES_1 */,
-				4BDA04B922533AF2004450E6 /* OpengGLMainViewController.m */,
 				4BDA04BA22533AF2004450E6 /* ES_2 */,
 				4BDA04C322533AF2004450E6 /* OpengGLMainViewController.h */,
+				4BDA04B922533AF2004450E6 /* OpengGLMainViewController.m */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -937,7 +1064,6 @@
 				3CE0E21D2223D51F00C84265 /* YDPushAndPresentViewController.m */,
 				3CE0E227222937DA00C84265 /* TestThreadController.m */,
 				3C40B5F0221D02CD0088AB68 /* BlockViewController.m */,
-				3CE0E228222937DA00C84265 /* TestFloatingController.m */,
 				3CE0E22D222937DA00C84265 /* TestBasicMainViewController.m */,
 				3C40B5F3221D04600088AB68 /* YDBlock.m */,
 			);
@@ -1005,7 +1131,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				4BDA9BEA230FC0DD0008FF03 /* TestFloatingController.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YDProject */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -1133,6 +1258,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				9442EFF066AB75AF5207CD5A /* [CP] Embed Pods Frameworks */,
+				BE3DDA48AAD70A7D87EBE790 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1173,8 +1299,9 @@
 				ORGANIZATIONNAME = "387970107@qq.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
+						DevelopmentTeam = 7RK33FWF33;
 						LastSwiftMigration = 1000;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -1206,6 +1333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7BE5AA2580A3CD00889995 /* curveLine.png in Resources */,
 				B03EF5232193D150005CB0BD /* json_parse.js in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				4BF5E5A522D5976B003D57F3 /* filterCity.json in Resources */,
@@ -1263,31 +1391,57 @@
 				"${PODS_ROOT}/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
 				"${BUILT_PRODUCTS_DIR}/PaulGeorge/PaulGeorge.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
 				"${BUILT_PRODUCTS_DIR}/YDProject/YDProject.framework",
-				"${BUILT_PRODUCTS_DIR}/ZFPlayer/ZFPlayer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PaulGeorge.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YDProject.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFPlayer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE3DDA48AAD70A7D87EBE790 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example-resources.sh",
+				"${PODS_ROOT}/ZFPlayer/ZFPlayer/Classes/ControlView/ZFPlayer.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZFPlayer.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C95BAFE3A56821FD82AE3D33 /* [CP] Check Pods Manifest.lock */ = {
@@ -1315,12 +1469,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C306CB625A92EDC00F41585 /* YDTransitViewController.m in Sources */,
 				3C28299123EEDEA60005CDF1 /* ExamViewController.m in Sources */,
+				3C306CD425A95EAB00F41585 /* YDPushDestinationViewController.m in Sources */,
 				4BDA04C622533AF2004450E6 /* TestFloatingController.m in Sources */,
 				3C0F5921222975F3008A97AE /* DIPerson.m in Sources */,
 				3C0F59242229773C008A97AE /* DIMan.m in Sources */,
+				3C307AA825B7B901005A91A3 /* YDLikeAnimationViewController.m in Sources */,
 				3C0F591E22297593008A97AE /* TestDesignatedInitializer.m in Sources */,
 				4BDA04CD22533AF2004450E6 /* TestViewModel.m in Sources */,
+				3C306CB125A92E0F00F41585 /* PresentationTransition.m in Sources */,
 				4B7F1AC322642BDC00F24770 /* UIView+LXExtension.m in Sources */,
 				4B7F1ABF226427E900F24770 /* LXGraphicsController.m in Sources */,
 				4BDA04D322533AF3004450E6 /* OpengGLLesson1.m in Sources */,
@@ -1329,6 +1487,7 @@
 				4BE645EB22B0D3E300A2CF54 /* LXBroadcastView.m in Sources */,
 				444D7DE824B5E987005723AB /* YDShapLayerController.m in Sources */,
 				4B82FA7422A8EACA00CB42AF /* LXCardTestViewController.m in Sources */,
+				3C306CD725ABD52900F41585 /* YDPresentNavDestinationViewController.m in Sources */,
 				4B8C9A5D22E9828300711060 /* LXMarkController.m in Sources */,
 				4B9D87CE22CA1A4E004D5FD8 /* TestImageViewController.m in Sources */,
 				4B82FA7722A8EC2300CB42AF /* LXBrokerCardView.m in Sources */,
@@ -1336,7 +1495,10 @@
 				4BF5E59F22D57B1F003D57F3 /* YDCityController.m in Sources */,
 				4B7F1ADC2264B0C400F24770 /* ButtonContentPositionController.m in Sources */,
 				4BDA048222533ACB004450E6 /* YDTest.m in Sources */,
+				3C306CDA25ABD58400F41585 /* YDPresentNavViewController.m in Sources */,
+				3C306CBE25A9469C00F41585 /* PresentationAnimatedTransition.m in Sources */,
 				4B82FA7A22A8F3EB00CB42AF /* LXPageControl.m in Sources */,
+				3C306CD125A95ADF00F41585 /* PushTransition.m in Sources */,
 				4BDA04C922533AF2004450E6 /* YDBlock.m in Sources */,
 				4BFCEDB9228E7FD0009EE3DD /* LXNetworkingController.m in Sources */,
 				4BDA04CE22533AF2004450E6 /* TestModel.m in Sources */,
@@ -1348,6 +1510,7 @@
 				4B5FE26422754FBF002AB0B7 /* DebugViewController.m in Sources */,
 				4BDA04C522533AF2004450E6 /* TestThreadController.m in Sources */,
 				4B4799B92266B65F00C5844B /* SettingViewController.m in Sources */,
+				3CA7DD36257DDE1600B1DE05 /* YDCurveView.m in Sources */,
 				3C1BF0F524800C5D00B1336C /* AlbumViewController.m in Sources */,
 				4BDA04D722533AF3004450E6 /* OGLesson2View.m in Sources */,
 				4BA3A85A229D0D0200B071A6 /* LXSegueToLouxunController.m in Sources */,
@@ -1355,10 +1518,13 @@
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				4BDA9BF0230FC1530008FF03 /* YDPushAndPresentViewController.m in Sources */,
 				4BDA047F22533ACB004450E6 /* YDPerson.m in Sources */,
+				3CA7DD2C257DCE1C00B1DE05 /* TestCurveViewController.m in Sources */,
 				4BDA04E5225346C2004450E6 /* LXHouseLeadPage.m in Sources */,
 				4B352FCF22969ED80047C33C /* LXWebViewJSBridge.m in Sources */,
 				4BDA04CA22533AF2004450E6 /* BlockViewController.m in Sources */,
+				3CA7DD33257DD04E00B1DE05 /* UIBezierPath+curved.m in Sources */,
 				4BFCEDB5228E5272009EE3DD /* LXNetwokingConfigManager.m in Sources */,
+				3C7BE599257F2E0000889995 /* TestTextTureViewController.m in Sources */,
 				4B0EFAA222EE8FAC00DDA154 /* LXMarkTableViewController.m in Sources */,
 				4BDA04D822533AF3004450E6 /* OpenGLLesson2.m in Sources */,
 				4BDA04D222533AF2004450E6 /* CoreGraphicsViewController.m in Sources */,
@@ -1370,6 +1536,7 @@
 				4BFA764122C0ED47009F4E78 /* TestRACViewController.m in Sources */,
 				4BDA04CB22533AF2004450E6 /* LXMainViewController.m in Sources */,
 				4B0645F82269670300D99E54 /* CornerViewController.m in Sources */,
+				3C306CB025A92E0F00F41585 /* InteractiveTransition.m in Sources */,
 				4BDA04DE22533D76004450E6 /* LXHouseTagController.m in Sources */,
 				4B47260C2286B3B50000AA16 /* LXNewHouseImageModel.m in Sources */,
 				4BDA9BED230FC11F0008FF03 /* TestNetWorkController.m in Sources */,
@@ -1381,6 +1548,7 @@
 				4BDA04D122533AF2004450E6 /* AttributesController.m in Sources */,
 				4B4799B32265B95500C5844B /* DecimalStringViewController.m in Sources */,
 				3C1BF0FE24800FE500B1336C /* AlbumLayout.m in Sources */,
+				3C306CB925A92F4700F41585 /* YDPresentDestinationViewController.m in Sources */,
 				3C28299423EEE0A70005CDF1 /* ExamView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1515,8 +1683,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RK33FWF33;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDProject/YDProject-Prefix.pch";
 				INFOPLIST_FILE = "YDProject/YDProject-Info.plist";
@@ -1543,8 +1711,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RK33FWF33;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDProject/YDProject-Prefix.pch";
 				INFOPLIST_FILE = "YDProject/YDProject-Info.plist";

@@ -66,8 +66,6 @@ private class SliderActionCell: UITableViewCell {
         contentView.addSubview(titleLabel)
         contentView.addSubview(slider)
         
-        contentView.backgroundColor = .clear
-        backgroundColor = .clear
     
     }
     
@@ -145,9 +143,6 @@ private class SliderActionCell: UITableViewCell {
     
     
     private func setupUI() {
-        
-        self.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
-        
         tableView.delegate = self;
         tableView.dataSource = self;
         tableView.separatorStyle = .none
@@ -166,8 +161,10 @@ private class SliderActionCell: UITableViewCell {
            onDisposed: nil)
             .disposed(by: disposeBag)
         tableView.tableFooterView = footerBtn
-        tableView.backgroundColor = UIColor.init(r: 248, g: 248, b: 248);
-
+        
+//        if let title = self.sliderTitle {
+//
+//        }
         
         
         view.addSubview(tableView)
@@ -186,24 +183,6 @@ private class SliderActionCell: UITableViewCell {
             }).disposed(by: disposeBag)
     }
     
-    public override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        UIView.animate(withDuration: 0.2) {
-            self.view.backgroundColor = UIColor.init(r: 0, g: 0, b: 0, a: 0.1)
-        }
-    }
-    
-    public override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        self.view.backgroundColor = .clear
-    }
-    
-//    public override func viewDidAppear(_ animated: Bool) {
-//        super.viewDidAppear(animated)
-//        self.view.backgroundColor = UIColor.init(r: 0, g: 0, b: 0, a: 0.1)
-//    }
-    
 }
 
 
@@ -213,8 +192,6 @@ extension SliderSheetController {
         
         actions.append(action)
     }
-    
-    
 }
 
 extension SliderSheetController: UITableViewDelegate, UITableViewDataSource {

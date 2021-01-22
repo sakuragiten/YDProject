@@ -19,7 +19,7 @@
     "ios": "9.3"
   },
   "source_files": "PaulGeorge/Classes/**/*",
-  "swift_version": "4.2",
+  "swift_versions": "5.0",
   "dependencies": {
     "RxSwift": [
 
@@ -30,5 +30,6 @@
     "SnapKit": [
 
     ]
-  }
+  },
+  "swift_version": "5.0"
 }

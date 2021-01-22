@@ -89,8 +89,13 @@
                        Test(@"RAC", @"TestRACViewController"),
                        Test(@"多行字符串的声明", @"StringStatementController"),
                        Test(@"测试图片", @"TestImageViewController"),
-                       Test(@"CAShapLayer", @"YDShapLayerController"),];
+                       Test(@"CAShapLayer", @"YDShapLayerController"),
+                       Test(@"曲线", @"TestCurveViewController"),
+                       Test(@"转场", @"YDTransitViewController"),
+                       Test(@"点赞动画", @"YDLikeAnimationViewController")];
 }
+
+
 
 
 #pragma mark - LXHouse
@@ -104,7 +109,8 @@
                        Test(@"Album", @"LXHouseAlbumController"),
                        Test(@"Networking", @"LXNetworkingController"),
                        Test(@"WebView", @"LXWebViewController"),
-                       Test(@"SegueToLouxunApp", @"LXSegueToLouxunController"),];
+                       Test(@"SegueToLouxunApp", @"LXSegueToLouxunController"),
+                       Test(@"TextTure", @"TestTextTureViewController"),];
 }
 
 

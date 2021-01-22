@@ -19,6 +19,21 @@ PODS:
     - RxCocoa
     - RxSwift
     - SnapKit
+  - PINCache (3.0.3):
+    - PINCache/Arc-exception-safe (= 3.0.3)
+    - PINCache/Core (= 3.0.3)
+  - PINCache/Arc-exception-safe (3.0.3):
+    - PINCache/Core
+  - PINCache/Core (3.0.3):
+    - PINOperation (~> 1.2.1)
+  - PINOperation (1.2.1)
+  - PINRemoteImage/Core (3.0.3):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.3):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.3):
+    - PINCache (~> 3.0.3)
+    - PINRemoteImage/Core
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -30,39 +45,69 @@ PODS:
     - RxSwift (>= 4.4.2, ~> 4.4)
   - RxSwift (4.5.0)
   - SAMKeychain (1.5.3)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
   - SnapKit (4.2.0)
+  - Texture (3.0.0):
+    - Texture/AssetsLibrary (= 3.0.0)
+    - Texture/Core (= 3.0.0)
+    - Texture/MapKit (= 3.0.0)
+    - Texture/Photos (= 3.0.0)
+    - Texture/PINRemoteImage (= 3.0.0)
+    - Texture/Video (= 3.0.0)
+  - Texture/AssetsLibrary (3.0.0):
+    - Texture/Core
+  - Texture/Core (3.0.0)
+  - Texture/MapKit (3.0.0):
+    - Texture/Core
+  - Texture/Photos (3.0.0):
+    - Texture/Core
+  - Texture/PINRemoteImage (3.0.0):
+    - PINRemoteImage/iOS (~> 3.0.0)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Texture/Video (3.0.0):
+    - Texture/Core
   - YDProject (0.1.1):
     - AFNetworking (~> 3.1)
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
     - SnapKit
-  - ZFPlayer (3.2.10):
-    - ZFPlayer/Core (= 3.2.10)
-  - ZFPlayer/AVPlayer (3.2.10):
+  - ZFPlayer (3.3.3):
+    - ZFPlayer/Core (= 3.3.3)
+  - ZFPlayer/AVPlayer (3.3.3):
     - ZFPlayer/Core
-  - ZFPlayer/ControlView (3.2.10):
+  - ZFPlayer/ControlView (3.3.3):
     - ZFPlayer/Core
-  - ZFPlayer/Core (3.2.10)
+  - ZFPlayer/Core (3.3.3)
 
 DEPENDENCIES:
   - Masonry
   - PaulGeorge (from `https://github.com/sakuragiten/PaulGeorge.git`)
   - ReactiveCocoa (~> 2.5)
   - SAMKeychain (~> 1.5.3)
+  - SDWebImage
+  - Texture
   - YDProject (from `../`)
   - ZFPlayer (~> 3.0)
   - ZFPlayer/AVPlayer (~> 3.0)
   - ZFPlayer/ControlView (~> 3.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - Masonry
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
     - ReactiveCocoa
     - RxCocoa
     - RxSwift
     - SAMKeychain
+    - SDWebImage
     - SnapKit
+    - Texture
     - ZFPlayer
 
 EXTERNAL SOURCES:
@@ -73,21 +118,26 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   PaulGeorge:
-    :commit: ec8a1ddf42a8d5eeb98832f82b01ddaeafa9d3eb
+    :commit: b7efa4c2b76455cc92611aba8d44b3f6ae7aea00
     :git: https://github.com/sakuragiten/PaulGeorge.git
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  PaulGeorge: 988c80a87c0e1c8256b722a76d7b1addf335dc0a
+  PaulGeorge: 261b612d0aba165792be7f9f5ced85dc64fb48c6
+  PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
+  PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
+  PINRemoteImage: f1295b29f8c5e640e25335a1b2bd9d805171bd01
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  Texture: 2f109e937850d94d1d07232041c9c7313ccddb81
   YDProject: 7ad8e776fc4622582e9c9267ca1b516652c16c46
-  ZFPlayer: a51c6ffebaf06b91d373091bb4a62ee188cfc7de
+  ZFPlayer: 1310252c253b9958e4fcd411e706b99c31834eaf
 
-PODFILE CHECKSUM: d0fcd19062df0825c9ced267a0d6f963e7d69858
+PODFILE CHECKSUM: 6c82765d00b6cce56acadb8521fd0d495f5730cc
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.10.0
