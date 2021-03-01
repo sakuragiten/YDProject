@@ -28,6 +28,21 @@
     
     [self setupUI];
     
+    
+//    NSLog(@"10 / 0 = %d", (10 / 0));
+//    NSArray *test = @[];
+//    NSLog(@"%@", test.firstObject);
+//    NSInteger a = 1;
+//    NSMutableArray *result = [NSMutableArray array];
+//    while (a < 100000000) {
+//        UIImage *image = [UIImage imageNamed:@"for_test"];
+//        [result addObject:image];
+//        a ++;
+//    }
+    
+    
+    
+    
 }
 
 - (void)setupUI

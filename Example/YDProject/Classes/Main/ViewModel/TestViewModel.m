@@ -92,7 +92,8 @@
                        Test(@"CAShapLayer", @"YDShapLayerController"),
                        Test(@"曲线", @"TestCurveViewController"),
                        Test(@"转场", @"YDTransitViewController"),
-                       Test(@"点赞动画", @"YDLikeAnimationViewController")];
+                       Test(@"点赞动画", @"YDLikeAnimationViewController"),
+                       Test(@"正则表达式", @"YDRegularViewController")];
 }
 
 

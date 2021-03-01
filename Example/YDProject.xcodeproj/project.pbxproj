@@ -27,11 +27,15 @@
 		3C306CD725ABD52900F41585 /* YDPresentNavDestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C306CD625ABD52900F41585 /* YDPresentNavDestinationViewController.m */; };
 		3C306CDA25ABD58400F41585 /* YDPresentNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C306CD925ABD58400F41585 /* YDPresentNavViewController.m */; };
 		3C307AA825B7B901005A91A3 /* YDLikeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C307AA725B7B901005A91A3 /* YDLikeAnimationViewController.m */; };
+		3C71469E25BA9D2300340E6C /* YDLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C71469D25BA9D2300340E6C /* YDLikeButton.m */; };
+		3C7146A125BA9EBC00340E6C /* YDVideoLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7146A025BA9EBC00340E6C /* YDVideoLikeButton.m */; };
+		3C71470325BECE8600340E6C /* YDRegularViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C71470225BECE8600340E6C /* YDRegularViewController.m */; };
 		3C7BE599257F2E0000889995 /* TestTextTureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7BE598257F2E0000889995 /* TestTextTureViewController.m */; };
 		3C7BE5AA2580A3CD00889995 /* curveLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C7BE5A92580A3CD00889995 /* curveLine.png */; };
 		3CA7DD2C257DCE1C00B1DE05 /* TestCurveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7DD2B257DCE1C00B1DE05 /* TestCurveViewController.m */; };
 		3CA7DD33257DD04E00B1DE05 /* UIBezierPath+curved.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7DD32257DD04E00B1DE05 /* UIBezierPath+curved.m */; };
 		3CA7DD36257DDE1600B1DE05 /* YDCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7DD35257DDE1600B1DE05 /* YDCurveView.m */; };
+		3CBF97B225C0FABA00C765B0 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF97B125C0FABA00C765B0 /* UIView+Animation.m */; };
 		444D7DE824B5E987005723AB /* YDShapLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444D7DE724B5E987005723AB /* YDShapLayerController.m */; };
 		4B0645F82269670300D99E54 /* CornerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0645F62269670300D99E54 /* CornerViewController.m */; };
 		4B0645F92269670300D99E54 /* CornerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0645F72269670300D99E54 /* CornerViewController.xib */; };
@@ -172,6 +176,12 @@
 		3C307AA725B7B901005A91A3 /* YDLikeAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLikeAnimationViewController.m; sourceTree = "<group>"; };
 		3C40B5F0221D02CD0088AB68 /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
 		3C40B5F3221D04600088AB68 /* YDBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBlock.m; sourceTree = "<group>"; };
+		3C71469C25BA9D2300340E6C /* YDLikeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDLikeButton.h; sourceTree = "<group>"; };
+		3C71469D25BA9D2300340E6C /* YDLikeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDLikeButton.m; sourceTree = "<group>"; };
+		3C71469F25BA9EBC00340E6C /* YDVideoLikeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDVideoLikeButton.h; sourceTree = "<group>"; };
+		3C7146A025BA9EBC00340E6C /* YDVideoLikeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDVideoLikeButton.m; sourceTree = "<group>"; };
+		3C71470125BECE8600340E6C /* YDRegularViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDRegularViewController.h; sourceTree = "<group>"; };
+		3C71470225BECE8600340E6C /* YDRegularViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDRegularViewController.m; sourceTree = "<group>"; };
 		3C7BE597257F2E0000889995 /* TestTextTureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTextTureViewController.h; sourceTree = "<group>"; };
 		3C7BE598257F2E0000889995 /* TestTextTureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTextTureViewController.m; sourceTree = "<group>"; };
 		3C7BE5A92580A3CD00889995 /* curveLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = curveLine.png; sourceTree = "<group>"; };
@@ -181,6 +191,8 @@
 		3CA7DD32257DD04E00B1DE05 /* UIBezierPath+curved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+curved.m"; sourceTree = "<group>"; };
 		3CA7DD34257DDE1600B1DE05 /* YDCurveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDCurveView.h; sourceTree = "<group>"; };
 		3CA7DD35257DDE1600B1DE05 /* YDCurveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDCurveView.m; sourceTree = "<group>"; };
+		3CBF97B025C0FABA00C765B0 /* UIView+Animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		3CBF97B125C0FABA00C765B0 /* UIView+Animation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
 		3CE0E21D2223D51F00C84265 /* YDPushAndPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPushAndPresentViewController.m; sourceTree = "<group>"; };
 		3CE0E226222937DA00C84265 /* TestNetWorkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNetWorkController.m; sourceTree = "<group>"; };
 		3CE0E227222937DA00C84265 /* TestThreadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestThreadController.m; sourceTree = "<group>"; };
@@ -487,8 +499,23 @@
 			children = (
 				3C307AA625B7B901005A91A3 /* YDLikeAnimationViewController.h */,
 				3C307AA725B7B901005A91A3 /* YDLikeAnimationViewController.m */,
+				3C71469C25BA9D2300340E6C /* YDLikeButton.h */,
+				3C71469D25BA9D2300340E6C /* YDLikeButton.m */,
+				3C71469F25BA9EBC00340E6C /* YDVideoLikeButton.h */,
+				3C7146A025BA9EBC00340E6C /* YDVideoLikeButton.m */,
+				3CBF97B025C0FABA00C765B0 /* UIView+Animation.h */,
+				3CBF97B125C0FABA00C765B0 /* UIView+Animation.m */,
 			);
 			path = Like;
+			sourceTree = "<group>";
+		};
+		3C71470025BECE6200340E6C /* regular */ = {
+			isa = PBXGroup;
+			children = (
+				3C71470125BECE8600340E6C /* YDRegularViewController.h */,
+				3C71470225BECE8600340E6C /* YDRegularViewController.m */,
+			);
+			path = regular;
 			sourceTree = "<group>";
 		};
 		3C7BE596257F2DE400889995 /* TextTure */ = {
@@ -786,6 +813,7 @@
 		4BDA048422533AF2004450E6 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				3C71470025BECE6200340E6C /* regular */,
 				3C307AA425B7B8BE005A91A3 /* Animation */,
 				3C306CA825A92DE200F41585 /* Transit */,
 				444D7DE424B5E947005723AB /* ShapLayer */,
@@ -1494,6 +1522,7 @@
 				4B4726082285743A0000AA16 /* LXHouseAlbumController.m in Sources */,
 				4BF5E59F22D57B1F003D57F3 /* YDCityController.m in Sources */,
 				4B7F1ADC2264B0C400F24770 /* ButtonContentPositionController.m in Sources */,
+				3C71469E25BA9D2300340E6C /* YDLikeButton.m in Sources */,
 				4BDA048222533ACB004450E6 /* YDTest.m in Sources */,
 				3C306CDA25ABD58400F41585 /* YDPresentNavViewController.m in Sources */,
 				3C306CBE25A9469C00F41585 /* PresentationAnimatedTransition.m in Sources */,
@@ -1510,6 +1539,7 @@
 				4B5FE26422754FBF002AB0B7 /* DebugViewController.m in Sources */,
 				4BDA04C522533AF2004450E6 /* TestThreadController.m in Sources */,
 				4B4799B92266B65F00C5844B /* SettingViewController.m in Sources */,
+				3C71470325BECE8600340E6C /* YDRegularViewController.m in Sources */,
 				3CA7DD36257DDE1600B1DE05 /* YDCurveView.m in Sources */,
 				3C1BF0F524800C5D00B1336C /* AlbumViewController.m in Sources */,
 				4BDA04D722533AF3004450E6 /* OGLesson2View.m in Sources */,
@@ -1527,6 +1557,7 @@
 				3C7BE599257F2E0000889995 /* TestTextTureViewController.m in Sources */,
 				4B0EFAA222EE8FAC00DDA154 /* LXMarkTableViewController.m in Sources */,
 				4BDA04D822533AF3004450E6 /* OpenGLLesson2.m in Sources */,
+				3CBF97B225C0FABA00C765B0 /* UIView+Animation.m in Sources */,
 				4BDA04D222533AF2004450E6 /* CoreGraphicsViewController.m in Sources */,
 				4B472604228401920000AA16 /* LXNetworking.m in Sources */,
 				4B8C9A6022E983E000711060 /* UIView+Mark.m in Sources */,
@@ -1544,6 +1575,7 @@
 				4B82FA7D22ADE46300CB42AF /* LXPopLabel.m in Sources */,
 				3C1BF0FA24800E6D00B1336C /* AlbumPickerNavgationBar.m in Sources */,
 				4B4799BF2266BC2100C5844B /* SwitchButtonCell.m in Sources */,
+				3C7146A125BA9EBC00340E6C /* YDVideoLikeButton.m in Sources */,
 				4B65A39B22B73A8D003F36CB /* YDVideoTestController.m in Sources */,
 				4BDA04D122533AF2004450E6 /* AttributesController.m in Sources */,
 				4B4799B32265B95500C5844B /* DecimalStringViewController.m in Sources */,
