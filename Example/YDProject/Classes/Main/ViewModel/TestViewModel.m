@@ -50,6 +50,8 @@
 - (void)settingMainDataSource
 {
     self.dataArray = @[Test(@"NetWork", @"TestNetWorkController"),
+                       Test(@"字体适配", @"YDFontViewController"),
+                       Test(@"CompositionalLayout", @"YDCompositionalLayoutViewController"),
                        Test(@"Album", @"TestAlbumViewController"),
                        Test(@"Basic", @"TestBasicMainViewController"),
                        Test(@"LXHouse", @"LXMainViewController"),
@@ -93,7 +95,8 @@
                        Test(@"曲线", @"TestCurveViewController"),
                        Test(@"转场", @"YDTransitViewController"),
                        Test(@"点赞动画", @"YDLikeAnimationViewController"),
-                       Test(@"正则表达式", @"YDRegularViewController")];
+                       Test(@"正则表达式", @"YDRegularViewController"),
+                       Test(@"聊天动画", @"ChatAnimationViewController")];
 }
 
 

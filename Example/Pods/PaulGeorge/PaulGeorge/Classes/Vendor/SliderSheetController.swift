@@ -204,7 +204,7 @@ extension SliderSheetController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SliderCell") as! SliderActionCell
         cell.action = actions[indexPath.row]
         cell.rx_sliderValue?
-            .distinctUntilChanged().subscribe({ (value) in
+            .distinctUntilChanged().skip(1).subscribe({ (value) in
               self.sliderProgress?(indexPath.row, CGFloat(value.element ?? 0))
             }).disposed(by: disposeBag)
         return cell

@@ -88,6 +88,10 @@
             [_vc dismissViewControllerAnimated:YES completion:nil];
             break;
         }
+        case InteractiveTransitionTypePop:{
+            [_vc.navigationController popViewControllerAnimated:YES];
+            break;
+        }
         default:
             break;
     }

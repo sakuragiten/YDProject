@@ -15,17 +15,12 @@
 {
     CAShapeLayer *anmitionLayer;
     CAShapeLayer *grayLayer;
-    NSMutableArray *_pointArr;
-    
     CAShapeLayer *_bottomLayer;
-    
 }
 @end
+
 #define  VIEW_WIDTH  self.frame.size.width //底图的宽度
 #define  VIEW_HEIGHT self.frame.size.height//底图的高度
-
-//#define  LABLE_WIDTH  280 //表的宽度
-//#define  LABLE_HEIGHT 149 //表的高度
 
 #define  LABLE_WIDTH  VIEW_WIDTH //表的宽度
 #define  LABLE_HEIGHT VIEW_HEIGHT //表的高度
@@ -37,18 +32,13 @@
     self = [super initWithFrame:frame];
     if (self) {
         
-        [self initData];
-        
         // 承载曲线图的View
         [self makeBottomlayer];
         
     }
     return self;
 }
--(void)initData{
 
-    _pointArr = [[NSMutableArray alloc] initWithCapacity:0];
-}
 
 
 -(void)makeBottomlayer{
@@ -71,7 +61,6 @@
     
     [_bottomLayer removeFromSuperlayer];
     [self makeBottomlayer];
-    [_pointArr removeAllObjects];
     
     
     // 创建layer并设置属性
@@ -86,42 +75,46 @@
     gradientLayer.colors = @[
                              (__bridge id)[UIColor colorWithHexString:@"#0FCCDF"].CGColor,
                              (__bridge id)[UIColor colorWithHexString:@"#8FC31F"].CGColor,];
-//    gradientLayer.colors = @[(__bridge id)[UIColor redColor].CGColor,
-//                             (__bridge id)[UIColor redColor].CGColor,];
     gradientLayer.startPoint = CGPointMake(0, 0);
     gradientLayer.endPoint = CGPointMake(1, 0);
     [_bottomLayer addSublayer:gradientLayer];
-//    gradientLayer.mask = layer;
 
     
     
     
     CGPoint point;
-    // 创建贝塞尔路径~
     UIBezierPath *path = [UIBezierPath bezierPath];
 
-    //X轴和Y轴的倍率
-//    CGFloat BLX = (LABLE_WIDTH-15)/X;
-//    CGFloat BLY = LABLE_HEIGHT/50.0;
     
-    CGFloat BLX = kScreenWidth / 375.0;
-    CGFloat BLY = 1.0 * BLX;
-    
+//    CGFloat BLX = kScreenWidth / 375.0;
+//    CGFloat BLY = 1.0 * BLX;
+//
+//    for (int i= 0; i< pathY.count; i++) {
+//
+//        CGFloat X = [pathX[i] floatValue] * BLX + (VIEW_WIDTH - LABLE_WIDTH) + 10;
+//        CGFloat Y = LABLE_HEIGHT - [pathY[i] floatValue]*BLY + (VIEW_HEIGHT - LABLE_HEIGHT) / 2.0;
+//        point = CGPointMake(X, Y);
+//
+//        //起点
+//        if (i == 0) {
+//            [path moveToPoint:point];
+//        } else {
+//            [path addLineToPoint:point];
+//        }
+//    }
+
     for (int i= 0; i< pathY.count; i++) {
         
-        CGFloat X = [pathX[i] floatValue]*BLX +(VIEW_WIDTH - LABLE_WIDTH) +10;
-        CGFloat Y = LABLE_HEIGHT - [pathY[i] floatValue]*BLY +(VIEW_HEIGHT - LABLE_HEIGHT)/2;//(VIEW_HEIGHT - LABLE_HEIGHT)/2是指图表在背景大图的的height
-        
-        //NSLog(@"space==%lf",VIEW_HEIGHT - LABLE_HEIGHT);
+        CGFloat X = [pathX[i] floatValue];
+        CGFloat Y = [pathY[i] floatValue];
         point = CGPointMake(X, Y);
-
-        [_pointArr addObject:[NSValue valueWithCGPoint:point]];
         
-        if (i==0) {
-            [path moveToPoint:point];//起点
+        //起点
+        if (i == 0) {
+            [path moveToPoint:point];
+        } else {
+            [path addLineToPoint:point];
         }
-        
-        [path addLineToPoint:point];
     }
     //平滑曲线
     path = [path smoothedPathWithGranularity:20];
@@ -152,7 +145,6 @@
     layer.lineWidth =  2.0f;
     layer.lineCap = kCALineCapRound;
     layer.lineJoin = kCALineJoinRound;
-//    layer.strokeColor = [UIColor colorWithHexString:@"#00c1ed"].CGColor;
     layer.strokeColor = [UIColor whiteColor].CGColor;
     return layer;
 }
@@ -173,7 +165,6 @@
     
     anmitionLayer.strokeEnd = 1;
     
-
 }
 
 @end

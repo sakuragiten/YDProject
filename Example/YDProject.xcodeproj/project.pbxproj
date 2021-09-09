@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23298A3B26734BB00065EB02 /* ChatAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23298A3A26734BB00065EB02 /* ChatAnimationViewController.m */; };
+		23298A3E26734CF10065EB02 /* ChatAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23298A3D26734CF10065EB02 /* ChatAnimationCell.m */; };
+		23298A4126734D260065EB02 /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23298A4026734D260065EB02 /* ChatModel.m */; };
+		235608552668ACCD00C0B4C3 /* PushAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 235608542668ACCD00C0B4C3 /* PushAnimatedTransition.m */; };
+		235D16C62631759400A5C048 /* YDFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235D16C52631759400A5C048 /* YDFontViewController.m */; };
+		235D16CA263176D200A5C048 /* YDFontSession1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235D16C9263176D200A5C048 /* YDFontSession1ViewController.m */; };
+		235D16CD2631779C00A5C048 /* UIView+FontAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 235D16CC2631779C00A5C048 /* UIView+FontAdjust.m */; };
+		235D16D026317B6600A5C048 /* FontTestLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 235D16CF26317B6600A5C048 /* FontTestLabel.m */; };
+		23DE8D75261463EB007EEE70 /* YDCompositionalLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DE8D74261463EB007EEE70 /* YDCompositionalLayoutViewController.m */; };
+		23DE8D7826146651007EEE70 /* SXCompositionalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DE8D7726146651007EEE70 /* SXCompositionalLayout.m */; };
 		3C0F591E22297593008A97AE /* TestDesignatedInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F591D22297593008A97AE /* TestDesignatedInitializer.m */; };
 		3C0F5921222975F3008A97AE /* DIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F5920222975F3008A97AE /* DIPerson.m */; };
 		3C0F59242229773C008A97AE /* DIMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F59232229773C008A97AE /* DIMan.m */; };
@@ -135,6 +145,26 @@
 		124D8C5BB625CFBF851166B4 /* Pods-YDProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YDProject_Example/Pods-YDProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		16FD4D6C60990EB5BFFCFF64 /* YDProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDProject.podspec; path = ../YDProject.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1EDD2CF7E4D9A3612BA09FCF /* Pods_YDProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23298A3926734BB00065EB02 /* ChatAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatAnimationViewController.h; sourceTree = "<group>"; };
+		23298A3A26734BB00065EB02 /* ChatAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatAnimationViewController.m; sourceTree = "<group>"; };
+		23298A3C26734CF10065EB02 /* ChatAnimationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatAnimationCell.h; sourceTree = "<group>"; };
+		23298A3D26734CF10065EB02 /* ChatAnimationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatAnimationCell.m; sourceTree = "<group>"; };
+		23298A3F26734D260065EB02 /* ChatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
+		23298A4026734D260065EB02 /* ChatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
+		235608532668ACCD00C0B4C3 /* PushAnimatedTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushAnimatedTransition.h; sourceTree = "<group>"; };
+		235608542668ACCD00C0B4C3 /* PushAnimatedTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushAnimatedTransition.m; sourceTree = "<group>"; };
+		235D16C42631759400A5C048 /* YDFontViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDFontViewController.h; sourceTree = "<group>"; };
+		235D16C52631759400A5C048 /* YDFontViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDFontViewController.m; sourceTree = "<group>"; };
+		235D16C8263176D200A5C048 /* YDFontSession1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDFontSession1ViewController.h; sourceTree = "<group>"; };
+		235D16C9263176D200A5C048 /* YDFontSession1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDFontSession1ViewController.m; sourceTree = "<group>"; };
+		235D16CB2631779C00A5C048 /* UIView+FontAdjust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FontAdjust.h"; sourceTree = "<group>"; };
+		235D16CC2631779C00A5C048 /* UIView+FontAdjust.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FontAdjust.m"; sourceTree = "<group>"; };
+		235D16CE26317B6600A5C048 /* FontTestLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontTestLabel.h; sourceTree = "<group>"; };
+		235D16CF26317B6600A5C048 /* FontTestLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontTestLabel.m; sourceTree = "<group>"; };
+		23DE8D73261463EB007EEE70 /* YDCompositionalLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDCompositionalLayoutViewController.h; sourceTree = "<group>"; };
+		23DE8D74261463EB007EEE70 /* YDCompositionalLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDCompositionalLayoutViewController.m; sourceTree = "<group>"; };
+		23DE8D7626146651007EEE70 /* SXCompositionalLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXCompositionalLayout.h; sourceTree = "<group>"; };
+		23DE8D7726146651007EEE70 /* SXCompositionalLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXCompositionalLayout.m; sourceTree = "<group>"; };
 		3C0F591C22297593008A97AE /* TestDesignatedInitializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDesignatedInitializer.h; sourceTree = "<group>"; };
 		3C0F591D22297593008A97AE /* TestDesignatedInitializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDesignatedInitializer.m; sourceTree = "<group>"; };
 		3C0F591F222975F3008A97AE /* DIPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIPerson.h; sourceTree = "<group>"; };
@@ -377,6 +407,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23298A3826734B3C0065EB02 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				23298A3926734BB00065EB02 /* ChatAnimationViewController.h */,
+				23298A3A26734BB00065EB02 /* ChatAnimationViewController.m */,
+				23298A3C26734CF10065EB02 /* ChatAnimationCell.h */,
+				23298A3D26734CF10065EB02 /* ChatAnimationCell.m */,
+				23298A3F26734D260065EB02 /* ChatModel.h */,
+				23298A4026734D260065EB02 /* ChatModel.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		235D16C12631753300A5C048 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				235D16C72631760200A5C048 /* Lib */,
+				235D16C32631757300A5C048 /* Main */,
+				235D16C22631755200A5C048 /* session_1 */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		235D16C22631755200A5C048 /* session_1 */ = {
+			isa = PBXGroup;
+			children = (
+				235D16C8263176D200A5C048 /* YDFontSession1ViewController.h */,
+				235D16C9263176D200A5C048 /* YDFontSession1ViewController.m */,
+				235D16CE26317B6600A5C048 /* FontTestLabel.h */,
+				235D16CF26317B6600A5C048 /* FontTestLabel.m */,
+			);
+			path = session_1;
+			sourceTree = "<group>";
+		};
+		235D16C32631757300A5C048 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				235D16C42631759400A5C048 /* YDFontViewController.h */,
+				235D16C52631759400A5C048 /* YDFontViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		235D16C72631760200A5C048 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				235D16CB2631779C00A5C048 /* UIView+FontAdjust.h */,
+				235D16CC2631779C00A5C048 /* UIView+FontAdjust.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		23DE8D71261463A2007EEE70 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				23DE8D72261463CD007EEE70 /* Layout */,
+				23DE8D73261463EB007EEE70 /* YDCompositionalLayoutViewController.h */,
+				23DE8D74261463EB007EEE70 /* YDCompositionalLayoutViewController.m */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		23DE8D72261463CD007EEE70 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				23DE8D7626146651007EEE70 /* SXCompositionalLayout.h */,
+				23DE8D7726146651007EEE70 /* SXCompositionalLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
 		3C1BF0ED24800AE900B1336C /* Album */ = {
 			isa = PBXGroup;
 			children = (
@@ -465,6 +566,8 @@
 				3C306CAE25A92E0F00F41585 /* PresentationTransition.m */,
 				3C306CCF25A95ADF00F41585 /* PushTransition.h */,
 				3C306CD025A95ADF00F41585 /* PushTransition.m */,
+				235608532668ACCD00C0B4C3 /* PushAnimatedTransition.h */,
+				235608542668ACCD00C0B4C3 /* PushAnimatedTransition.m */,
 			);
 			path = Transition;
 			sourceTree = "<group>";
@@ -489,6 +592,7 @@
 		3C307AA425B7B8BE005A91A3 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				23298A3826734B3C0065EB02 /* Chat */,
 				3C307AA525B7B8C8005A91A3 /* Like */,
 			);
 			path = Animation;
@@ -813,6 +917,7 @@
 		4BDA048422533AF2004450E6 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				235D16C12631753300A5C048 /* Font */,
 				3C71470025BECE6200340E6C /* regular */,
 				3C307AA425B7B8BE005A91A3 /* Animation */,
 				3C306CA825A92DE200F41585 /* Transit */,
@@ -953,6 +1058,7 @@
 		4BDA04AB22533AF2004450E6 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				23DE8D71261463A2007EEE70 /* UICollectionView */,
 				3C7BE596257F2DE400889995 /* TextTure */,
 				3C1BF0ED24800AE900B1336C /* Album */,
 				4BDA04AC22533AF2004450E6 /* CoreGraphics */,
@@ -1510,6 +1616,7 @@
 				4B7F1AC322642BDC00F24770 /* UIView+LXExtension.m in Sources */,
 				4B7F1ABF226427E900F24770 /* LXGraphicsController.m in Sources */,
 				4BDA04D322533AF3004450E6 /* OpengGLLesson1.m in Sources */,
+				23DE8D75261463EB007EEE70 /* YDCompositionalLayoutViewController.m in Sources */,
 				4BDA04E122533D8F004450E6 /* LXHouseTagView.m in Sources */,
 				4BDA04CC22533AF2004450E6 /* YDAppDelegate.m in Sources */,
 				4BE645EB22B0D3E300A2CF54 /* LXBroadcastView.m in Sources */,
@@ -1524,13 +1631,17 @@
 				4B7F1ADC2264B0C400F24770 /* ButtonContentPositionController.m in Sources */,
 				3C71469E25BA9D2300340E6C /* YDLikeButton.m in Sources */,
 				4BDA048222533ACB004450E6 /* YDTest.m in Sources */,
+				23DE8D7826146651007EEE70 /* SXCompositionalLayout.m in Sources */,
 				3C306CDA25ABD58400F41585 /* YDPresentNavViewController.m in Sources */,
 				3C306CBE25A9469C00F41585 /* PresentationAnimatedTransition.m in Sources */,
 				4B82FA7A22A8F3EB00CB42AF /* LXPageControl.m in Sources */,
 				3C306CD125A95ADF00F41585 /* PushTransition.m in Sources */,
+				23298A3B26734BB00065EB02 /* ChatAnimationViewController.m in Sources */,
 				4BDA04C922533AF2004450E6 /* YDBlock.m in Sources */,
 				4BFCEDB9228E7FD0009EE3DD /* LXNetworkingController.m in Sources */,
 				4BDA04CE22533AF2004450E6 /* TestModel.m in Sources */,
+				235D16C62631759400A5C048 /* YDFontViewController.m in Sources */,
+				235D16D026317B6600A5C048 /* FontTestLabel.m in Sources */,
 				4BDA9BE6230FBD6D0008FF03 /* BaiduMapViewController.m in Sources */,
 				4BDA04CF22533AF2004450E6 /* TestMainViewController.m in Sources */,
 				4B352FC8229693E80047C33C /* LXWebViewController.m in Sources */,
@@ -1555,6 +1666,7 @@
 				3CA7DD33257DD04E00B1DE05 /* UIBezierPath+curved.m in Sources */,
 				4BFCEDB5228E5272009EE3DD /* LXNetwokingConfigManager.m in Sources */,
 				3C7BE599257F2E0000889995 /* TestTextTureViewController.m in Sources */,
+				23298A4126734D260065EB02 /* ChatModel.m in Sources */,
 				4B0EFAA222EE8FAC00DDA154 /* LXMarkTableViewController.m in Sources */,
 				4BDA04D822533AF3004450E6 /* OpenGLLesson2.m in Sources */,
 				3CBF97B225C0FABA00C765B0 /* UIView+Animation.m in Sources */,
@@ -1574,12 +1686,16 @@
 				4BDF5363227FC8F500D0EE3D /* StringStatementController.m in Sources */,
 				4B82FA7D22ADE46300CB42AF /* LXPopLabel.m in Sources */,
 				3C1BF0FA24800E6D00B1336C /* AlbumPickerNavgationBar.m in Sources */,
+				23298A3E26734CF10065EB02 /* ChatAnimationCell.m in Sources */,
 				4B4799BF2266BC2100C5844B /* SwitchButtonCell.m in Sources */,
 				3C7146A125BA9EBC00340E6C /* YDVideoLikeButton.m in Sources */,
+				235D16CD2631779C00A5C048 /* UIView+FontAdjust.m in Sources */,
 				4B65A39B22B73A8D003F36CB /* YDVideoTestController.m in Sources */,
 				4BDA04D122533AF2004450E6 /* AttributesController.m in Sources */,
 				4B4799B32265B95500C5844B /* DecimalStringViewController.m in Sources */,
 				3C1BF0FE24800FE500B1336C /* AlbumLayout.m in Sources */,
+				235D16CA263176D200A5C048 /* YDFontSession1ViewController.m in Sources */,
+				235608552668ACCD00C0B4C3 /* PushAnimatedTransition.m in Sources */,
 				3C306CB925A92F4700F41585 /* YDPresentDestinationViewController.m in Sources */,
 				3C28299423EEE0A70005CDF1 /* ExamView.m in Sources */,
 			);

@@ -7,11 +7,11 @@
 //
 
 #import "YDPushDestinationViewController.h"
-#import "PushTransition.h"
+
 
 @interface YDPushDestinationViewController ()
 
-@property (nonatomic, strong) PushTransition *transition;
+
 
 @end
 
@@ -29,7 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupView];
-    self.navigationController.delegate = self.transition;
+//    self.navigationController.delegate = self.transition;
 }
 
 - (void)setupView
@@ -44,6 +44,7 @@
     btn.frame = CGRectMake(100, 100, 100, 50);
     btn.backgroundColor = [UIColor randomColor];
     [self.view addSubview:btn];
+    
 }
 
 - (void)tapAction

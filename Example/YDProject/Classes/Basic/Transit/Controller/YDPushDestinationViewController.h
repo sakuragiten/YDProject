@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PushTransition.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YDPushDestinationViewController : UIViewController
+
+@property (nonatomic, strong) PushTransition *transition;
 
 
 

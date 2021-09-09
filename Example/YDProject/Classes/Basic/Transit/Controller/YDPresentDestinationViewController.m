@@ -7,14 +7,14 @@
 //
 
 #import "YDPresentDestinationViewController.h"
-#import "PresentationTransition.h"
+#import "PushTransition.h"
 
 @interface YDPresentDestinationViewController ()
 //<UIViewControllerTransitioningDelegate>
 
-//@property (nonatomic, strong) PresentationTransition *transition;
+@property (nonatomic, strong) PushTransition *transition;
 
-@property (nonatomic, strong) PresentationTransition *transition;
+//@property (nonatomic, strong) PresentationTransition *transition;
 
 @end
 
@@ -23,7 +23,7 @@
 - (instancetype)init
 {
     if (self = [super init]) {
-        _transition = [PresentationTransition new];
+        _transition = [PushTransition new];
         [_transition.interactiveTransition addPanGestureForViewController:self];
         self.transitioningDelegate = _transition;
         self.modalPresentationStyle = UIModalPresentationCustom;

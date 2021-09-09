@@ -49,6 +49,7 @@
         btn.frame = CGRectMake(100, 300, 100, 50);
         btn.backgroundColor = [UIColor randomColor];
         [self.view addSubview:btn];
+        btn.tag = 1988;
     }
     {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -76,6 +77,7 @@
 - (void)tapAction2
 {
     YDPushDestinationViewController *vc = [YDPushDestinationViewController new];
+    self.navigationController.delegate = vc.transition;
     [self.navigationController pushViewController:vc animated:YES];
 }
 
