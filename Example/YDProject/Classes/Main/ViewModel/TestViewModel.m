@@ -49,20 +49,27 @@
 #pragma mark - main
 - (void)settingMainDataSource
 {
-    self.dataArray = @[Test(@"NetWork", @"TestNetWorkController"),
-                       Test(@"字体适配", @"YDFontViewController"),
-                       Test(@"CompositionalLayout", @"YDCompositionalLayoutViewController"),
-                       Test(@"Album", @"TestAlbumViewController"),
-                       Test(@"Basic", @"TestBasicMainViewController"),
-                       Test(@"LXHouse", @"LXMainViewController"),
-                       Test(@"LXBroker-楼讯经纪", @"LXBrokerMainController"),
-                       Test(@"OpenGL", @"OpengGLMainViewController"),
-                       Test(@"CoreGraphics", @"CoreGraphicsViewController"),
-                       Test(@"FloatingButton", @"TestFloatingController"),
-                       Test(@"Block", @"BlockViewController"),
-                       Test(@"Push&Present", @"YDPushAndPresentViewController"),
-                       Test(@"CityList", @"YDCityController"),
-                       Test(@"萌萌考试", @"ExamViewController"),];
+    self.dataArray = @[
+        Test(@"获取短信验证码", @"CountDownViewController"),
+        Test(@"Zip", @"RACZipViewController"),
+        Test(@"RACDispose", @"RACDisposeController"),
+        Test(@"RAC_NSMutableArray", @"RACMutableArrayController"),
+        Test(@"NetWork", @"TestNetWorkController"),
+        Test(@"VideoRecord", @"TestVideoRecordViewController"),
+        Test(@"字体适配", @"YDFontViewController"),
+        Test(@"CompositionalLayout", @"YDCompositionalLayoutViewController"),
+        Test(@"Album", @"TestAlbumViewController"),
+        Test(@"Basic", @"TestBasicMainViewController"),
+        Test(@"LXHouse", @"LXMainViewController"),
+        Test(@"LXBroker-楼讯经纪", @"LXBrokerMainController"),
+        Test(@"OpenGL", @"OpengGLMainViewController"),
+        Test(@"CoreGraphics", @"CoreGraphicsViewController"),
+        Test(@"FloatingButton", @"TestFloatingController"),
+        Test(@"Block", @"BlockViewController"),
+        Test(@"Push&Present", @"YDPushAndPresentViewController"),
+        Test(@"CityList", @"YDCityController"),
+        Test(@"萌萌考试", @"ExamViewController"),
+    ];
 }
 
 
@@ -84,6 +91,7 @@
 - (void)settingBasicDataSource
 {
     self.dataArray = @[Test(@"Thread", @"TestThreadController"),
+                       Test(@"多线程同步技术-锁", @"TestLockViewController"),
                        Test(@"Designated Initializer", @"TestDesignatedInitializer"),
 
                        Test(@"DecimalString", @"DecimalStringViewController"),
@@ -95,6 +103,7 @@
                        Test(@"曲线", @"TestCurveViewController"),
                        Test(@"转场", @"YDTransitViewController"),
                        Test(@"点赞动画", @"YDLikeAnimationViewController"),
+                       Test(@"摇晃动画", @"ShakeAnimationViewController"),
                        Test(@"正则表达式", @"YDRegularViewController"),
                        Test(@"聊天动画", @"ChatAnimationViewController")];
 }

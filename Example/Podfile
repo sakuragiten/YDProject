@@ -18,6 +18,7 @@ target 'YDProject_Example' do
   pod 'SDWebImage'
   
   pod 'Texture'
+#  pod 'mobile-ffmpeg-full'
   
   target 'YDProject_Tests' do
     inherit! :search_paths

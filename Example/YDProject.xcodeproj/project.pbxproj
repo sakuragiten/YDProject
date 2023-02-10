@@ -15,6 +15,18 @@
 		235D16CA263176D200A5C048 /* YDFontSession1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235D16C9263176D200A5C048 /* YDFontSession1ViewController.m */; };
 		235D16CD2631779C00A5C048 /* UIView+FontAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 235D16CC2631779C00A5C048 /* UIView+FontAdjust.m */; };
 		235D16D026317B6600A5C048 /* FontTestLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 235D16CF26317B6600A5C048 /* FontTestLabel.m */; };
+		2362042427732EAA0076B1B6 /* TestLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2362042327732EAA0076B1B6 /* TestLockViewController.m */; };
+		23620428277404090076B1B6 /* BaseLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 23620427277404090076B1B6 /* BaseLockDemo.m */; };
+		2362042B277404290076B1B6 /* OSSpinLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2362042A277404290076B1B6 /* OSSpinLockDemo.m */; };
+		2377ECDC277411DE00676861 /* OSUnfairLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2377ECDB277411DE00676861 /* OSUnfairLockDemo.m */; };
+		2377ECDF277415C300676861 /* MutexLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2377ECDE277415C300676861 /* MutexLockDemo.m */; };
+		238F42EA26EA108E00F101AC /* TestVideoRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F42E926EA108E00F101AC /* TestVideoRecordViewController.m */; };
+		238F430A26EAF0B800F101AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		238F431626EC801F00F101AC /* GSVideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F431526EC801F00F101AC /* GSVideoRecorder.m */; };
+		238F431926EC946500F101AC /* GSVideoCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F431826EC946500F101AC /* GSVideoCapture.m */; };
+		238F431C26F0848100F101AC /* GSCaptureFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F431B26F0848100F101AC /* GSCaptureFocusView.m */; };
+		23CC153028260F4D0068B8A6 /* ShakeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC152F28260F4D0068B8A6 /* ShakeAnimationViewController.m */; };
+		23CC153328260FB10068B8A6 /* BehaviorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CC153228260FB10068B8A6 /* BehaviorView.m */; };
 		23DE8D75261463EB007EEE70 /* YDCompositionalLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DE8D74261463EB007EEE70 /* YDCompositionalLayoutViewController.m */; };
 		23DE8D7826146651007EEE70 /* SXCompositionalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DE8D7726146651007EEE70 /* SXCompositionalLayout.m */; };
 		3C0F591E22297593008A97AE /* TestDesignatedInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F591D22297593008A97AE /* TestDesignatedInitializer.m */; };
@@ -115,7 +127,6 @@
 		4BFCEDB5228E5272009EE3DD /* LXNetwokingConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCEDB4228E5272009EE3DD /* LXNetwokingConfigManager.m */; };
 		4BFCEDB9228E7FD0009EE3DD /* LXNetworkingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCEDB8228E7FCF009EE3DD /* LXNetworkingController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
@@ -127,6 +138,20 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		77802B9CEF6AC847473FACAB /* Pods_YDProject_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F2AF585B30D5AB42231747 /* Pods_YDProject_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8A5943AE298CF79200CC7338 /* RACDisposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5943AD298CF79200CC7338 /* RACDisposeController.m */; };
+		8A5943B1298CF7CC00CC7338 /* RACDisposeNextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5943B0298CF7CC00CC7338 /* RACDisposeNextController.m */; };
+		8A5943B4298CF98500CC7338 /* DIsposeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5943B3298CF98500CC7338 /* DIsposeViewModel.m */; };
+		8A6E09A129924BB100DEA4E0 /* RACMutableArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E09A029924BB100DEA4E0 /* RACMutableArrayController.m */; };
+		8A6E09A429924CAB00DEA4E0 /* NSMutableArray+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6E09A329924CAB00DEA4E0 /* NSMutableArray+RAC.m */; };
+		8ADD8974299332300021AEAA /* RACManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD8973299332300021AEAA /* RACManager.m */; };
+		8ADD89782993364A0021AEAA /* RACZipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD89772993364A0021AEAA /* RACZipViewController.m */; };
+		8ADD897D2993838C0021AEAA /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADD897B2993838C0021AEAA /* CountDownViewController.m */; };
+		8ADD897E2993838C0021AEAA /* CountDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ADD897C2993838C0021AEAA /* CountDownViewController.xib */; };
+		8AF1F5FB299227FE00B7159D /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1F5FA299227FE00B7159D /* UIImage+ChameleonPrivate.m */; };
+		8AF1F5FE2992281600B7159D /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1F5FD2992281600B7159D /* UIColor+Chameleon.m */; };
+		8AF1F6022992291800B7159D /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1F6002992291700B7159D /* UIColor+ChameleonPrivate.m */; };
+		8AF1F606299229F700B7159D /* CALayer+PKConvenienceAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1F604299229F600B7159D /* CALayer+PKConvenienceAnimations.m */; };
+		8AF1F60A29922CC200B7159D /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1F60929922CC200B7159D /* NSDate+Utils.m */; };
 		B03EF5232193D150005CB0BD /* json_parse.js in Resources */ = {isa = PBXBuildFile; fileRef = B03EF5222193D150005CB0BD /* json_parse.js */; };
 		C844BF12366D9C861BC8092F /* Pods_YDProject_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDD2CF7E4D9A3612BA09FCF /* Pods_YDProject_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -161,6 +186,28 @@
 		235D16CC2631779C00A5C048 /* UIView+FontAdjust.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FontAdjust.m"; sourceTree = "<group>"; };
 		235D16CE26317B6600A5C048 /* FontTestLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontTestLabel.h; sourceTree = "<group>"; };
 		235D16CF26317B6600A5C048 /* FontTestLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontTestLabel.m; sourceTree = "<group>"; };
+		2362042227732EAA0076B1B6 /* TestLockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLockViewController.h; sourceTree = "<group>"; };
+		2362042327732EAA0076B1B6 /* TestLockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLockViewController.m; sourceTree = "<group>"; };
+		23620426277404090076B1B6 /* BaseLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseLockDemo.h; sourceTree = "<group>"; };
+		23620427277404090076B1B6 /* BaseLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseLockDemo.m; sourceTree = "<group>"; };
+		23620429277404290076B1B6 /* OSSpinLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSpinLockDemo.h; sourceTree = "<group>"; };
+		2362042A277404290076B1B6 /* OSSpinLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSpinLockDemo.m; sourceTree = "<group>"; };
+		2377ECDA277411DE00676861 /* OSUnfairLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSUnfairLockDemo.h; sourceTree = "<group>"; };
+		2377ECDB277411DE00676861 /* OSUnfairLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSUnfairLockDemo.m; sourceTree = "<group>"; };
+		2377ECDD277415C300676861 /* MutexLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexLockDemo.h; sourceTree = "<group>"; };
+		2377ECDE277415C300676861 /* MutexLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexLockDemo.m; sourceTree = "<group>"; };
+		238F42E826EA108E00F101AC /* TestVideoRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVideoRecordViewController.h; sourceTree = "<group>"; };
+		238F42E926EA108E00F101AC /* TestVideoRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVideoRecordViewController.m; sourceTree = "<group>"; };
+		238F431426EC801F00F101AC /* GSVideoRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSVideoRecorder.h; sourceTree = "<group>"; };
+		238F431526EC801F00F101AC /* GSVideoRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSVideoRecorder.m; sourceTree = "<group>"; };
+		238F431726EC946500F101AC /* GSVideoCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSVideoCapture.h; sourceTree = "<group>"; };
+		238F431826EC946500F101AC /* GSVideoCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSVideoCapture.m; sourceTree = "<group>"; };
+		238F431A26F0848100F101AC /* GSCaptureFocusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSCaptureFocusView.h; sourceTree = "<group>"; };
+		238F431B26F0848100F101AC /* GSCaptureFocusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSCaptureFocusView.m; sourceTree = "<group>"; };
+		23CC152E28260F4D0068B8A6 /* ShakeAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeAnimationViewController.h; sourceTree = "<group>"; };
+		23CC152F28260F4D0068B8A6 /* ShakeAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeAnimationViewController.m; sourceTree = "<group>"; };
+		23CC153128260FB10068B8A6 /* BehaviorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BehaviorView.h; sourceTree = "<group>"; };
+		23CC153228260FB10068B8A6 /* BehaviorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BehaviorView.m; sourceTree = "<group>"; };
 		23DE8D73261463EB007EEE70 /* YDCompositionalLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDCompositionalLayoutViewController.h; sourceTree = "<group>"; };
 		23DE8D74261463EB007EEE70 /* YDCompositionalLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDCompositionalLayoutViewController.m; sourceTree = "<group>"; };
 		23DE8D7626146651007EEE70 /* SXCompositionalLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXCompositionalLayout.h; sourceTree = "<group>"; };
@@ -371,6 +418,34 @@
 		6FC2014707B49871F73E8E8F /* Pods-YDProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YDProject_Tests/Pods-YDProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A5943AC298CF79200CC7338 /* RACDisposeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACDisposeController.h; sourceTree = "<group>"; };
+		8A5943AD298CF79200CC7338 /* RACDisposeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACDisposeController.m; sourceTree = "<group>"; };
+		8A5943AF298CF7CC00CC7338 /* RACDisposeNextController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACDisposeNextController.h; sourceTree = "<group>"; };
+		8A5943B0298CF7CC00CC7338 /* RACDisposeNextController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACDisposeNextController.m; sourceTree = "<group>"; };
+		8A5943B2298CF98500CC7338 /* DIsposeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIsposeViewModel.h; sourceTree = "<group>"; };
+		8A5943B3298CF98500CC7338 /* DIsposeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIsposeViewModel.m; sourceTree = "<group>"; };
+		8A6E099F29924BB100DEA4E0 /* RACMutableArrayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACMutableArrayController.h; sourceTree = "<group>"; };
+		8A6E09A029924BB100DEA4E0 /* RACMutableArrayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACMutableArrayController.m; sourceTree = "<group>"; };
+		8A6E09A229924CAB00DEA4E0 /* NSMutableArray+RAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+RAC.h"; sourceTree = "<group>"; };
+		8A6E09A329924CAB00DEA4E0 /* NSMutableArray+RAC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+RAC.m"; sourceTree = "<group>"; };
+		8ADD8972299332300021AEAA /* RACManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACManager.h; sourceTree = "<group>"; };
+		8ADD8973299332300021AEAA /* RACManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACManager.m; sourceTree = "<group>"; };
+		8ADD89762993364A0021AEAA /* RACZipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACZipViewController.h; sourceTree = "<group>"; };
+		8ADD89772993364A0021AEAA /* RACZipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACZipViewController.m; sourceTree = "<group>"; };
+		8ADD897A2993838C0021AEAA /* CountDownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
+		8ADD897B2993838C0021AEAA /* CountDownViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownViewController.m; sourceTree = "<group>"; };
+		8ADD897C2993838C0021AEAA /* CountDownViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountDownViewController.xib; sourceTree = "<group>"; };
+		8AF1F5F9299227FD00B7159D /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		8AF1F5FA299227FE00B7159D /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		8AF1F5FC2992281500B7159D /* UIColor+Chameleon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		8AF1F5FD2992281600B7159D /* UIColor+Chameleon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		8AF1F5FF299228BD00B7159D /* ChameleonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChameleonMacros.h; sourceTree = "<group>"; };
+		8AF1F6002992291700B7159D /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		8AF1F6012992291800B7159D /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		8AF1F604299229F600B7159D /* CALayer+PKConvenienceAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PKConvenienceAnimations.m"; sourceTree = "<group>"; };
+		8AF1F605299229F700B7159D /* CALayer+PKConvenienceAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PKConvenienceAnimations.h"; sourceTree = "<group>"; };
+		8AF1F60829922CC200B7159D /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		8AF1F60929922CC200B7159D /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
 		9D16DF19AFFFA0E559444FAE /* Pods-YDProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDProject_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YDProject_Tests/Pods-YDProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B01C2DE4218A982900D4D723 /* YDProject_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDProject_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		B01C2DE5218A982900D4D723 /* LearnSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnSwift.swift; sourceTree = "<group>"; };
@@ -386,7 +461,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				238F430A26EAF0B800F101AC /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				77802B9CEF6AC847473FACAB /* Pods_YDProject_Example.framework in Frameworks */,
@@ -457,6 +532,65 @@
 				235D16CC2631779C00A5C048 /* UIView+FontAdjust.m */,
 			);
 			path = Lib;
+			sourceTree = "<group>";
+		};
+		2362042127732E8E0076B1B6 /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				23620425277403D50076B1B6 /* LockDemo */,
+				2362042227732EAA0076B1B6 /* TestLockViewController.h */,
+				2362042327732EAA0076B1B6 /* TestLockViewController.m */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
+		23620425277403D50076B1B6 /* LockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				23620426277404090076B1B6 /* BaseLockDemo.h */,
+				23620427277404090076B1B6 /* BaseLockDemo.m */,
+				23620429277404290076B1B6 /* OSSpinLockDemo.h */,
+				2362042A277404290076B1B6 /* OSSpinLockDemo.m */,
+				2377ECDA277411DE00676861 /* OSUnfairLockDemo.h */,
+				2377ECDB277411DE00676861 /* OSUnfairLockDemo.m */,
+				2377ECDD277415C300676861 /* MutexLockDemo.h */,
+				2377ECDE277415C300676861 /* MutexLockDemo.m */,
+			);
+			path = LockDemo;
+			sourceTree = "<group>";
+		};
+		238F42E726EA107000F101AC /* VideoRecord */ = {
+			isa = PBXGroup;
+			children = (
+				238F431126EC7F5500F101AC /* Recorder */,
+				238F42E826EA108E00F101AC /* TestVideoRecordViewController.h */,
+				238F42E926EA108E00F101AC /* TestVideoRecordViewController.m */,
+			);
+			path = VideoRecord;
+			sourceTree = "<group>";
+		};
+		238F431126EC7F5500F101AC /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				238F431426EC801F00F101AC /* GSVideoRecorder.h */,
+				238F431526EC801F00F101AC /* GSVideoRecorder.m */,
+				238F431726EC946500F101AC /* GSVideoCapture.h */,
+				238F431826EC946500F101AC /* GSVideoCapture.m */,
+				238F431A26F0848100F101AC /* GSCaptureFocusView.h */,
+				238F431B26F0848100F101AC /* GSCaptureFocusView.m */,
+			);
+			path = Recorder;
+			sourceTree = "<group>";
+		};
+		23CC152D28260F2D0068B8A6 /* Shake */ = {
+			isa = PBXGroup;
+			children = (
+				23CC152E28260F4D0068B8A6 /* ShakeAnimationViewController.h */,
+				23CC152F28260F4D0068B8A6 /* ShakeAnimationViewController.m */,
+				23CC153128260FB10068B8A6 /* BehaviorView.h */,
+				23CC153228260FB10068B8A6 /* BehaviorView.m */,
+			);
+			path = Shake;
 			sourceTree = "<group>";
 		};
 		23DE8D71261463A2007EEE70 /* UICollectionView */ = {
@@ -592,6 +726,7 @@
 		3C307AA425B7B8BE005A91A3 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				23CC152D28260F2D0068B8A6 /* Shake */,
 				23298A3826734B3C0065EB02 /* Chat */,
 				3C307AA525B7B8C8005A91A3 /* Like */,
 			);
@@ -902,6 +1037,7 @@
 		4BDA048322533AF2004450E6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8AF1F5F5299227BC00B7159D /* Goods */,
 				4BDA049E22533AF2004450E6 /* Appdelegate */,
 				4B4799B52266B58B00C5844B /* Setting */,
 				4BDA04A122533AF2004450E6 /* Main */,
@@ -917,6 +1053,9 @@
 		4BDA048422533AF2004450E6 /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				8A5943AA298CF76800CC7338 /* RAC */,
+				2362042127732E8E0076B1B6 /* Lock */,
+				238F42E726EA107000F101AC /* VideoRecord */,
 				235D16C12631753300A5C048 /* Font */,
 				3C71470025BECE6200340E6C /* regular */,
 				3C307AA425B7B8BE005A91A3 /* Animation */,
@@ -1353,6 +1492,120 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8A5943AA298CF76800CC7338 /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+				8ADD8979299383590021AEAA /* SmsCode */,
+				8ADD8975299336330021AEAA /* Zip */,
+				8A6E099E29924B5B00DEA4E0 /* RAC_NSMutableArray */,
+				8A5943AB298CF77100CC7338 /* RACDispose */,
+			);
+			path = RAC;
+			sourceTree = "<group>";
+		};
+		8A5943AB298CF77100CC7338 /* RACDispose */ = {
+			isa = PBXGroup;
+			children = (
+				8A5943AC298CF79200CC7338 /* RACDisposeController.h */,
+				8A5943AD298CF79200CC7338 /* RACDisposeController.m */,
+				8A5943AF298CF7CC00CC7338 /* RACDisposeNextController.h */,
+				8A5943B0298CF7CC00CC7338 /* RACDisposeNextController.m */,
+				8A5943B2298CF98500CC7338 /* DIsposeViewModel.h */,
+				8A5943B3298CF98500CC7338 /* DIsposeViewModel.m */,
+			);
+			path = RACDispose;
+			sourceTree = "<group>";
+		};
+		8A6E099E29924B5B00DEA4E0 /* RAC_NSMutableArray */ = {
+			isa = PBXGroup;
+			children = (
+				8A6E099F29924BB100DEA4E0 /* RACMutableArrayController.h */,
+				8A6E09A029924BB100DEA4E0 /* RACMutableArrayController.m */,
+				8A6E09A229924CAB00DEA4E0 /* NSMutableArray+RAC.h */,
+				8A6E09A329924CAB00DEA4E0 /* NSMutableArray+RAC.m */,
+				8ADD8972299332300021AEAA /* RACManager.h */,
+				8ADD8973299332300021AEAA /* RACManager.m */,
+			);
+			path = RAC_NSMutableArray;
+			sourceTree = "<group>";
+		};
+		8ADD8975299336330021AEAA /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				8ADD89762993364A0021AEAA /* RACZipViewController.h */,
+				8ADD89772993364A0021AEAA /* RACZipViewController.m */,
+			);
+			path = Zip;
+			sourceTree = "<group>";
+		};
+		8ADD8979299383590021AEAA /* SmsCode */ = {
+			isa = PBXGroup;
+			children = (
+				8ADD897A2993838C0021AEAA /* CountDownViewController.h */,
+				8ADD897B2993838C0021AEAA /* CountDownViewController.m */,
+				8ADD897C2993838C0021AEAA /* CountDownViewController.xib */,
+			);
+			path = SmsCode;
+			sourceTree = "<group>";
+		};
+		8AF1F5F5299227BC00B7159D /* Goods */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1F5F6299227DB00B7159D /* Categories */,
+			);
+			path = Goods;
+			sourceTree = "<group>";
+		};
+		8AF1F5F6299227DB00B7159D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1F60729922CB200B7159D /* NSDate */,
+				8AF1F603299229EB00B7159D /* CALayer */,
+				8AF1F5F8299227EF00B7159D /* UIColor */,
+				8AF1F5F7299227E500B7159D /* UIImage */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8AF1F5F7299227E500B7159D /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1F5F9299227FD00B7159D /* UIImage+ChameleonPrivate.h */,
+				8AF1F5FA299227FE00B7159D /* UIImage+ChameleonPrivate.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		8AF1F5F8299227EF00B7159D /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1F5FF299228BD00B7159D /* ChameleonMacros.h */,
+				8AF1F5FC2992281500B7159D /* UIColor+Chameleon.h */,
+				8AF1F5FD2992281600B7159D /* UIColor+Chameleon.m */,
+				8AF1F6012992291800B7159D /* UIColor+ChameleonPrivate.h */,
+				8AF1F6002992291700B7159D /* UIColor+ChameleonPrivate.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		8AF1F603299229EB00B7159D /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1F605299229F700B7159D /* CALayer+PKConvenienceAnimations.h */,
+				8AF1F604299229F600B7159D /* CALayer+PKConvenienceAnimations.m */,
+			);
+			path = CALayer;
+			sourceTree = "<group>";
+		};
+		8AF1F60729922CB200B7159D /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1F60829922CC200B7159D /* NSDate+Utils.h */,
+				8AF1F60929922CC200B7159D /* NSDate+Utils.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
 		B03EF5202193D13B005CB0BD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -1433,7 +1686,7 @@
 				ORGANIZATIONNAME = "387970107@qq.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 7RK33FWF33;
+						DevelopmentTeam = F4Z23R5KH3;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
@@ -1481,6 +1734,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				4B352FCC2296945C0047C33C /* test.html in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				8ADD897E2993838C0021AEAA /* CountDownViewController.xib in Resources */,
 				4BDA04D522533AF3004450E6 /* shaderf.fsh in Resources */,
 				4B4799C02266BC2100C5844B /* SwitchButtonCell.xib in Resources */,
 				4BF5E5A122D57B92003D57F3 /* Area.json in Resources */,
@@ -1604,12 +1858,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C306CB625A92EDC00F41585 /* YDTransitViewController.m in Sources */,
+				8A5943B4298CF98500CC7338 /* DIsposeViewModel.m in Sources */,
 				3C28299123EEDEA60005CDF1 /* ExamViewController.m in Sources */,
 				3C306CD425A95EAB00F41585 /* YDPushDestinationViewController.m in Sources */,
 				4BDA04C622533AF2004450E6 /* TestFloatingController.m in Sources */,
 				3C0F5921222975F3008A97AE /* DIPerson.m in Sources */,
 				3C0F59242229773C008A97AE /* DIMan.m in Sources */,
 				3C307AA825B7B901005A91A3 /* YDLikeAnimationViewController.m in Sources */,
+				2362042427732EAA0076B1B6 /* TestLockViewController.m in Sources */,
 				3C0F591E22297593008A97AE /* TestDesignatedInitializer.m in Sources */,
 				4BDA04CD22533AF2004450E6 /* TestViewModel.m in Sources */,
 				3C306CB125A92E0F00F41585 /* PresentationTransition.m in Sources */,
@@ -1619,25 +1875,31 @@
 				23DE8D75261463EB007EEE70 /* YDCompositionalLayoutViewController.m in Sources */,
 				4BDA04E122533D8F004450E6 /* LXHouseTagView.m in Sources */,
 				4BDA04CC22533AF2004450E6 /* YDAppDelegate.m in Sources */,
+				8A6E09A429924CAB00DEA4E0 /* NSMutableArray+RAC.m in Sources */,
 				4BE645EB22B0D3E300A2CF54 /* LXBroadcastView.m in Sources */,
 				444D7DE824B5E987005723AB /* YDShapLayerController.m in Sources */,
 				4B82FA7422A8EACA00CB42AF /* LXCardTestViewController.m in Sources */,
 				3C306CD725ABD52900F41585 /* YDPresentNavDestinationViewController.m in Sources */,
 				4B8C9A5D22E9828300711060 /* LXMarkController.m in Sources */,
 				4B9D87CE22CA1A4E004D5FD8 /* TestImageViewController.m in Sources */,
+				8AF1F5FB299227FE00B7159D /* UIImage+ChameleonPrivate.m in Sources */,
 				4B82FA7722A8EC2300CB42AF /* LXBrokerCardView.m in Sources */,
 				4B4726082285743A0000AA16 /* LXHouseAlbumController.m in Sources */,
+				238F431C26F0848100F101AC /* GSCaptureFocusView.m in Sources */,
 				4BF5E59F22D57B1F003D57F3 /* YDCityController.m in Sources */,
 				4B7F1ADC2264B0C400F24770 /* ButtonContentPositionController.m in Sources */,
 				3C71469E25BA9D2300340E6C /* YDLikeButton.m in Sources */,
 				4BDA048222533ACB004450E6 /* YDTest.m in Sources */,
+				8A5943AE298CF79200CC7338 /* RACDisposeController.m in Sources */,
 				23DE8D7826146651007EEE70 /* SXCompositionalLayout.m in Sources */,
 				3C306CDA25ABD58400F41585 /* YDPresentNavViewController.m in Sources */,
 				3C306CBE25A9469C00F41585 /* PresentationAnimatedTransition.m in Sources */,
 				4B82FA7A22A8F3EB00CB42AF /* LXPageControl.m in Sources */,
+				238F431626EC801F00F101AC /* GSVideoRecorder.m in Sources */,
 				3C306CD125A95ADF00F41585 /* PushTransition.m in Sources */,
 				23298A3B26734BB00065EB02 /* ChatAnimationViewController.m in Sources */,
 				4BDA04C922533AF2004450E6 /* YDBlock.m in Sources */,
+				8AF1F606299229F700B7159D /* CALayer+PKConvenienceAnimations.m in Sources */,
 				4BFCEDB9228E7FD0009EE3DD /* LXNetworkingController.m in Sources */,
 				4BDA04CE22533AF2004450E6 /* TestModel.m in Sources */,
 				235D16C62631759400A5C048 /* YDFontViewController.m in Sources */,
@@ -1650,14 +1912,20 @@
 				4B5FE26422754FBF002AB0B7 /* DebugViewController.m in Sources */,
 				4BDA04C522533AF2004450E6 /* TestThreadController.m in Sources */,
 				4B4799B92266B65F00C5844B /* SettingViewController.m in Sources */,
+				8ADD89782993364A0021AEAA /* RACZipViewController.m in Sources */,
+				238F42EA26EA108E00F101AC /* TestVideoRecordViewController.m in Sources */,
+				2377ECDF277415C300676861 /* MutexLockDemo.m in Sources */,
 				3C71470325BECE8600340E6C /* YDRegularViewController.m in Sources */,
 				3CA7DD36257DDE1600B1DE05 /* YDCurveView.m in Sources */,
 				3C1BF0F524800C5D00B1336C /* AlbumViewController.m in Sources */,
 				4BDA04D722533AF3004450E6 /* OGLesson2View.m in Sources */,
 				4BA3A85A229D0D0200B071A6 /* LXSegueToLouxunController.m in Sources */,
 				4BDA04D422533AF3004450E6 /* OpengGLMainViewController.m in Sources */,
+				23CC153028260F4D0068B8A6 /* ShakeAnimationViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8ADD897D2993838C0021AEAA /* CountDownViewController.m in Sources */,
 				4BDA9BF0230FC1530008FF03 /* YDPushAndPresentViewController.m in Sources */,
+				2362042B277404290076B1B6 /* OSSpinLockDemo.m in Sources */,
 				4BDA047F22533ACB004450E6 /* YDPerson.m in Sources */,
 				3CA7DD2C257DCE1C00B1DE05 /* TestCurveViewController.m in Sources */,
 				4BDA04E5225346C2004450E6 /* LXHouseLeadPage.m in Sources */,
@@ -1665,12 +1933,17 @@
 				4BDA04CA22533AF2004450E6 /* BlockViewController.m in Sources */,
 				3CA7DD33257DD04E00B1DE05 /* UIBezierPath+curved.m in Sources */,
 				4BFCEDB5228E5272009EE3DD /* LXNetwokingConfigManager.m in Sources */,
+				8A6E09A129924BB100DEA4E0 /* RACMutableArrayController.m in Sources */,
 				3C7BE599257F2E0000889995 /* TestTextTureViewController.m in Sources */,
 				23298A4126734D260065EB02 /* ChatModel.m in Sources */,
 				4B0EFAA222EE8FAC00DDA154 /* LXMarkTableViewController.m in Sources */,
+				8AF1F5FE2992281600B7159D /* UIColor+Chameleon.m in Sources */,
+				8A5943B1298CF7CC00CC7338 /* RACDisposeNextController.m in Sources */,
 				4BDA04D822533AF3004450E6 /* OpenGLLesson2.m in Sources */,
 				3CBF97B225C0FABA00C765B0 /* UIView+Animation.m in Sources */,
 				4BDA04D222533AF2004450E6 /* CoreGraphicsViewController.m in Sources */,
+				238F431926EC946500F101AC /* GSVideoCapture.m in Sources */,
+				8AF1F60A29922CC200B7159D /* NSDate+Utils.m in Sources */,
 				4B472604228401920000AA16 /* LXNetworking.m in Sources */,
 				4B8C9A6022E983E000711060 /* UIView+Mark.m in Sources */,
 				4BDA04C722533AF2004450E6 /* TestBasicMainViewController.m in Sources */,
@@ -1688,7 +1961,10 @@
 				3C1BF0FA24800E6D00B1336C /* AlbumPickerNavgationBar.m in Sources */,
 				23298A3E26734CF10065EB02 /* ChatAnimationCell.m in Sources */,
 				4B4799BF2266BC2100C5844B /* SwitchButtonCell.m in Sources */,
+				8ADD8974299332300021AEAA /* RACManager.m in Sources */,
 				3C7146A125BA9EBC00340E6C /* YDVideoLikeButton.m in Sources */,
+				23620428277404090076B1B6 /* BaseLockDemo.m in Sources */,
+				8AF1F6022992291800B7159D /* UIColor+ChameleonPrivate.m in Sources */,
 				235D16CD2631779C00A5C048 /* UIView+FontAdjust.m in Sources */,
 				4B65A39B22B73A8D003F36CB /* YDVideoTestController.m in Sources */,
 				4BDA04D122533AF2004450E6 /* AttributesController.m in Sources */,
@@ -1697,6 +1973,8 @@
 				235D16CA263176D200A5C048 /* YDFontSession1ViewController.m in Sources */,
 				235608552668ACCD00C0B4C3 /* PushAnimatedTransition.m in Sources */,
 				3C306CB925A92F4700F41585 /* YDPresentDestinationViewController.m in Sources */,
+				2377ECDC277411DE00676861 /* OSUnfairLockDemo.m in Sources */,
+				23CC153328260FB10068B8A6 /* BehaviorView.m in Sources */,
 				3C28299423EEE0A70005CDF1 /* ExamView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1826,17 +2104,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F2CC51C302C8BB6B90103069 /* Pods-YDProject_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7RK33FWF33;
+				DEVELOPMENT_TEAM = F4Z23R5KH3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDProject/YDProject-Prefix.pch";
 				INFOPLIST_FILE = "YDProject/YDProject-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -1845,6 +2122,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "YDProject/YDProject_Example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 				WARNING_CFLAGS = "-Wno-ambiguous-macro";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1854,17 +2132,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 124D8C5BB625CFBF851166B4 /* Pods-YDProject_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7RK33FWF33;
+				DEVELOPMENT_TEAM = F4Z23R5KH3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDProject/YDProject-Prefix.pch";
 				INFOPLIST_FILE = "YDProject/YDProject-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -1872,6 +2149,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "YDProject/YDProject_Example-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 				WARNING_CFLAGS = "-Wno-ambiguous-macro";
 				WRAPPER_EXTENSION = app;
 			};
